@@ -1,0 +1,64 @@
+第3题：Carseats 多元线性回归
+
+样本数：400；残差自由度：394。
+Sales 表示销量，单位为千件；Income 和 Advertising 的单位为千美元。
+
+一、模型拟合报告
+                            OLS Regression Results
+==============================================================================
+Dep. Variable:                  Sales   R-squared:                       0.627
+Model:                            OLS   Adj. R-squared:                  0.622
+Method:                 Least Squares   F-statistic:                     132.4
+Date:                Sun, 20 Sep 2026   Prob (F-statistic):           4.89e-82
+Time:                        23:50:46   Log-Likelihood:                -785.22
+No. Observations:                 400   AIC:                             1582.
+Df Residuals:                     394   BIC:                             1606.
+Df Model:                           5
+Covariance Type:            nonrobust
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                10.3916      0.521     19.933      0.000       9.367      11.417
+Price                -0.0570      0.004    -15.480      0.000      -0.064      -0.050
+Income                0.0137      0.003      4.399      0.000       0.008       0.020
+Advertising           0.1056      0.013      8.044      0.000       0.080       0.131
+ShelveLoc[Good]       4.8359      0.260     18.624      0.000       4.325       5.346
+ShelveLoc[Medium]     1.8959      0.213      8.894      0.000       1.477       2.315
+==============================================================================
+Omnibus:                        0.205   Durbin-Watson:                   2.028
+Prob(Omnibus):                  0.902   Jarque-Bera (JB):                0.328
+Skew:                          -0.010   Prob(JB):                        0.849
+Kurtosis:                       2.861   Cond. No.                         837.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+拟合方程：
+Sales = 10.3916 -0.0570 × Price +0.0137 × Income +0.1056 × Advertising +4.8359 × I(ShelveLoc=Good) +1.8959 × I(ShelveLoc=Medium)
+RSS = 1187.5779，残差标准误 = 1.7361 千件。
+R² = 0.6268，调整后的 R² = 0.6221。
+模型解释了样本中约 62.68% 的销量变异。
+
+二、ShelveLoc 的基准组和系数含义
+基准组是 Bad。该组的两个虚拟变量都取 0，其影响包含在截距中。
+ShelveLoc[Good] 的系数为 4.8359。在价格、收入和广告预算相同的条件下，
+货架位置为 Good 的门店，预测销量比 Bad 的门店平均高 4.8359 千件，
+约合 4836 件。这里的比较对象是 Bad，并不是 Medium。
+该系数的 95% 置信区间为 [4.3254, 5.3464] 千件，
+p 值为 5.518e-56。
+从经营角度看，较好的陈列位置与较高的销量相关，值得在陈列安排中考虑。
+不过，这一回归结果本身不能保证仅调整货架位置就能带来同样的销量增幅。
+
+三、VIF 与多重共线性
+VIF = 1 / (1 - R_j²)，其中 R_j² 来自用其余解释变量预测第 j 个变量的辅助回归。
+               变量    VIF
+            Price 1.0077
+           Income 1.0124
+      Advertising 1.0094
+  ShelveLoc[Good] 1.4973
+ShelveLoc[Medium] 1.4938
+ShelveLoc 有三个水平，所以分别列出两个虚拟变量的 VIF。
+它们是设计矩阵各列的 VIF，并不是 ShelveLoc 整体的广义 VIF。
+最大 VIF 为 1.4973。各项 VIF 都小于 5，没有发现明显的多重共线性风险。
+5 是常用的经验参考值，不是绝对界限。
