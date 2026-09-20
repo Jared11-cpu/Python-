@@ -16,7 +16,7 @@ python -m pip install -r 作业2/requirements.txt
 python 作业2/第3题.py
 ```
 
-已在 Python 3.13 下运行验证。所用数据保存在 `作业2/Carseats.csv`，运行时优先读取本地文件，结果会写入同目录的 `第3题_运行结果.txt`。
+已在 Python 3.13 下运行验证。程序读取同目录的 `Carseats.csv`，结果直接显示在终端；仓库中的 `第3题_运行结果.txt` 保存了一次运行结果。
 
 ## 数据来源
 
