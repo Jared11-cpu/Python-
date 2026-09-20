@@ -1,6 +1,4 @@
-样本数：400
-
-（1）模型拟合报告
+样本数： 400
                             OLS Regression Results
 ==============================================================================
 Dep. Variable:                  Sales   R-squared:                       0.627
@@ -30,19 +28,14 @@ Kurtosis:                       2.861   Cond. No.                         837.
 
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-R² = 0.6268，调整后的 R² = 0.6221
-ShelveLoc 的基准组：Bad
 
-（2）ShelveLoc[Good] 的含义
-价格、收入和广告预算相同时，Good 组的预测销量比 Bad 组高 4.836 千件。
-约合 4836 件；这是条件相关关系，不能直接认定为因果关系。
+Good 的回归系数： 4.8359
+按模型估计，其他变量不变时，Good 比 Bad 的销量高约 4.836 千件。
 
-（3）VIF 与多重共线性
+VIF 结果：
                变量    VIF
             Price 1.0077
            Income 1.0124
       Advertising 1.0094
   ShelveLoc[Good] 1.4973
 ShelveLoc[Medium] 1.4938
-ShelveLoc 的两个虚拟变量分别计算 VIF，5 作为经验参考值。
-各项 VIF 均小于 5，无明显多重共线性风险。
