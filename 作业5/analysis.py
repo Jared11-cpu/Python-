@@ -1,8 +1,8 @@
-"""Generate the assignment report from the Iris data shipped with scikit-learn."""
+"""Run the Iris clustering experiment and save its figures and tables."""
 
-import json
 from pathlib import Path
 
+import matplotlib
 import numpy as np
 from scipy.spatial.distance import pdist
 from sklearn.cluster import DBSCAN, KMeans
@@ -12,6 +12,9 @@ from sklearn.metrics import adjusted_rand_score, silhouette_samples
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 from threadpoolctl import threadpool_limits
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 HERE = Path(__file__).resolve().parent
 SEED = 42
@@ -59,6 +62,76 @@ def elbow_k(points):
     return int(np.argmax(np.linspace(1, 0, len(values)) - scaled) + 1)
 
 
+def save_figures(result):
+    best_k = result["bestK"]
+    raw = result["kmeans"]["4d"][best_k - 2]
+    reduced = result["kmeans"]["2d"][best_k - 2]
+    fig, (ax, blade) = plt.subplots(1, 2, figsize=(9, 3.5), layout="constrained")
+    ax.plot(range(1, 9), result["elbow"], marker="o", color="#185c4e")
+    ax.axvline(result["elbowK"], color="#a8492e", linestyle="--")
+    ax.set(xlabel="K", ylabel="WCSS", title="Elbow curve", xticks=range(1, 9))
+    start = 0
+    for cluster, scores in enumerate(raw["blades"]):
+        rows = np.arange(start, start + len(scores))
+        blade.barh(rows, scores, height=1, label=f"Cluster {cluster + 1}")
+        start += len(scores) + 5
+    blade.axvline(raw["silhouette"], color="#333333", linestyle="--")
+    blade.set(xlabel="Silhouette coefficient", title=f"Silhouette blades (K={best_k})",
+              xlim=(-1, 1), yticks=[])
+    blade.legend(loc="upper left")
+    fig.savefig(HERE / "kmeans_diagnostics.png", dpi=150)
+    plt.close(fig)
+
+    index = result["defaultQuantile"]
+    db = result["dbscan"]
+    pairs = [
+        (result["xy"], raw["labels"], reduced["labels"], f"K-Means (K={best_k})"),
+        (result["xy"], db["4d"]["sweep"][index]["labels"],
+         db["2d"]["sweep"][index]["labels"], "DBSCAN: Iris"),
+        (result["noisyXY"], db["104d"]["sweep"][index]["labels"],
+         db["noisy2d"]["sweep"][index]["labels"], "DBSCAN: Iris + noise"),
+    ]
+    fig, axes = plt.subplots(3, 2, figsize=(9, 10), sharex="row", sharey="row", layout="constrained")
+    for row, (xy, left, right, model) in zip(axes, pairs):
+        xy = np.asarray(xy)
+        for ax, labels, fit in zip(row, (left, right), ("Full-space fit", "PCA 2D fit")):
+            labels = np.asarray(labels)
+            for cluster in np.unique(labels):
+                points = xy[labels == cluster]
+                if cluster == -1:
+                    ax.scatter(*points.T, s=22, color="#6d756d", marker="x", label="Noise")
+                else:
+                    ax.scatter(*points.T, s=18, label=f"Cluster {cluster + 1}")
+            ax.set(title=f"{model} / {fit}", xlabel="PC1", ylabel="PC2")
+            ax.legend(fontsize=8)
+    fig.savefig(HERE / "pca_comparison.png", dpi=150)
+    plt.close(fig)
+
+
+def save_tables(result):
+    lines = [
+        "# Iris 实验结果", "",
+        f"手肘候选 K = {result['elbowK']}，平均轮廓系数最高的 K = {result['bestK']}。", "",
+        "| K | 4 维 WCSS | 4 维平均轮廓 | 4 维 ARI | PCA 2 维 ARI |",
+        "|---:|---:|---:|---:|---:|",
+    ]
+    for raw, reduced in zip(result["kmeans"]["4d"], result["kmeans"]["2d"]):
+        lines.append(f"| {raw['k']} | {raw['wcss']:.2f} | {raw['silhouette']:.4f} "
+                     f"| {raw['ari']:.4f} | {reduced['ari']:.4f} |")
+    lines.extend([
+        "", "DBSCAN 取各空间第 5 近邻距离的第 90 百分位为 ε。", "",
+        "| 拟合空间 | ε | 簇数 | 噪声点数 | ARI | 相对距离跨度 |",
+        "|---|---:|---:|---:|---:|---:|",
+    ])
+    names = {"4d": "Iris 4 维", "2d": "Iris PCA 2 维",
+             "104d": "加噪 104 维", "noisy2d": "加噪 PCA 2 维"}
+    for key, space in result["dbscan"].items():
+        row = space["sweep"][result["defaultQuantile"]]
+        lines.append(f"| {names[key]} | {row['eps']:.5f} | {row['clusters']} | {row['noise']} "
+                     f"| {row['ari']:.4f} | {space['spread']:.4f} |")
+    (HERE / "results.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def main():
     iris = load_iris()
     species = iris.target
@@ -101,11 +174,8 @@ def main():
         print(f"DBSCAN {name}: eps={row['eps']:.5f} clusters={row['clusters']} "
               f"noise={row['noise']} ARI={row['ari']:.4f} spread={space['spread']:.4f}")
     print(f"PCA variance: Iris {sum(variance):.2%}, noise experiment {sum(noisy_variance):.2%}")
-    template = (HERE / "template.html").read_text(encoding="utf-8")
-    (HERE / "index.html").write_text(
-        template.replace("__RESULTS__", json.dumps(result, separators=(",", ":"), allow_nan=False)),
-        encoding="utf-8",
-    )
+    save_figures(result)
+    save_tables(result)
 
 
 if __name__ == "__main__":
