@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>正则化回归交互式</title>
+<style>
+  :root { color: #202c29; background: #faf8ef; font: 16px/1.7 "Microsoft YaHei", sans-serif; }
+  body { max-width: 1040px; margin: auto; padding: 2rem max(1rem, 4vw) 4rem; }
+  header { border-top: 6px solid #1b554a; padding-top: 1rem; }
+  h1, h2 { font-family: "Noto Serif SC", "Songti SC", SimSun, serif; line-height: 1.2; }
+  h1 { font-size: clamp(2.3rem, 6vw, 4.4rem); margin: .4rem 0; }
+  h2 { margin-top: 2rem; }
+  p { max-width: 72ch; }
+  a { color: #1b554a; }
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem 1.2rem; }
+  select, button { font: inherit; color: inherit; background: #fffdf7; border: 1px solid #767d74; padding: .15rem .5rem; }
+  input[type=range] { width: min(13rem, 65vw); accent-color: #1b554a; vertical-align: middle; }
+  output { font-variant-numeric: tabular-nums; }
+  .plots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  figure { margin: 0; min-width: 0; }
+  figcaption { font-weight: bold; }
+  canvas { width: 100%; height: auto; display: block; background: #fffdf7; }
+  .table { overflow: auto; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: .35rem .6rem; border-bottom: 1px solid #c7c8b8; white-space: nowrap; }
+  tbody tr:nth-child(even) { background: #efeee2; }
+  details { border-top: 1px solid #c7c8b8; padding: .5rem 0; }
+  summary { cursor: pointer; }
+  .muted { color: #4b5a53; font-size: .9rem; }
+  @media (max-width: 690px) { .plots { grid-template-columns: 1fr; } }
+</style>
+<header>
+  <h1>正则化回归交互式</h1>
+  <p>用 Hitters 数据预测棒球球员薪资，看看增大惩罚会让哪些系数缩小，又会让哪些变量退出模型。</p>
+</header>
+<main>
+  <h2>系数路径与验证误差</h2>
+  <div class="controls">
+    <label>模型 <select id="model"><option>Ridge</option><option>Lasso</option><option>Elastic Net</option></select></label>
+    <label>变量 <select id="feature"><option value="">全部变量</option></select></label>
+    <label>α <input id="alpha" type="range" min="0" value="0" aria-label="惩罚参数 alpha"></label>
+    <button id="best" type="button">最小误差</button>
+    <button id="one" type="button">1-SE</button>
+  </div>
+  <p><output id="readout" aria-live="polite"></output></p>
+  <div class="plots">
+    <figure><figcaption>标准化系数</figcaption><canvas id="path" width="600" height="330" role="img" aria-label="各变量系数随 alpha 变化的曲线"></canvas></figure>
+    <figure><figcaption>10 折平均验证 RMSE</figcaption><canvas id="error" width="600" height="330" role="img" aria-label="验证 RMSE 随 alpha 变化的曲线"></canvas></figure>
+  </div>
+  <p class="muted">横轴为 α（对数刻度）。竖线对应滑块位置，误差图的横虚线为 1-SE 阈值。不同模型的目标函数归一化方式不同，α 的数值宜在同一种模型内比较。</p>
+  <h2>测试集结果</h2>
+  <div class="table"><table>
+    <thead><tr><th>模型</th><th>选参规则</th><th>α</th><th>验证 RMSE</th><th>测试 RMSE</th><th>非零变量</th></tr></thead>
+    <tbody id="scores"></tbody>
+  </table></div>
+  <p id="discussion"></p>
+  <p>删除薪资缺失的记录后剩 263 条，按固定随机种子划出训练集 210 条、测试集 53 条。三个分类变量各取一个哑变量，共 19 个特征。验证时在各折的训练部分计算 Z-score，确定 α 后用完整训练集重新标准化并拟合。Elastic Net 的 L1 比例固定为 0.5。RMSE 单位为千美元，系数绝对值大于 10⁻⁸ 时计为非零。</p>
+  <p>1-SE 的阈值是最低的平均验证 RMSE 加上该点的标准误（10 个折 RMSE 的样本标准差除以 √10），然后取阈值内最大的 α。测试集用于评价选好的模型，选参只看训练集内的验证结果。</p>
+  <details><summary>课件指定的 CV 类复核</summary>
+    <div class="table"><table>
+      <thead><tr><th>估计器</th><th>α</th><th>测试 RMSE</th><th>非零变量</th></tr></thead>
+      <tbody id="baseline"></tbody>
+    </table></div>
+    <p>这组 α 由 RidgeCV、LassoCV、ElasticNetCV 用相同的 10 折划分直接选出。此处先对整个外层训练集标准化。上表按折内标准化的曲线选参，统一使用平均折 RMSE。LassoCV 和 ElasticNetCV 内置的是平均折 MSE。</p>
+  </details>
+  <h2>推导与分析</h2>
+  <details open><summary>正交设计下为什么是等比例收缩？</summary>
+    <p>对 ‖y − Xβ‖² + λ‖β‖² 求导并令其为零，得到 (XᵀX + λI)β̂ = Xᵀy。当 X 的列正交且已归一化时，XᵀX = I，此时 OLS 系数为 Xᵀy，因此 β̂<sub>Ridge</sub> = β̂<sub>OLS</sub> / (1 + λ)。如果列只正交，且第 j 列的平方范数为 dⱼ，则该列的收缩因子是 dⱼ / (dⱼ + λ)。这里默认截距单独处理。</p>
+  </details>
+  <details><summary>为什么 XᵀX + λI 严格正定？</summary>
+    <p>对任意非零向量 v，有 vᵀ(XᵀX + λI)v = ‖Xv‖² + λ‖v‖² ≥ λ‖v‖² &gt; 0，因为 λ &gt; 0。矩阵对称，所以它严格正定，即使 X 秩亏也有唯一的 Ridge 系数解。</p>
+  </details>
+  <details><summary>变量的单位为什么会影响惩罚？</summary>
+    <p>把一个变量从米改为厘米，数值放大 100 倍。要维持相同的预测，它的系数就缩小为原来的 1/100，Lasso 对该系数的惩罚也缩小为 1/100，Ridge 则缩小为 1/10000。先用 Z-score 把系数放在“每增加一个标准差”的尺度上，可减少单位带来的偏差。截距由模型单独拟合，且不受惩罚。</p>
+  </details>
+  <p class="muted">数据来源 <a href="https://vincentarelbundock.github.io/Rdatasets/doc/ISLR/Hitters.html">ISLR · Hitters</a></p>
+</main>
+<script>
+const data = __RESULTS__;
+const byId = id => document.getElementById(id);
+const model = byId("model"), feature = byId("feature"), slider = byId("alpha");
+const fmt = value => Number(value.toPrecision(4)).toString();
+const rms = value => value.toFixed(2);
+const colors = ["#176358", "#a94329", "#425f92", "#967018", "#773f6f", "#596b26"];
+slider.max = data.alphas.length - 1;
+data.features.forEach((name, i) => feature.add(new Option(name, i)));
+
+function chart(canvas, series, index, threshold) {
+  const ctx = canvas.getContext("2d");
+  const left = 68, right = 578, top = 22, bottom = 277;
+  const values = series.flatMap(line => line.values);
+  if (threshold !== undefined) values.push(threshold);
+  else values.push(0);
+  const lo = Math.min(...values), hi = Math.max(...values);
+  const pad = (hi - lo || 1) * .07;
+  const x = i => left + (right - left) * i / (data.alphas.length - 1);
+  const y = value => bottom - (bottom - top) * (value - lo + pad) / (hi - lo + 2 * pad);
+  function line(x1, y1, x2, y2, color) {
+    ctx.strokeStyle = color;
+    ctx.beginPath();
+    ctx.moveTo(x1, y1);
+    ctx.lineTo(x2, y2);
+    ctx.stroke();
+  }
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.font = "15px Consolas, monospace";
+  ctx.fillStyle = "#384440";
+  ctx.lineWidth = 1;
+  for (let i = 0; i <= 4; i++) {
+    const value = lo + (hi - lo) * i / 4;
+    line(left, y(value), right, y(value), "#deded2");
+    ctx.textAlign = "right";
+    ctx.fillText(fmt(value), left - 8, y(value) + 4);
+    const position = (data.alphas.length - 1) * i / 4;
+    ctx.textAlign = "center";
+    ctx.fillText(fmt(data.alphas[Math.round(position)]), x(position), bottom + 23);
+  }
+  ctx.fillText("α", (left + right) / 2, bottom + 45);
+  if (threshold !== undefined) {
+    ctx.setLineDash([5, 4]);
+    line(left, y(threshold), right, y(threshold), "#a94329");
+    ctx.setLineDash([]);
+  }
+  line(x(index), top, x(index), bottom, "#252e2b");
+  series.forEach(({values, color, width}) => {
+    ctx.lineWidth = width;
+    ctx.strokeStyle = color;
+    ctx.beginPath();
+    values.forEach((value, i) => i ? ctx.lineTo(x(i), y(value)) : ctx.moveTo(x(i), y(value)));
+    ctx.stroke();
+    if (width > 2) {
+      ctx.fillStyle = color;
+      ctx.beginPath();
+      ctx.arc(x(index), y(values[index]), 4, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  });
+}
+
+function render() {
+  const result = data.models[model.value];
+  const i = +slider.value;
+  const selected = feature.value === "" ? null : +feature.value;
+  const coefficients = result.coefficients[i];
+  const count = coefficients.filter(value => Math.abs(value) > 1e-8).length;
+  let note = `α = ${fmt(data.alphas[i])}　验证 RMSE = ${rms(result.mean[i])}　非零变量 ${count}/${coefficients.length}`;
+  if (selected !== null) note += `　${data.features[selected]} 系数 = ${fmt(coefficients[selected])}`;
+  byId("readout").textContent = note;
+  const paths = data.features.map((_, j) => ({
+    values: result.coefficients.map(row => row[j]),
+    color: selected === null ? colors[j % colors.length] : selected === j ? colors[0] : "#d5d8d0",
+    width: j === selected ? 3 : 1.25
+  }));
+  if (selected !== null) paths.push(...paths.splice(selected, 1));
+  chart(byId("path"), paths, i);
+  chart(byId("error"), [{values: result.mean, color: colors[0], width: 2.5}],
+        i, result.mean[result.min.index] + result.se[result.min.index]);
+}
+
+function choose(rule) {
+  slider.value = data.models[model.value][rule].index;
+  render();
+}
+
+model.addEventListener("change", () => choose("min"));
+feature.addEventListener("change", render);
+slider.addEventListener("input", render);
+byId("best").addEventListener("click", () => choose("min"));
+byId("one").addEventListener("click", () => choose("one"));
+for (const [name, result] of Object.entries(data.models)) {
+  for (const [label, row] of [["最小误差", result.min], ["1-SE", result.one]]) {
+    const tr = byId("scores").insertRow();
+    for (const value of [name, label, fmt(data.alphas[row.index]), rms(result.mean[row.index]), rms(row.test), row.nonzero]) {
+      tr.insertCell().textContent = value;
+    }
+  }
+}
+const cvNames = ["RidgeCV", "LassoCV", "ElasticNetCV"];
+Object.values(data.models).forEach(({baseline}, i) => {
+  const tr = byId("baseline").insertRow();
+  for (const value of [cvNames[i], fmt(baseline.alpha), rms(baseline.test), baseline.nonzero]) {
+    tr.insertCell().textContent = value;
+  }
+});
+const lasso = data.models.Lasso;
+const elastic = data.models["Elastic Net"];
+const ridge = data.models.Ridge;
+const change = result => `${result.min.nonzero} → ${result.one.nonzero} 个`;
+const lassoTest = lasso.one.test - lasso.min.test;
+const lassoTestNote = lassoTest >= 0
+  ? `测试 RMSE 高了 ${rms(lassoTest)} 千美元`
+  : `测试 RMSE 低了 ${rms(-lassoTest)} 千美元`;
+byId("discussion").textContent =
+  `按 1-SE 选参，非零变量数分别是 Ridge ${change(ridge)}、Lasso ${change(lasso)}、Elastic Net ${change(elastic)}。Lasso 的 1-SE 模型${lassoTestNote}。` +
+  (lasso.one.nonzero < lasso.min.nonzero
+    ? " 如果希望用少几个变量解释薪资，可以选 Lasso 的 1-SE 版本。它的验证误差仍在阈值内。"
+    : " 这次 Lasso 增大惩罚后变量数没有减少，单为减少变量没有必要改选 1-SE。");
+choose("min");
+</script>
+</html>
