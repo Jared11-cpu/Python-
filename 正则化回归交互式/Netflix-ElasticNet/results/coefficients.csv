@@ -1,0 +1,55 @@
+feature,coefficient
+cat__primary_country_India,7.474828593911414
+cat__rating_TV-Y,-4.869326811397475
+cat__primary_genre_Stand-Up Comedy,-4.240007630589294
+num__release_year,-3.460357101801872
+cat__rating_TV-Y7,-3.3945126751165327
+cat__primary_country_United States,-2.921515284458777
+cat__primary_genre_Action & Adventure,2.9104138131115342
+cat__primary_genre_Dramas,2.884505954607057
+cat__primary_genre_Movies,-2.835990576905779
+cat__primary_genre_Documentaries,-2.761407968785599
+num__genre_count,2.60861327097067
+num__cast_count,2.5133583569867084
+cat__rating_R,2.3119949842529866
+cat__rating_PG-13,2.0399476549902857
+cat__primary_genre_Children & Family Movies,-1.6398585314979306
+cat__rating_TV-G,-1.4505811355329679
+cat__primary_country_Hong Kong,-1.3429673802414253
+cat__rating_TV-PG,-1.3278603888844651
+cat__primary_country_Canada,-1.2403539403455504
+cat__primary_country_South Korea,1.1862556372132813
+cat__primary_country_United Kingdom,-0.9758563328660168
+num__country_count,0.9445766341296714
+cat__primary_country_France,-0.9337371684959254
+cat__primary_genre_Comedies,0.8114627479081368
+cat__primary_country_Argentina,-0.8021336234046231
+cat__primary_country_Japan,-0.7989101187973234
+cat__rating_TV-14,0.7659161786100611
+cat__primary_country_South Africa,-0.7331078095437374
+cat__primary_country_Indonesia,0.7311920072910422
+cat__primary_country_Philippines,0.6876033709846706
+cat__primary_country_infrequent_sklearn,-0.6647242253567189
+cat__rating_PG,0.6518667799028758
+cat__primary_country_China,0.6472280899565284
+cat__primary_country_Mexico,-0.5697959875237223
+cat__primary_country_Turkey,0.5099356377635638
+cat__primary_genre_Thrillers,0.5034483923308376
+cat__primary_genre_International Movies,0.4894873285773733
+cat__primary_country_Brazil,-0.4224038090441666
+cat__rating_infrequent_sklearn,-0.4046351150741187
+cat__primary_genre_Horror Movies,-0.38770525457742466
+cat__primary_country_Egypt,0.3635686576295481
+cat__primary_country_Nigeria,0.3601298685922585
+cat__rating_G,-0.33374469639053367
+cat__primary_country_Thailand,0.29350505868230964
+cat__primary_country_Unknown,0.27765829770116396
+cat__rating_NR,-0.2402868357350291
+cat__primary_country_Germany,-0.23183970956559902
+cat__primary_country_Italy,-0.15360696109643956
+num__director_count,0.15119941324192068
+cat__primary_country_Spain,0.1254023031798769
+cat__primary_country_Australia,-0.03494252633281521
+cat__primary_genre_Classic Movies,-0.02185747474895423
+cat__primary_genre_infrequent_sklearn,-0.0
+cat__rating_TV-MA,-0.0

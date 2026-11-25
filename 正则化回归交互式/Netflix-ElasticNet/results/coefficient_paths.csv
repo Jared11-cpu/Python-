@@ -1,0 +1,2593 @@
+model,alpha,feature,coefficient
+Ridge,0.01,num__release_year,-3.585976999594617
+Ridge,0.01,num__cast_count,2.4684389476885396
+Ridge,0.01,num__director_count,0.21329973155618387
+Ridge,0.01,num__country_count,1.0021028206718232
+Ridge,0.01,num__genre_count,2.491307948200997
+Ridge,0.01,cat__primary_country_Argentina,-0.9088449318263864
+Ridge,0.01,cat__primary_country_Australia,-0.1256976972098704
+Ridge,0.01,cat__primary_country_Brazil,-0.5142007113188379
+Ridge,0.01,cat__primary_country_Canada,-1.4156045219404425
+Ridge,0.01,cat__primary_country_China,0.6122171315867874
+Ridge,0.01,cat__primary_country_Egypt,0.3082176272789823
+Ridge,0.01,cat__primary_country_France,-1.0970233119945096
+Ridge,0.01,cat__primary_country_Germany,-0.3502888615034252
+Ridge,0.01,cat__primary_country_Hong Kong,-1.5043006536613899
+Ridge,0.01,cat__primary_country_India,7.431350295394489
+Ridge,0.01,cat__primary_country_Indonesia,0.7065661133154255
+Ridge,0.01,cat__primary_country_Italy,-0.24231997285997936
+Ridge,0.01,cat__primary_country_Japan,-0.9043374596419865
+Ridge,0.01,cat__primary_country_Mexico,-0.682447258730502
+Ridge,0.01,cat__primary_country_Nigeria,0.32338100476403453
+Ridge,0.01,cat__primary_country_Philippines,0.6642001007071233
+Ridge,0.01,cat__primary_country_South Africa,-0.8315091901558762
+Ridge,0.01,cat__primary_country_South Korea,1.1777816145080584
+Ridge,0.01,cat__primary_country_Spain,0.04047216412085022
+Ridge,0.01,cat__primary_country_Thailand,0.2658534958554154
+Ridge,0.01,cat__primary_country_Turkey,0.4634065832664789
+Ridge,0.01,cat__primary_country_United Kingdom,-1.235062794012075
+Ridge,0.01,cat__primary_country_United States,-3.404243098480339
+Ridge,0.01,cat__primary_country_Unknown,0.19907414682052216
+Ridge,0.01,cat__primary_country_infrequent_sklearn,-0.8887332845601627
+Ridge,0.01,cat__primary_genre_Action & Adventure,2.9602221649605243
+Ridge,0.01,cat__primary_genre_Children & Family Movies,-1.4735570551675226
+Ridge,0.01,cat__primary_genre_Classic Movies,-0.082546610834044
+Ridge,0.01,cat__primary_genre_Comedies,0.8308550608329702
+Ridge,0.01,cat__primary_genre_Documentaries,-2.7797051331124756
+Ridge,0.01,cat__primary_genre_Dramas,2.914498939956512
+Ridge,0.01,cat__primary_genre_Horror Movies,-0.43708792188992246
+Ridge,0.01,cat__primary_genre_International Movies,0.5038386168327731
+Ridge,0.01,cat__primary_genre_Movies,-2.8785140440365744
+Ridge,0.01,cat__primary_genre_Stand-Up Comedy,-4.3771354516494645
+Ridge,0.01,cat__primary_genre_Thrillers,0.5293844906173697
+Ridge,0.01,cat__primary_genre_infrequent_sklearn,-0.005086786695390052
+Ridge,0.01,cat__rating_G,-0.38354665451585557
+Ridge,0.01,cat__rating_NR,-0.23730789462458934
+Ridge,0.01,cat__rating_PG,0.6845975206367275
+Ridge,0.01,cat__rating_PG-13,2.190656823419982
+Ridge,0.01,cat__rating_R,2.4955035717698206
+Ridge,0.01,cat__rating_TV-14,0.78256184433377
+Ridge,0.01,cat__rating_TV-G,-1.5004225394397417
+Ridge,0.01,cat__rating_TV-MA,0.13706238980576504
+Ridge,0.01,cat__rating_TV-PG,-1.371267933488653
+Ridge,0.01,cat__rating_TV-Y,-5.050086035368716
+Ridge,0.01,cat__rating_TV-Y7,-3.5649310150265925
+Ridge,0.01,cat__rating_infrequent_sklearn,-0.4386803784919548
+Ridge,0.021544346900318832,num__release_year,-3.5859677164497206
+Ridge,0.021544346900318832,num__cast_count,2.468443465079662
+Ridge,0.021544346900318832,num__director_count,0.2132968053765805
+Ridge,0.021544346900318832,num__country_count,1.0021008214397609
+Ridge,0.021544346900318832,num__genre_count,2.4913200664323942
+Ridge,0.021544346900318832,cat__primary_country_Argentina,-0.9088429963131467
+Ridge,0.021544346900318832,cat__primary_country_Australia,-0.1256977006049061
+Ridge,0.021544346900318832,cat__primary_country_Brazil,-0.5142003025414027
+Ridge,0.021544346900318832,cat__primary_country_Canada,-1.415600685631041
+Ridge,0.021544346900318832,cat__primary_country_China,0.6122160077931016
+Ridge,0.021544346900318832,cat__primary_country_Egypt,0.30821625922109613
+Ridge,0.021544346900318832,cat__primary_country_France,-1.097020203803006
+Ridge,0.021544346900318832,cat__primary_country_Germany,-0.3502871697506395
+Ridge,0.021544346900318832,cat__primary_country_Hong Kong,-1.504295066077222
+Ridge,0.021544346900318832,cat__primary_country_India,7.43133091016218
+Ridge,0.021544346900318832,cat__primary_country_Indonesia,0.706562704452799
+Ridge,0.021544346900318832,cat__primary_country_Italy,-0.24231965428254432
+Ridge,0.021544346900318832,cat__primary_country_Japan,-0.9043370342076519
+Ridge,0.021544346900318832,cat__primary_country_Mexico,-0.682446399057125
+Ridge,0.021544346900318832,cat__primary_country_Nigeria,0.32337868911482154
+Ridge,0.021544346900318832,cat__primary_country_Philippines,0.6641970645057343
+Ridge,0.021544346900318832,cat__primary_country_South Africa,-0.8315071555421746
+Ridge,0.021544346900318832,cat__primary_country_South Korea,1.1777786658366443
+Ridge,0.021544346900318832,cat__primary_country_Spain,0.04047223976243358
+Ridge,0.021544346900318832,cat__primary_country_Thailand,0.26585288736116713
+Ridge,0.021544346900318832,cat__primary_country_Turkey,0.4634053124303644
+Ridge,0.021544346900318832,cat__primary_country_United Kingdom,-1.2350567880631607
+Ridge,0.021544346900318832,cat__primary_country_United States,-3.4042311923218582
+Ridge,0.021544346900318832,cat__primary_country_Unknown,0.19906782601251027
+Ridge,0.021544346900318832,cat__primary_country_infrequent_sklearn,-0.8887307397142381
+Ridge,0.021544346900318832,cat__primary_genre_Action & Adventure,2.960219343894111
+Ridge,0.021544346900318832,cat__primary_genre_Children & Family Movies,-1.4735743239605985
+Ridge,0.021544346900318832,cat__primary_genre_Classic Movies,-0.08254351731040087
+Ridge,0.021544346900318832,cat__primary_genre_Comedies,0.8308557486242261
+Ridge,0.021544346900318832,cat__primary_genre_Documentaries,-2.7797015953725728
+Ridge,0.021544346900318832,cat__primary_genre_Dramas,2.914498806992516
+Ridge,0.021544346900318832,cat__primary_genre_Horror Movies,-0.4370845649693257
+Ridge,0.021544346900318832,cat__primary_genre_International Movies,0.5038398399379662
+Ridge,0.021544346900318832,cat__primary_genre_Movies,-2.8785112018482204
+Ridge,0.021544346900318832,cat__primary_genre_Stand-Up Comedy,-4.3771206961392215
+Ridge,0.021544346900318832,cat__primary_genre_Thrillers,0.5293845806195753
+Ridge,0.021544346900318832,cat__primary_genre_infrequent_sklearn,-0.0050876220088346405
+Ridge,0.021544346900318832,cat__rating_G,-0.38354242936747845
+Ridge,0.021544346900318832,cat__rating_NR,-0.237308826504838
+Ridge,0.021544346900318832,cat__rating_PG,0.6846000187450637
+Ridge,0.021544346900318832,cat__rating_PG-13,2.190647235215534
+Ridge,0.021544346900318832,cat__rating_R,2.4954920682736113
+Ridge,0.021544346900318832,cat__rating_TV-14,0.7825652791165768
+Ridge,0.021544346900318832,cat__rating_TV-G,-1.5004173900985713
+Ridge,0.021544346900318832,cat__rating_TV-MA,0.13705430834262036
+Ridge,0.021544346900318832,cat__rating_TV-PG,-1.3712619688036443
+Ridge,0.021544346900318832,cat__rating_TV-Y,-5.050066828180816
+Ridge,0.021544346900318832,cat__rating_TV-Y7,-3.5649132936573373
+Ridge,0.021544346900318832,cat__rating_infrequent_sklearn,-0.43867836857282394
+Ridge,0.046415888336127774,num__release_year,-3.5859477168663196
+Ridge,0.046415888336127774,num__cast_count,2.468453197061848
+Ridge,0.046415888336127774,num__director_count,0.21329050119041806
+Ridge,0.046415888336127774,num__country_count,1.0020965142115017
+Ridge,0.046415888336127774,num__genre_count,2.4913461735894846
+Ridge,0.046415888336127774,cat__primary_country_Argentina,-0.9088388255884321
+Ridge,0.046415888336127774,cat__primary_country_Australia,-0.12569770707602887
+Ridge,0.046415888336127774,cat__primary_country_Brazil,-0.5141994209974233
+Ridge,0.046415888336127774,cat__primary_country_Canada,-1.4155924191980362
+Ridge,0.046415888336127774,cat__primary_country_China,0.6122135875107007
+Ridge,0.046415888336127774,cat__primary_country_Egypt,0.30821331303848254
+Ridge,0.046415888336127774,cat__primary_country_France,-1.0970135061308013
+Ridge,0.046415888336127774,cat__primary_country_Germany,-0.3502835240958473
+Ridge,0.046415888336127774,cat__primary_country_Hong Kong,-1.5042830271664
+Ridge,0.046415888336127774,cat__primary_country_India,7.431289149668789
+Ridge,0.046415888336127774,cat__primary_country_Indonesia,0.7065553614980242
+Ridge,0.046415888336127774,cat__primary_country_Italy,-0.24231896709905668
+Ridge,0.046415888336127774,cat__primary_country_Japan,-0.9043361164270008
+Ridge,0.046415888336127774,cat__primary_country_Mexico,-0.6824445458859342
+Ridge,0.046415888336127774,cat__primary_country_Nigeria,0.3233737013932953
+Ridge,0.046415888336127774,cat__primary_country_Philippines,0.6641905243158839
+Ridge,0.046415888336127774,cat__primary_country_South Africa,-0.8315027714405027
+Ridge,0.046415888336127774,cat__primary_country_South Korea,1.1777723139731173
+Ridge,0.046415888336127774,cat__primary_country_Spain,0.040472404046739074
+Ridge,0.046415888336127774,cat__primary_country_Thailand,0.26585157712988267
+Ridge,0.046415888336127774,cat__primary_country_Turkey,0.46340257556961684
+Ridge,0.046415888336127774,cat__primary_country_United Kingdom,-1.2350438467502047
+Ridge,0.046415888336127774,cat__primary_country_United States,-3.4042055374916598
+Ridge,0.046415888336127774,cat__primary_country_Unknown,0.19905421073183935
+Ridge,0.046415888336127774,cat__primary_country_infrequent_sklearn,-0.8887252549091255
+Ridge,0.046415888336127774,cat__primary_genre_Action & Adventure,2.9602132667418988
+Ridge,0.046415888336127774,cat__primary_genre_Children & Family Movies,-1.4736115261292897
+Ridge,0.046415888336127774,cat__primary_genre_Classic Movies,-0.0825368523580134
+Ridge,0.046415888336127774,cat__primary_genre_Comedies,0.830857231208217
+Ridge,0.046415888336127774,cat__primary_genre_Documentaries,-2.779693972922582
+Ridge,0.046415888336127774,cat__primary_genre_Dramas,2.9144985212874888
+Ridge,0.046415888336127774,cat__primary_genre_Horror Movies,-0.4370773324639585
+Ridge,0.046415888336127774,cat__primary_genre_International Movies,0.5038424751994295
+Ridge,0.046415888336127774,cat__primary_genre_Movies,-2.8785050781641925
+Ridge,0.046415888336127774,cat__primary_genre_Stand-Up Comedy,-4.377088906577018
+Ridge,0.046415888336127774,cat__primary_genre_Thrillers,0.5293847746181488
+Ridge,0.046415888336127774,cat__primary_genre_infrequent_sklearn,-0.005089421366561147
+Ridge,0.046415888336127774,cat__rating_G,-0.38353332781257987
+Ridge,0.046415888336127774,cat__rating_NR,-0.23731083513318513
+Ridge,0.046415888336127774,cat__rating_PG,0.6846053981082163
+Ridge,0.046415888336127774,cat__rating_PG-13,2.1906265758827157
+Ridge,0.046415888336127774,cat__rating_R,2.4954672819751695
+Ridge,0.046415888336127774,cat__rating_TV-14,0.7825726749206872
+Ridge,0.046415888336127774,cat__rating_TV-G,-1.500406297938802
+Ridge,0.046415888336127774,cat__rating_TV-MA,0.13703689316044088
+Ridge,0.046415888336127774,cat__rating_TV-PG,-1.3712491214343918
+Ridge,0.046415888336127774,cat__rating_TV-Y,-5.050025450110063
+Ridge,0.046415888336127774,cat__rating_TV-Y7,-3.5648751167950814
+Ridge,0.046415888336127774,cat__rating_infrequent_sklearn,-0.4386740389202696
+Ridge,0.1,num__release_year,-3.585904630675875
+Ridge,0.1,num__cast_count,2.4684741619306156
+Ridge,0.1,num__director_count,0.21327691958898057
+Ridge,0.1,num__country_count,1.0020872345075686
+Ridge,0.1,num__genre_count,2.4914024161294037
+Ridge,0.1,cat__primary_country_Argentina,-0.9088298396955647
+Ridge,0.1,cat__primary_country_Australia,-0.12569772064846446
+Ridge,0.1,cat__primary_country_Brazil,-0.5141975213230464
+Ridge,0.1,cat__primary_country_Canada,-1.4155746095385733
+Ridge,0.1,cat__primary_country_China,0.612208373756028
+Ridge,0.1,cat__primary_country_Egypt,0.3082069666189387
+Ridge,0.1,cat__primary_country_France,-1.096999075910489
+Ridge,0.1,cat__primary_country_Germany,-0.35027566962636875
+Ridge,0.1,cat__primary_country_Hong Kong,-1.5042570902126025
+Ridge,0.1,cat__primary_country_India,7.431199183765069
+Ridge,0.1,cat__primary_country_Indonesia,0.7065395428704957
+Ridge,0.1,cat__primary_country_Italy,-0.24231748607626927
+Ridge,0.1,cat__primary_country_Japan,-0.9043341377827034
+Ridge,0.1,cat__primary_country_Mexico,-0.6824405527555504
+Ridge,0.1,cat__primary_country_Nigeria,0.32336295688170563
+Ridge,0.1,cat__primary_country_Philippines,0.6641764351199563
+Ridge,0.1,cat__primary_country_South Africa,-0.8314933258802067
+Ridge,0.1,cat__primary_country_South Korea,1.1777586301159364
+Ridge,0.1,cat__primary_country_Spain,0.04047275873179926
+Ridge,0.1,cat__primary_country_Thailand,0.2658487548105682
+Ridge,0.1,cat__primary_country_Turkey,0.4633966799197438
+Ridge,0.1,cat__primary_country_United Kingdom,-1.2350159654946034
+Ridge,0.1,cat__primary_country_United States,-3.404150265753481
+Ridge,0.1,cat__primary_country_Unknown,0.19902487979892552
+Ridge,0.1,cat__primary_country_infrequent_sklearn,-0.8887134372396345
+Ridge,0.1,cat__primary_genre_Action & Adventure,2.960200173282814
+Ridge,0.1,cat__primary_genre_Children & Family Movies,-1.4736916681929015
+Ridge,0.1,cat__primary_genre_Classic Movies,-0.08252249366343146
+Ridge,0.1,cat__primary_genre_Comedies,0.8308604247702048
+Ridge,0.1,cat__primary_genre_Documentaries,-2.779677551548493
+Ridge,0.1,cat__primary_genre_Dramas,2.9144979046328956
+Ridge,0.1,cat__primary_genre_Horror Movies,-0.4370617515764952
+Ridge,0.1,cat__primary_genre_International Movies,0.5038481519630643
+Ridge,0.1,cat__primary_genre_Movies,-2.8784918843747405
+Ridge,0.1,cat__primary_genre_Stand-Up Comedy,-4.377020421459768
+Ridge,0.1,cat__primary_genre_Thrillers,0.5293851919659924
+Ridge,0.1,cat__primary_genre_infrequent_sklearn,-0.005093297933929356
+Ridge,0.1,cat__rating_G,-0.3835137212966072
+Ridge,0.1,cat__rating_NR,-0.23731516255254712
+Ridge,0.1,cat__rating_PG,0.6846169842096139
+Ridge,0.1,cat__rating_PG-13,2.190582067920542
+Ridge,0.1,cat__rating_R,2.4954138829574166
+Ridge,0.1,cat__rating_TV-14,0.7825886069886767
+Ridge,0.1,cat__rating_TV-G,-1.5003824027224493
+Ridge,0.1,cat__rating_TV-MA,0.13699937386250363
+Ridge,0.1,cat__rating_TV-PG,-1.3712214451348843
+Ridge,0.1,cat__rating_TV-Y,-5.049936309454016
+Ridge,0.1,cat__rating_TV-Y7,-3.5647928731916974
+Ridge,0.1,cat__rating_infrequent_sklearn,-0.43866471177877936
+Ridge,0.21544346900318834,num__release_year,-3.5858118117450757
+Ridge,0.21544346900318834,num__cast_count,2.468519319851552
+Ridge,0.21544346900318834,num__director_count,0.2132476605676601
+Ridge,0.21544346900318834,num__country_count,1.002067241704193
+Ridge,0.21544346900318834,num__genre_count,2.491523570185023
+Ridge,0.21544346900318834,cat__primary_country_Argentina,-0.9088104804209128
+Ridge,0.21544346900318834,cat__primary_country_Australia,-0.1256977501174984
+Ridge,0.21544346900318834,cat__primary_country_Brazil,-0.5141934284728352
+Ridge,0.21544346900318834,cat__primary_country_Canada,-1.4155362423557944
+Ridge,0.21544346900318834,cat__primary_country_China,0.612197141920675
+Ridge,0.21544346900318834,cat__primary_country_Egypt,0.30819329546919483
+Ridge,0.21544346900318834,cat__primary_country_France,-1.0969679874752094
+Ridge,0.21544346900318834,cat__primary_country_Germany,-0.35025874918300326
+Ridge,0.21544346900318834,cat__primary_country_Hong Kong,-1.504201213322851
+Ridge,0.21544346900318834,cat__primary_country_India,7.431005371216378
+Ridge,0.21544346900318834,cat__primary_country_Indonesia,0.7065054662645641
+Ridge,0.21544346900318834,cat__primary_country_Italy,-0.24231429466305934
+Ridge,0.21544346900318834,cat__primary_country_Japan,-0.904329871016442
+Ridge,0.21544346900318834,cat__primary_country_Mexico,-0.6824319494318221
+Ridge,0.21544346900318834,cat__primary_country_Nigeria,0.3233398117707475
+Ridge,0.21544346900318834,cat__primary_country_Philippines,0.6641460843607045
+Ridge,0.21544346900318834,cat__primary_country_South Africa,-0.8314729761592893
+Ridge,0.21544346900318834,cat__primary_country_South Korea,1.1777291512062094
+Ridge,0.21544346900318834,cat__primary_country_Spain,0.04047352339020978
+Ridge,0.21544346900318834,cat__primary_country_Thailand,0.26584267498681374
+Ridge,0.21544346900318834,cat__primary_country_Turkey,0.46338397922884617
+Ridge,0.21544346900318834,cat__primary_country_United Kingdom,-1.2349559017326555
+Ridge,0.21544346900318834,cat__primary_country_United States,-3.4040311956110343
+Ridge,0.21544346900318834,cat__primary_country_Unknown,0.1989616938307436
+Ridge,0.21544346900318834,cat__primary_country_infrequent_sklearn,-0.8886879769161744
+Ridge,0.21544346900318834,cat__primary_genre_Action & Adventure,2.9601719616365534
+Ridge,0.21544346900318834,cat__primary_genre_Children & Family Movies,-1.4738642936128874
+Ridge,0.21544346900318834,cat__primary_genre_Classic Movies,-0.08249156106343798
+Ridge,0.21544346900318834,cat__primary_genre_Comedies,0.8308673027830372
+Ridge,0.21544346900318834,cat__primary_genre_Documentaries,-2.7796421757225187
+Ridge,0.21544346900318834,cat__primary_genre_Dramas,2.9144965712489834
+Ridge,0.21544346900318834,cat__primary_genre_Horror Movies,-0.4370281883802326
+Ridge,0.21544346900318834,cat__primary_genre_International Movies,0.5038603788846344
+Ridge,0.21544346900318834,cat__primary_genre_Movies,-2.878463455831928
+Ridge,0.21544346900318834,cat__primary_genre_Stand-Up Comedy,-4.376872890423817
+Ridge,0.21544346900318834,cat__primary_genre_Thrillers,0.5293860883689351
+Ridge,0.21544346900318834,cat__primary_genre_infrequent_sklearn,-0.005101649503546145
+Ridge,0.21544346900318834,cat__rating_G,-0.38347148905813566
+Ridge,0.21544346900318834,cat__rating_NR,-0.2373244837344866
+Ridge,0.21544346900318834,cat__rating_PG,0.6846419335475413
+Ridge,0.21544346900318834,cat__rating_PG-13,2.1904861885943276
+Ridge,0.21544346900318834,cat__rating_R,2.495298850652642
+Ridge,0.21544346900318834,cat__rating_TV-14,0.7826229307640001
+Ridge,0.21544346900318834,cat__rating_TV-G,-1.500330929455747
+Ridge,0.21544346900318834,cat__rating_TV-MA,0.13691855164429734
+Ridge,0.21544346900318834,cat__rating_TV-PG,-1.3711618252117936
+Ridge,0.21544346900318834,cat__rating_TV-Y,-5.049744285694246
+Ridge,0.21544346900318834,cat__rating_TV-Y7,-3.56461570977951
+Ridge,0.21544346900318834,cat__rating_infrequent_sklearn,-0.43864462006880417
+Ridge,0.46415888336127775,num__release_year,-3.585611874001895
+Ridge,0.46415888336127775,num__cast_count,2.468616565471946
+Ridge,0.46415888336127775,num__director_count,0.2131846315838376
+Ridge,0.46415888336127775,num__country_count,1.0020241671837886
+Ridge,0.46415888336127775,num__genre_count,2.4917845106200955
+Ridge,0.46415888336127775,cat__primary_country_Argentina,-0.9087687742670696
+Ridge,0.46415888336127775,cat__primary_country_Australia,-0.12569781573610014
+Ridge,0.46415888336127775,cat__primary_country_Brazil,-0.5141846111817421
+Ridge,0.46415888336127775,cat__primary_country_Canada,-1.4154535965205919
+Ridge,0.46415888336127775,cat__primary_country_China,0.612172946622602
+Ridge,0.46415888336127775,cat__primary_country_Egypt,0.30816384879502123
+Ridge,0.46415888336127775,cat__primary_country_France,-1.0969010135747759
+Ridge,0.46415888336127775,cat__primary_country_Germany,-0.35022230334104704
+Ridge,0.46415888336127775,cat__primary_country_Hong Kong,-1.5040808433884572
+Ridge,0.46415888336127775,cat__primary_country_India,7.430587871690744
+Ridge,0.46415888336127775,cat__primary_country_Indonesia,0.7064320658018098
+Ridge,0.46415888336127775,cat__primary_country_Italy,-0.24230741697611483
+Ridge,0.46415888336127775,cat__primary_country_Japan,-0.9043206617151668
+Ridge,0.46415888336127775,cat__primary_country_Mexico,-0.682413413655362
+Ridge,0.46415888336127775,cat__primary_country_Nigeria,0.32328996085453787
+Ridge,0.46415888336127775,cat__primary_country_Philippines,0.6640807106548459
+Ridge,0.46415888336127775,cat__primary_country_South Africa,-0.8314291354155633
+Ridge,0.46415888336127775,cat__primary_country_South Korea,1.177665649457189
+Ridge,0.46415888336127775,cat__primary_country_Spain,0.040475171549290805
+Ridge,0.46415888336127775,cat__primary_country_Thailand,0.26582957867739987
+Ridge,0.46415888336127775,cat__primary_country_Turkey,0.46335662025040164
+Ridge,0.46415888336127775,cat__primary_country_United Kingdom,-1.234826522181454
+Ridge,0.46415888336127775,cat__primary_country_United States,-3.4037747147852606
+Ridge,0.46415888336127775,cat__primary_country_Unknown,0.19882558703271655
+Ridge,0.46415888336127775,cat__primary_country_infrequent_sklearn,-0.8886331272957207
+Ridge,0.46415888336127775,cat__primary_genre_Action & Adventure,2.960111168179305
+Ridge,0.46415888336127775,cat__primary_genre_Children & Family Movies,-1.4742360403704546
+Ridge,0.46415888336127775,cat__primary_genre_Classic Movies,-0.08242492968454453
+Ridge,0.46415888336127775,cat__primary_genre_Comedies,0.8308821091051183
+Ridge,0.46415888336127775,cat__primary_genre_Documentaries,-2.7795659755345015
+Ridge,0.46415888336127775,cat__primary_genre_Dramas,2.9144936747712857
+Ridge,0.46415888336127775,cat__primary_genre_Horror Movies,-0.43695590159899195
+Ridge,0.46415888336127775,cat__primary_genre_International Movies,0.5038867052765635
+Ridge,0.46415888336127775,cat__primary_genre_Movies,-2.878402192984832
+Ridge,0.46415888336127775,cat__primary_genre_Stand-Up Comedy,-4.376555117865995
+Ridge,0.46415888336127775,cat__primary_genre_Thrillers,0.529388006571974
+Ridge,0.46415888336127775,cat__primary_genre_infrequent_sklearn,-0.005119641642948995
+Ridge,0.46415888336127775,cat__rating_G,-0.38338054200728067
+Ridge,0.46415888336127775,cat__rating_NR,-0.2373445553980251
+Ridge,0.46415888336127775,cat__rating_PG,0.6846956310810196
+Ridge,0.46415888336127775,cat__rating_PG-13,2.190279672876319
+Ridge,0.46415888336127775,cat__rating_R,2.4950510821411567
+Ridge,0.46415888336127775,cat__rating_TV-14,0.7826968797330399
+Ridge,0.46415888336127775,cat__rating_TV-G,-1.500220066558295
+Ridge,0.46415888336127775,cat__rating_TV-MA,0.13674447993462255
+Ridge,0.46415888336127775,cat__rating_TV-PG,-1.3710334067583678
+Ridge,0.46415888336127775,cat__rating_TV-Y,-5.04933069267205
+Ridge,0.46415888336127775,cat__rating_TV-Y7,-3.5642341374372344
+Ridge,0.46415888336127775,cat__rating_infrequent_sklearn,-0.4386013472653062
+Ridge,1.0,num__release_year,-3.585181281599416
+Ridge,1.0,num__cast_count,2.4688258699369925
+Ridge,1.0,num__director_count,0.21304887533013983
+Ridge,1.0,num__country_count,1.0019313597869124
+Ridge,1.0,num__genre_count,2.492346327621216
+Ridge,1.0,cat__primary_country_Argentina,-0.9086789313745315
+Ridge,1.0,cat__primary_country_Australia,-0.12569796736645805
+Ridge,1.0,cat__primary_country_Brazil,-0.5141656175487294
+Ridge,1.0,cat__primary_country_Canada,-1.4152756059404292
+Ridge,1.0,cat__primary_country_China,0.6121208327822484
+Ridge,1.0,cat__primary_country_Egypt,0.30810043947567256
+Ridge,1.0,cat__primary_country_France,-1.0967567423177673
+Ridge,1.0,cat__primary_country_Germany,-0.35014382138230205
+Ridge,1.0,cat__primary_country_Hong Kong,-1.5038215757865638
+Ridge,1.0,cat__primary_country_India,7.429688659042684
+Ridge,1.0,cat__primary_country_Indonesia,0.706274000073214
+Ridge,1.0,cat__primary_country_Italy,-0.24229259055958624
+Ridge,1.0,cat__primary_country_Japan,-0.9043007432972161
+Ridge,1.0,cat__primary_country_Mexico,-0.6823734777986151
+Ridge,1.0,cat__primary_country_Nigeria,0.32318262345183735
+Ridge,1.0,cat__primary_country_Philippines,0.6639399365334036
+Ridge,1.0,cat__primary_country_South Africa,-0.8313346902062696
+Ridge,1.0,cat__primary_country_South Korea,1.1775288788081357
+Ridge,1.0,cat__primary_country_Spain,0.04047872530239861
+Ridge,1.0,cat__primary_country_Thailand,0.26580137376495144
+Ridge,1.0,cat__primary_country_Turkey,0.4632976944283782
+Ridge,1.0,cat__primary_country_United Kingdom,-1.2345478942237698
+Ridge,1.0,cat__primary_country_United States,-3.4032223682744385
+Ridge,1.0,cat__primary_country_Unknown,0.19853246064942354
+Ridge,1.0,cat__primary_country_infrequent_sklearn,-0.8885149721760263
+Ridge,1.0,cat__primary_genre_Action & Adventure,2.959980131219163
+Ridge,1.0,cat__primary_genre_Children & Family Movies,-1.4750361863472936
+Ridge,1.0,cat__primary_genre_Classic Movies,-0.08228142715111665
+Ridge,1.0,cat__primary_genre_Comedies,0.830913953451143
+Ridge,1.0,cat__primary_genre_Documentaries,-2.779401875209951
+Ridge,1.0,cat__primary_genre_Dramas,2.914487324515226
+Ridge,1.0,cat__primary_genre_Horror Movies,-0.4368002706525672
+Ridge,1.0,cat__primary_genre_International Movies,0.5039433510034252
+Ridge,1.0,cat__primary_genre_Movies,-2.8782701346925244
+Ridge,1.0,cat__primary_genre_Stand-Up Comedy,-4.37587083803978
+Ridge,1.0,cat__primary_genre_Thrillers,0.5293920788294253
+Ridge,1.0,cat__primary_genre_infrequent_sklearn,-0.005158400856531303
+Ridge,1.0,cat__rating_G,-0.38318478562184344
+Ridge,1.0,cat__rating_NR,-0.23738775075125676
+Ridge,1.0,cat__rating_PG,0.684811068412703
+Ridge,1.0,cat__rating_PG-13,2.1898349812212774
+Ridge,1.0,cat__rating_R,2.4945175655228233
+Ridge,1.0,cat__rating_TV-14,0.7828562023157646
+Ridge,1.0,cat__rating_TV-G,-1.4999813717343766
+Ridge,1.0,cat__rating_TV-MA,0.13636970812849514
+Ridge,1.0,cat__rating_TV-PG,-1.3707568700671633
+Ridge,1.0,cat__rating_TV-Y,-5.048440141431897
+Ridge,1.0,cat__rating_TV-Y7,-3.563412595967086
+Ridge,1.0,cat__rating_infrequent_sklearn,-0.4385081811622144
+Ridge,2.154434690031882,num__release_year,-3.5842543418911488
+Ridge,2.154434690031882,num__cast_count,2.4692758533050827
+Ridge,2.154434690031882,num__director_count,0.21275656237311374
+Ridge,2.154434690031882,num__country_count,1.0017313839709088
+Ridge,2.154434690031882,num__genre_count,2.4935550470458248
+Ridge,2.154434690031882,cat__primary_country_Argentina,-0.9084854187015221
+Ridge,2.154434690031882,cat__primary_country_Australia,-0.12569834174489228
+Ridge,2.154434690031882,cat__primary_country_Brazil,-0.514124709438015
+Ridge,2.154434690031882,cat__primary_country_Canada,-1.414892436108643
+Ridge,2.154434690031882,cat__primary_country_China,0.6120086186037396
+Ridge,2.154434690031882,cat__primary_country_Egypt,0.3079639745652762
+Ridge,2.154434690031882,cat__primary_country_France,-1.0964460108016023
+Ridge,2.154434690031882,cat__primary_country_Germany,-0.3499749145343786
+Ridge,2.154434690031882,cat__primary_country_Hong Kong,-1.5032632864072684
+Ridge,2.154434690031882,cat__primary_country_India,7.427752582004972
+Ridge,2.154434690031882,cat__primary_country_Indonesia,0.7059337856425774
+Ridge,2.154434690031882,cat__primary_country_Italy,-0.2422606070539968
+Ridge,2.154434690031882,cat__primary_country_Japan,-0.9042574713241314
+Ridge,2.154434690031882,cat__primary_country_Mexico,-0.6822874308449264
+Ridge,2.154434690031882,cat__primary_country_Nigeria,0.3229516644548302
+Ridge,2.154434690031882,cat__primary_country_Philippines,0.6636369687055422
+Ridge,2.154434690031882,cat__primary_country_South Africa,-0.8311312459924778
+Ridge,2.154434690031882,cat__primary_country_South Korea,1.1772343993576926
+Ridge,2.154434690031882,cat__primary_country_Spain,0.040486394764552215
+Ridge,2.154434690031882,cat__primary_country_Thailand,0.2657406553812827
+Ridge,2.154434690031882,cat__primary_country_Turkey,0.46317082263257076
+Ridge,2.154434690031882,cat__primary_country_United Kingdom,-1.233948127512562
+Ridge,2.154434690031882,cat__primary_country_United States,-3.402033416425874
+Ridge,2.154434690031882,cat__primary_country_Unknown,0.1979014337673971
+Ridge,2.154434690031882,cat__primary_country_infrequent_sklearn,-0.8882604839275132
+Ridge,2.154434690031882,cat__primary_genre_Action & Adventure,2.95969753635984
+Ridge,2.154434690031882,cat__primary_genre_Children & Family Movies,-1.476756536570347
+Ridge,2.154434690031882,cat__primary_genre_Classic Movies,-0.08197249407943481
+Ridge,2.154434690031882,cat__primary_genre_Comedies,0.8309823057821896
+Ridge,2.154434690031882,cat__primary_genre_Documentaries,-2.779048646824345
+Ridge,2.154434690031882,cat__primary_genre_Dramas,2.914473133862077
+Ridge,2.154434690031882,cat__primary_genre_Horror Movies,-0.4364654660111323
+Ridge,2.154434690031882,cat__primary_genre_International Movies,0.5040650533591031
+Ridge,2.154434690031882,cat__primary_genre_Movies,-2.877985292925125
+Ridge,2.154434690031882,cat__primary_genre_Stand-Up Comedy,-4.374398179449488
+Ridge,2.154434690031882,cat__primary_genre_Thrillers,0.5294005725495867
+Ridge,2.154434690031882,cat__primary_genre_infrequent_sklearn,-0.0052418879305477575
+Ridge,2.154434690031882,cat__rating_G,-0.38276388922140303
+Ridge,2.154434690031882,cat__rating_NR,-0.23748059097970994
+Ridge,2.154434690031882,cat__rating_PG,0.6850586110578962
+Ridge,2.154434690031882,cat__rating_PG-13,2.1888780022527294
+Ridge,2.154434690031882,cat__rating_R,2.493369457686321
+Ridge,2.154434690031882,cat__rating_TV-14,0.7831994727791447
+Ridge,2.154434690031882,cat__rating_TV-G,-1.4994678234663572
+Ridge,2.154434690031882,cat__rating_TV-MA,0.13556346604780567
+Ridge,2.154434690031882,cat__rating_TV-PG,-1.370161703273661
+Ridge,2.154434690031882,cat__rating_TV-Y,-5.046523860011515
+Ridge,2.154434690031882,cat__rating_TV-Y7,-3.5616450994809963
+Ridge,2.154434690031882,cat__rating_infrequent_sklearn,-0.4383077495363844
+Ridge,4.6415888336127775,num__release_year,-3.5822607514569396
+Ridge,4.6415888336127775,num__cast_count,2.47024092119453
+Ridge,4.6415888336127775,num__director_count,0.2121275581632494
+Ridge,4.6415888336127775,num__country_count,1.0013004199014361
+Ridge,4.6415888336127775,num__genre_count,2.496151384805103
+Ridge,4.6415888336127775,cat__primary_country_Argentina,-0.908068731091176
+Ridge,4.6415888336127775,cat__primary_country_Australia,-0.12569936856082764
+Ridge,4.6415888336127775,cat__primary_country_Brazil,-0.5140366328591706
+Ridge,4.6415888336127775,cat__primary_country_Canada,-1.4140683071722573
+Ridge,4.6415888336127775,cat__primary_country_China,0.6117671459675027
+Ridge,4.6415888336127775,cat__primary_country_Egypt,0.3076706473696032
+Ridge,4.6415888336127775,cat__primary_country_France,-1.095776985016076
+Ridge,4.6415888336127775,cat__primary_country_Germany,-0.3496118367113695
+Ridge,4.6415888336127775,cat__primary_country_Hong Kong,-1.5020618124663476
+Ridge,4.6415888336127775,cat__primary_country_India,7.423587070803456
+Ridge,4.6415888336127775,cat__primary_country_Indonesia,0.7052023336198153
+Ridge,4.6415888336127775,cat__primary_country_Italy,-0.2421915117091127
+Ridge,4.6415888336127775,cat__primary_country_Japan,-0.9041625862476365
+Ridge,4.6415888336127775,cat__primary_country_Mexico,-0.682102012905083
+Ridge,4.6415888336127775,cat__primary_country_Nigeria,0.3224554316839893
+Ridge,4.6415888336127775,cat__primary_country_Philippines,0.6629857291857272
+Ridge,4.6415888336127775,cat__primary_country_South Africa,-0.8306930870073687
+Ridge,4.6415888336127775,cat__primary_country_South Korea,1.1766008144233522
+Ridge,4.6415888336127775,cat__primary_country_Spain,0.040502978716869344
+Ridge,4.6415888336127775,cat__primary_country_Thailand,0.265610060270531
+Ridge,4.6415888336127775,cat__primary_country_Turkey,0.4628978564384171
+Ridge,4.6415888336127775,cat__primary_country_United Kingdom,-1.2326583728698255
+Ridge,4.6415888336127775,cat__primary_country_United States,-3.3994767248036806
+Ridge,4.6415888336127775,cat__primary_country_Unknown,0.19654421858856705
+Ridge,4.6415888336127775,cat__primary_country_infrequent_sklearn,-0.8877125273171546
+Ridge,4.6415888336127775,cat__primary_genre_Action & Adventure,2.9590873931921493
+Ridge,4.6415888336127775,cat__primary_genre_Children & Family Movies,-1.480446686034474
+Ridge,4.6415888336127775,cat__primary_genre_Classic Movies,-0.0813080002347912
+Ridge,4.6415888336127775,cat__primary_genre_Comedies,0.8311283929163192
+Ridge,4.6415888336127775,cat__primary_genre_Documentaries,-2.7782890954191513
+Ridge,4.6415888336127775,cat__primary_genre_Dramas,2.9144402072939504
+Ridge,4.6415888336127775,cat__primary_genre_Horror Movies,-0.43574642632572386
+Ridge,4.6415888336127775,cat__primary_genre_International Movies,0.5043256940752677
+Ridge,4.6415888336127775,cat__primary_genre_Movies,-2.8773700945983856
+Ridge,4.6415888336127775,cat__primary_genre_Stand-Up Comedy,-4.371232731475274
+Ridge,4.6415888336127775,cat__primary_genre_Thrillers,0.5294175794796099
+Ridge,4.6415888336127775,cat__primary_genre_infrequent_sklearn,-0.005421675236535409
+Ridge,4.6415888336127775,cat__rating_G,-0.3818610138076628
+Ridge,4.6415888336127775,cat__rating_NR,-0.23767958602570663
+Ridge,4.6415888336127775,cat__rating_PG,0.6855865709485605
+Ridge,4.6415888336127775,cat__rating_PG-13,2.186821250351096
+Ridge,4.6415888336127775,cat__rating_R,2.490902035222343
+Ridge,4.6415888336127775,cat__rating_TV-14,0.7839391146882133
+Ridge,4.6415888336127775,cat__rating_TV-G,-1.4983646722512929
+Ridge,4.6415888336127775,cat__rating_TV-MA,0.1338319236236904
+Ridge,4.6415888336127775,cat__rating_TV-PG,-1.368882293292842
+Ridge,4.6415888336127775,cat__rating_TV-Y,-5.042406237028905
+Ridge,4.6415888336127775,cat__rating_TV-Y7,-3.557848521963741
+Ridge,4.6415888336127775,cat__rating_infrequent_sklearn,-0.4378772670554546
+Ridge,10.0,num__release_year,-3.57798155794991
+Ridge,10.0,num__cast_count,2.4722998602736586
+Ridge,10.0,num__director_count,0.21077595021796416
+Ridge,10.0,num__country_count,1.0003713589766565
+Ridge,10.0,num__genre_count,2.501709182822817
+Ridge,10.0,cat__primary_country_Argentina,-0.9071720394398527
+Ridge,10.0,cat__primary_country_Australia,-0.12570259046113877
+Ridge,10.0,cat__primary_country_Brazil,-0.5138471382193659
+Ridge,10.0,cat__primary_country_Canada,-1.412299168816771
+Ridge,10.0,cat__primary_country_China,0.6112482266742579
+Ridge,10.0,cat__primary_country_Egypt,0.3070418229411684
+Ridge,10.0,cat__primary_country_France,-1.0943375869173353
+Ridge,10.0,cat__primary_country_Germany,-0.34883339381113915
+Ridge,10.0,cat__primary_country_Hong Kong,-1.4994794380208722
+Ridge,10.0,cat__primary_country_India,7.414638807768361
+Ridge,10.0,cat__primary_country_Indonesia,0.7036334739784119
+Ridge,10.0,cat__primary_country_Italy,-0.24204178355479136
+Ridge,10.0,cat__primary_country_Japan,-0.9039505436892525
+Ridge,10.0,cat__primary_country_Mexico,-0.6817023825712394
+Ridge,10.0,cat__primary_country_Nigeria,0.3213925734191816
+Ridge,10.0,cat__primary_country_Philippines,0.661589527330018
+Ridge,10.0,cat__primary_country_South Africa,-0.8297497953412651
+Ridge,10.0,cat__primary_country_South Korea,1.1752397303674416
+Ridge,10.0,cat__primary_country_Spain,0.040538987010419636
+Ridge,10.0,cat__primary_country_Thailand,0.26532971084874096
+Ridge,10.0,cat__primary_country_Turkey,0.462311483946985
+Ridge,10.0,cat__primary_country_United Kingdom,-1.2298907794417742
+Ridge,10.0,cat__primary_country_United States,-3.393990782508579
+Ridge,10.0,cat__primary_country_Unknown,0.193630769467262
+Ridge,10.0,cat__primary_country_infrequent_sklearn,-0.8865334843276832
+Ridge,10.0,cat__primary_genre_Action & Adventure,2.9577668795445944
+Ridge,10.0,cat__primary_genre_Children & Family Movies,-1.4883222059969805
+Ridge,10.0,cat__primary_genre_Classic Movies,-0.07988138764571287
+Ridge,10.0,cat__primary_genre_Comedies,0.8314377465589587
+Ridge,10.0,cat__primary_genre_Documentaries,-2.776659387772812
+Ridge,10.0,cat__primary_genre_Dramas,2.9143584525836377
+Ridge,10.0,cat__primary_genre_Horror Movies,-0.4342077733048321
+Ridge,10.0,cat__primary_genre_International Movies,0.5048800498175837
+Ridge,10.0,cat__primary_genre_Movies,-2.8760377097754866
+Ridge,10.0,cat__primary_genre_Stand-Up Comedy,-4.364446621868568
+Ridge,10.0,cat__primary_genre_Thrillers,0.5294482812222365
+Ridge,10.0,cat__primary_genre_infrequent_sklearn,-0.005808636396008868
+Ridge,10.0,cat__rating_G,-0.37993384334072305
+Ridge,10.0,cat__rating_NR,-0.23810360127233007
+Ridge,10.0,cat__rating_PG,0.6866994434917801
+Ridge,10.0,cat__rating_PG-13,2.1824131362010726
+Ridge,10.0,cat__rating_R,2.485614243576049
+Ridge,10.0,cat__rating_TV-14,0.7855329670956347
+Ridge,10.0,cat__rating_TV-G,-1.4960029823174177
+Ridge,10.0,cat__rating_TV-MA,0.13012653583498257
+Ridge,10.0,cat__rating_TV-PG,-1.366138970436452
+Ridge,10.0,cat__rating_TV-Y,-5.033585175847775
+Ridge,10.0,cat__rating_TV-Y7,-3.549721416793528
+Ridge,10.0,cat__rating_infrequent_sklearn,-0.43695596045262236
+Ridge,21.54434690031882,num__release_year,-3.5688349497712135
+Ridge,21.54434690031882,num__cast_count,2.4766432418630027
+Ridge,21.54434690031882,num__director_count,0.2078803326349419
+Ridge,21.54434690031882,num__country_count,0.9983673032759107
+Ridge,21.54434690031882,num__genre_count,2.5135188973139257
+Ridge,21.54434690031882,cat__primary_country_Argentina,-0.9052449815267183
+Ridge,21.54434690031882,cat__primary_country_Australia,-0.12571409485806076
+Ridge,21.54434690031882,cat__primary_country_Brazil,-0.5134400426451107
+Ridge,21.54434690031882,cat__primary_country_Canada,-1.4085169868166774
+Ridge,21.54434690031882,cat__primary_country_China,0.6101362932755224
+Ridge,21.54434690031882,cat__primary_country_Egypt,0.30570144138380095
+Ridge,21.54434690031882,cat__primary_country_France,-1.0912456768423366
+Ridge,21.54434690031882,cat__primary_country_Germany,-0.34717360026446475
+Ridge,21.54434690031882,cat__primary_country_Hong Kong,-1.493944071889725
+Ridge,21.54434690031882,cat__primary_country_India,7.3954801181869
+Ridge,21.54434690031882,cat__primary_country_Indonesia,0.7002856051906164
+Ridge,21.54434690031882,cat__primary_country_Italy,-0.2417152823443207
+Ridge,21.54434690031882,cat__primary_country_Japan,-0.9034591218540027
+Ridge,21.54434690031882,cat__primary_country_Mexico,-0.6808407115438685
+Ridge,21.54434690031882,cat__primary_country_Nigeria,0.31913131109500675
+Ridge,21.54434690031882,cat__primary_country_Philippines,0.6586128979799709
+Ridge,21.54434690031882,cat__primary_country_South Africa,-0.8277208009420555
+Ridge,21.54434690031882,cat__primary_country_South Korea,1.172325419397214
+Ridge,21.54434690031882,cat__primary_country_Spain,0.04061784120966783
+Ridge,21.54434690031882,cat__primary_country_Thailand,0.2647303436982299
+Ridge,21.54434690031882,cat__primary_country_Turkey,0.4610560878389892
+Ridge,21.54434690031882,cat__primary_country_United Kingdom,-1.2239791260478174
+Ridge,21.54434690031882,cat__primary_country_United States,-3.382273877664549
+Ridge,21.54434690031882,cat__primary_country_Unknown,0.18740254462658357
+Ridge,21.54434690031882,cat__primary_country_infrequent_sklearn,-0.8840002504875412
+Ridge,21.54434690031882,cat__primary_genre_Action & Adventure,2.9548949013671812
+Ridge,21.54434690031882,cat__primary_genre_Children & Family Movies,-1.5049495920807812
+Ridge,21.54434690031882,cat__primary_genre_Classic Movies,-0.07683076347359533
+Ridge,21.54434690031882,cat__primary_genre_Comedies,0.8320798881346984
+Ridge,21.54434690031882,cat__primary_genre_Documentaries,-2.773178759722786
+Ridge,21.54434690031882,cat__primary_genre_Dramas,2.9141331741912624
+Ridge,21.54434690031882,cat__primary_genre_Horror Movies,-0.4309405770505159
+Ridge,21.54434690031882,cat__primary_genre_International Movies,0.5060416356005746
+Ridge,21.54434690031882,cat__primary_genre_Movies,-2.873135750088367
+Ridge,21.54434690031882,cat__primary_genre_Stand-Up Comedy,-4.349980214911275
+Ridge,21.54434690031882,cat__primary_genre_Thrillers,0.5294874448600795
+Ridge,21.54434690031882,cat__primary_genre_infrequent_sklearn,-0.006640493841227512
+Ridge,21.54434690031882,cat__rating_G,-0.37586381761653687
+Ridge,21.54434690031882,cat__rating_NR,-0.23899568563592583
+Ridge,21.54434690031882,cat__rating_PG,0.6889856056998613
+Ridge,21.54434690031882,cat__rating_PG-13,2.173021341825904
+Ridge,21.54434690031882,cat__rating_R,2.474350459249927
+Ridge,21.54434690031882,cat__rating_TV-14,0.788967755696864
+Ridge,21.54434690031882,cat__rating_TV-G,-1.4909831104336742
+Ridge,21.54434690031882,cat__rating_TV-MA,0.12225803955713503
+Ridge,21.54434690031882,cat__rating_TV-PG,-1.3602884956892236
+Ridge,21.54434690031882,cat__rating_TV-Y,-5.014809218956084
+Ridge,21.54434690031882,cat__rating_TV-Y7,-3.5324508801039896
+Ridge,21.54434690031882,cat__rating_infrequent_sklearn,-0.4349990367169952
+Ridge,46.41588833612777,num__release_year,-3.5494565693700264
+Ridge,46.41588833612777,num__cast_count,2.4855856820604427
+Ridge,46.41588833612777,num__director_count,0.20171674075394097
+Ridge,46.41588833612777,num__country_count,0.9940404308270473
+Ridge,46.41588833612777,num__genre_count,2.538221013781132
+Ridge,46.41588833612777,cat__primary_country_Argentina,-0.9011155971520953
+Ridge,46.41588833612777,cat__primary_country_Australia,-0.12575887990220685
+Ridge,46.41588833612777,cat__primary_country_Brazil,-0.5125678764642547
+Ridge,46.41588833612777,cat__primary_country_Canada,-1.4005010345129885
+Ridge,46.41588833612777,cat__primary_country_China,0.6077680644321376
+Ridge,46.41588833612777,cat__primary_country_Egypt,0.3028789759888242
+Ridge,46.41588833612777,cat__primary_country_France,-1.0846270960382614
+Ridge,46.41588833612777,cat__primary_country_Germany,-0.34367557138146854
+Ridge,46.41588833612777,cat__primary_country_Hong Kong,-1.4821471225884602
+Ridge,46.41588833612777,cat__primary_country_India,7.354748218927717
+Ridge,46.41588833612777,cat__primary_country_Indonesia,0.6932182994670343
+Ridge,46.41588833612777,cat__primary_country_Italy,-0.24099462701772634
+Ridge,46.41588833612777,cat__primary_country_Japan,-0.9022472574379008
+Ridge,46.41588833612777,cat__primary_country_Mexico,-0.6789815280106601
+Ridge,46.41588833612777,cat__primary_country_Nigeria,0.3143886178827834
+Ridge,46.41588833612777,cat__primary_country_Philippines,0.6523417593357212
+Ridge,46.41588833612777,cat__primary_country_South Africa,-0.8233650798294533
+Ridge,46.41588833612777,cat__primary_country_South Korea,1.1661285854761474
+Ridge,46.41588833612777,cat__primary_country_Spain,0.04079345862790175
+Ridge,46.41588833612777,cat__primary_country_Thailand,0.2634599711518083
+Ridge,46.41588833612777,cat__primary_country_Turkey,0.4583875517303347
+Ridge,46.41588833612777,cat__primary_country_United Kingdom,-1.2114737890446823
+Ridge,46.41588833612777,cat__primary_country_United States,-3.357493026572683
+Ridge,46.41588833612777,cat__primary_country_Unknown,0.1742049519222697
+Ridge,46.41588833612777,cat__primary_country_infrequent_sklearn,-0.8785747954331994
+Ridge,46.41588833612777,cat__primary_genre_Action & Adventure,2.948589936299054
+Ridge,46.41588833612777,cat__primary_genre_Children & Family Movies,-1.5392583443604786
+Ridge,46.41588833612777,cat__primary_genre_Classic Movies,-0.07036218339491666
+Ridge,46.41588833612777,cat__primary_genre_Comedies,0.8333564281714385
+Ridge,46.41588833612777,cat__primary_genre_Documentaries,-2.7658155553911055
+Ridge,46.41588833612777,cat__primary_genre_Dramas,2.913429895684289
+Ridge,46.41588833612777,cat__primary_genre_Horror Movies,-0.4241148111470627
+Ridge,46.41588833612777,cat__primary_genre_International Movies,0.5083978105262006
+Ridge,46.41588833612777,cat__primary_genre_Movies,-2.866747108278865
+Ridge,46.41588833612777,cat__primary_genre_Stand-Up Comedy,-4.319504836736473
+Ridge,46.41588833612777,cat__primary_genre_Thrillers,0.5294521818366122
+Ridge,46.41588833612777,cat__primary_genre_infrequent_sklearn,-0.008423579914602042
+Ridge,46.41588833612777,cat__rating_G,-0.36745941003273763
+Ridge,46.41588833612777,cat__rating_NR,-0.240822159731462
+Ridge,46.41588833612777,cat__rating_PG,0.6934190357731276
+Ridge,46.41588833612777,cat__rating_PG-13,2.1532595964451473
+Ridge,46.41588833612777,cat__rating_R,2.4506596873795963
+Ridge,46.41588833612777,cat__rating_TV-14,0.7963660086584106
+Ridge,46.41588833612777,cat__rating_TV-G,-1.480472538515324
+Ridge,46.41588833612777,cat__rating_TV-MA,0.10581806421163603
+Ridge,46.41588833612777,cat__rating_TV-PG,-1.3479532057987198
+Ridge,46.41588833612777,cat__rating_TV-Y,-4.975379149992341
+Ridge,46.41588833612777,cat__rating_TV-Y7,-3.4963095657426764
+Ridge,46.41588833612777,cat__rating_infrequent_sklearn,-0.43090774917415126
+Ridge,100.0,num__release_year,-3.5091366401624264
+Ridge,100.0,num__cast_count,2.5030557733074232
+Ridge,100.0,num__director_count,0.18877548405137395
+Ridge,100.0,num__country_count,0.9846946341575832
+Ridge,100.0,num__genre_count,2.5881967709916
+Ridge,100.0,cat__primary_country_Argentina,-0.8923229762329725
+Ridge,100.0,cat__primary_country_Australia,-0.1259374854862757
+Ridge,100.0,cat__primary_country_Brazil,-0.510707372803028
+Ridge,100.0,cat__primary_country_Canada,-1.383813209172666
+Ridge,100.0,cat__primary_country_China,0.6027863737875521
+Ridge,100.0,cat__primary_country_Egypt,0.297087487013147
+Ridge,100.0,cat__primary_country_France,-1.0705670533937213
+Ridge,100.0,cat__primary_country_Germany,-0.33647804892224614
+Ridge,100.0,cat__primary_country_Hong Kong,-1.457307585058214
+Ridge,100.0,cat__primary_country_India,7.269410549438979
+Ridge,100.0,cat__primary_country_Indonesia,0.6786325950050283
+Ridge,100.0,cat__primary_country_Italy,-0.23937097146378397
+Ridge,100.0,cat__primary_country_Japan,-0.89899370606229
+Ridge,100.0,cat__primary_country_Mexico,-0.6749673321513084
+Ridge,100.0,cat__primary_country_Nigeria,0.30473531553542105
+Ridge,100.0,cat__primary_country_Philippines,0.6394525986615985
+Ridge,100.0,cat__primary_country_South Africa,-0.8140575051019319
+Ridge,100.0,cat__primary_country_South Korea,1.1531396153222904
+Ridge,100.0,cat__primary_country_Spain,0.041196483092753027
+Ridge,100.0,cat__primary_country_Thailand,0.2608149547423581
+Ridge,100.0,cat__primary_country_Turkey,0.45280065740830333
+Ridge,100.0,cat__primary_country_United Kingdom,-1.185551659047709
+Ridge,100.0,cat__primary_country_United States,-3.3061390929261094
+Ridge,100.0,cat__primary_country_Unknown,0.14674995353705841
+Ridge,100.0,cat__primary_country_infrequent_sklearn,-0.8670357828993822
+Ridge,100.0,cat__primary_genre_Action & Adventure,2.934532697461841
+Ridge,100.0,cat__primary_genre_Children & Family Movies,-1.6067314651206495
+Ridge,100.0,cat__primary_genre_Classic Movies,-0.05688395825876024
+Ridge,100.0,cat__primary_genre_Comedies,0.8356649325923584
+Ridge,100.0,cat__primary_genre_Documentaries,-2.7505278559785054
+Ridge,100.0,cat__primary_genre_Dramas,2.910995930357786
+Ridge,100.0,cat__primary_genre_Horror Movies,-0.41032218465481823
+Ridge,100.0,cat__primary_genre_International Movies,0.5128459977291779
+Ridge,100.0,cat__primary_genre_Movies,-2.8524333024429245
+Ridge,100.0,cat__primary_genre_Stand-Up Comedy,-4.256849664391177
+Ridge,100.0,cat__primary_genre_Thrillers,0.5288722421236451
+Ridge,100.0,cat__primary_genre_infrequent_sklearn,-0.012217453367145135
+Ridge,100.0,cat__rating_G,-0.3508960170067552
+Ridge,100.0,cat__rating_NR,-0.24435068903485216
+Ridge,100.0,cat__rating_PG,0.7009172527093855
+Ridge,100.0,cat__rating_PG-13,2.1127283586576864
+Ridge,100.0,cat__rating_R,2.402112460411488
+Ridge,100.0,cat__rating_TV-14,0.8122429635689171
+Ridge,100.0,cat__rating_TV-G,-1.4591286044414715
+Ridge,100.0,cat__rating_TV-MA,0.07259890111410666
+Ridge,100.0,cat__rating_TV-PG,-1.322547898536121
+Ridge,100.0,cat__rating_TV-Y,-4.894814941327575
+Ridge,100.0,cat__rating_TV-Y7,-3.42301818956022
+Ridge,100.0,cat__rating_infrequent_sklearn,-0.42262625352796407
+Ridge,215.44346900318823,num__release_year,-3.4281380837586752
+Ridge,215.44346900318823,num__cast_count,2.5334807838266165
+Ridge,215.44346900318823,num__director_count,0.1623738495915229
+Ridge,215.44346900318823,num__country_count,0.9646031757047427
+Ridge,215.44346900318823,num__genre_count,2.6825329311220485
+Ridge,215.44346900318823,cat__primary_country_Argentina,-0.8738618471751881
+Ridge,215.44346900318823,cat__primary_country_Australia,-0.1266157211612359
+Ridge,215.44346900318823,cat__primary_country_Brazil,-0.506753613920926
+Ridge,215.44346900318823,cat__primary_country_Canada,-1.3502744131914226
+Ridge,215.44346900318823,cat__primary_country_China,0.5925568305613186
+Ridge,215.44346900318823,cat__primary_country_Egypt,0.2858286013831176
+Ridge,215.44346900318823,cat__primary_country_France,-1.0412017972021699
+Ridge,215.44346900318823,cat__primary_country_Germany,-0.3223495187783223
+Ridge,215.44346900318823,cat__primary_country_Hong Kong,-1.4062821587901035
+Ridge,215.44346900318823,cat__primary_country_India,7.0958001224624105
+Ridge,215.44346900318823,cat__primary_country_Indonesia,0.6498745517013494
+Ridge,215.44346900318823,cat__primary_country_Italy,-0.23561774898635388
+Ridge,215.44346900318823,cat__primary_country_Japan,-0.889571085815451
+Ridge,215.44346900318823,cat__primary_country_Mexico,-0.6663136216373281
+Ridge,215.44346900318823,cat__primary_country_Nigeria,0.28625721677230914
+Ridge,215.44346900318823,cat__primary_country_Philippines,0.6142485937519014
+Ridge,215.44346900318823,cat__primary_country_South Africa,-0.7943919390038354
+Ridge,215.44346900318823,cat__primary_country_South Korea,1.1266749064019497
+Ridge,215.44346900318823,cat__primary_country_Spain,0.042160628208822964
+Ridge,215.44346900318823,cat__primary_country_Thailand,0.25549721977334816
+Ridge,215.44346900318823,cat__primary_country_Turkey,0.44146667090456754
+Ridge,215.44346900318823,cat__primary_country_United Kingdom,-1.1339773188633202
+Ridge,215.44346900318823,cat__primary_country_United States,-3.20396488500144
+Ridge,215.44346900318823,cat__primary_country_Unknown,0.09173709619435035
+Ridge,215.44346900318823,cat__primary_country_infrequent_sklearn,-0.8428697759833993
+Ridge,215.44346900318823,cat__primary_genre_Action & Adventure,2.902630882772796
+Ridge,215.44346900318823,cat__primary_genre_Children & Family Movies,-1.7270560731326519
+Ridge,215.44346900318823,cat__primary_genre_Classic Movies,-0.02976949039131991
+Ridge,215.44346900318823,cat__primary_genre_Comedies,0.8390257063416069
+Ridge,215.44346900318823,cat__primary_genre_Documentaries,-2.719820209613758
+Ridge,215.44346900318823,cat__primary_genre_Dramas,2.9022552330530846
+Ridge,215.44346900318823,cat__primary_genre_Horror Movies,-0.38420510316276635
+Ridge,215.44346900318823,cat__primary_genre_International Movies,0.5199511952907384
+Ridge,215.44346900318823,cat__primary_genre_Movies,-2.8197231027486356
+Ridge,215.44346900318823,cat__primary_genre_Stand-Up Comedy,-4.13401897753917
+Ridge,215.44346900318823,cat__primary_genre_Thrillers,0.5257135449027158
+Ridge,215.44346900318823,cat__primary_genre_infrequent_sklearn,-0.02012945032827003
+Ridge,215.44346900318823,cat__rating_G,-0.32115576350551245
+Ridge,215.44346900318823,cat__rating_NR,-0.2503713522899691
+Ridge,215.44346900318823,cat__rating_PG,0.7094287348161765
+Ridge,215.44346900318823,cat__rating_PG-13,2.0336398690116844
+Ridge,215.44346900318823,cat__rating_R,2.307549943837321
+Ridge,215.44346900318823,cat__rating_TV-14,0.8457510636731693
+Ridge,215.44346900318823,cat__rating_TV-G,-1.4182422234350878
+Ridge,215.44346900318823,cat__rating_TV-MA,0.009750727495180366
+Ridge,215.44346900318823,cat__rating_TV-PG,-1.2725704558018935
+Ridge,215.44346900318823,cat__rating_TV-Y,-4.738616670911322
+Ridge,215.44346900318823,cat__rating_TV-Y7,-3.2831630661925852
+Ridge,215.44346900318823,cat__rating_infrequent_sklearn,-0.40687222474499773
+Ridge,464.1588833612773,num__release_year,-3.2752275386071097
+Ridge,464.1588833612773,num__cast_count,2.5738581744194526
+Ridge,464.1588833612773,num__director_count,0.11159442805734271
+Ridge,464.1588833612773,num__country_count,0.9224989170497201
+Ridge,464.1588833612773,num__genre_count,2.8371145620855955
+Ridge,464.1588833612773,cat__primary_country_Argentina,-0.83629080660791
+Ridge,464.1588833612773,cat__primary_country_Australia,-0.12884829238529352
+Ridge,464.1588833612773,cat__primary_country_Brazil,-0.4983191768970379
+Ridge,464.1588833612773,cat__primary_country_Canada,-1.287029318716901
+Ridge,464.1588833612773,cat__primary_country_China,0.5724286447200556
+Ridge,464.1588833612773,cat__primary_country_Egypt,0.26621015234580014
+Ridge,464.1588833612773,cat__primary_country_France,-0.9821414990845175
+Ridge,464.1588833612773,cat__primary_country_Germany,-0.29687688710254084
+Ridge,464.1588833612773,cat__primary_country_Hong Kong,-1.3064306558338499
+Ridge,464.1588833612773,cat__primary_country_India,6.761604541541486
+Ridge,464.1588833612773,cat__primary_country_Indonesia,0.5979040400627305
+Ridge,464.1588833612773,cat__primary_country_Italy,-0.22687030381180673
+Ridge,464.1588833612773,cat__primary_country_Japan,-0.8620830477896441
+Ridge,464.1588833612773,cat__primary_country_Mexico,-0.6478915046933728
+Ridge,464.1588833612773,cat__primary_country_Nigeria,0.25490260733387504
+Ridge,464.1588833612773,cat__primary_country_Philippines,0.5693894249912644
+Ridge,464.1588833612773,cat__primary_country_South Africa,-0.7540018696438183
+Ridge,464.1588833612773,cat__primary_country_South Korea,1.075476983753353
+Ridge,464.1588833612773,cat__primary_country_Spain,0.04452049710740456
+Ridge,464.1588833612773,cat__primary_country_Thailand,0.24545165241810135
+Ridge,464.1588833612773,cat__primary_country_Turkey,0.4198696865471736
+Ridge,464.1588833612773,cat__primary_country_United Kingdom,-1.0390813671252217
+Ridge,464.1588833612773,cat__primary_country_United States,-3.0155328294070833
+Ridge,464.1588833612773,cat__primary_country_Unknown,-0.010726129352737694
+Ridge,464.1588833612773,cat__primary_country_infrequent_sklearn,-0.7939684675097789
+Ridge,464.1588833612773,cat__primary_genre_Action & Adventure,2.830245498898455
+Ridge,464.1588833612773,cat__primary_genre_Children & Family Movies,-1.9040804839132808
+Ridge,464.1588833612773,cat__primary_genre_Classic Movies,0.02120715923542251
+Ridge,464.1588833612773,cat__primary_genre_Comedies,0.8416112023015972
+Ridge,464.1588833612773,cat__primary_genre_Documentaries,-2.6609324218321913
+Ridge,464.1588833612773,cat__primary_genre_Dramas,2.8725015068962305
+Ridge,464.1588833612773,cat__primary_genre_Horror Movies,-0.34012430149324024
+Ridge,464.1588833612773,cat__primary_genre_International Movies,0.5269332666294161
+Ridge,464.1588833612773,cat__primary_genre_Movies,-2.7450391019510887
+Ridge,464.1588833612773,cat__primary_genre_Stand-Up Comedy,-3.912688540365889
+Ridge,464.1588833612773,cat__primary_genre_Thrillers,0.5130759538171388
+Ridge,464.1588833612773,cat__primary_genre_infrequent_sklearn,-0.03575704109290651
+Ridge,464.1588833612773,cat__rating_G,-0.2762331049239714
+Ridge,464.1588833612773,cat__rating_NR,-0.2581471839905832
+Ridge,464.1588833612773,cat__rating_PG,0.7050645093088944
+Ridge,464.1588833612773,cat__rating_PG-13,1.8923433960660716
+Ridge,464.1588833612773,cat__rating_R,2.1391891958826355
+Ridge,464.1588833612773,cat__rating_TV-14,0.9124277742579093
+Ridge,464.1588833612773,cat__rating_TV-G,-1.3472379368576182
+Ridge,464.1588833612773,cat__rating_TV-MA,-0.09575556648329152
+Ridge,464.1588833612773,cat__rating_TV-PG,-1.182006722468723
+Ridge,464.1588833612773,cat__rating_TV-Y,-4.461603951630853
+Ridge,464.1588833612773,cat__rating_TV-Y7,-3.0431168778219826
+Ridge,464.1588833612773,cat__rating_infrequent_sklearn,-0.3799166556300875
+Ridge,1000.0,num__release_year,-3.0130504429811302
+Ridge,1000.0,num__cast_count,2.592090965000782
+Ridge,1000.0,num__director_count,0.024660107365584345
+Ridge,1000.0,num__country_count,0.8410139125080885
+Ridge,1000.0,num__genre_count,3.0258900588081485
+Ridge,1000.0,cat__primary_country_Argentina,-0.7648210908481694
+Ridge,1000.0,cat__primary_country_Australia,-0.13443167641934062
+Ridge,1000.0,cat__primary_country_Brazil,-0.4801367027309527
+Ridge,1000.0,cat__primary_country_Canada,-1.1791299328175133
+Ridge,1000.0,cat__primary_country_China,0.5353488299552788
+Ridge,1000.0,cat__primary_country_Egypt,0.23852906086218884
+Ridge,1000.0,cat__primary_country_France,-0.8725179977611495
+Ridge,1000.0,cat__primary_country_Germany,-0.25675407513849996
+Ridge,1000.0,cat__primary_country_Hong Kong,-1.1279411961732824
+Ridge,1000.0,cat__primary_country_India,6.175716936787108
+Ridge,1000.0,cat__primary_country_Indonesia,0.5171045763604571
+Ridge,1000.0,cat__primary_country_Italy,-0.20761883305739512
+Ridge,1000.0,cat__primary_country_Japan,-0.7903848653187974
+Ridge,1000.0,cat__primary_country_Mexico,-0.610432358411777
+Ridge,1000.0,cat__primary_country_Nigeria,0.212319898431344
+Ridge,1000.0,cat__primary_country_Philippines,0.5012870169385695
+Ridge,1000.0,cat__primary_country_South Africa,-0.6764813349681886
+Ridge,1000.0,cat__primary_country_South Korea,0.9844269424416294
+Ridge,1000.0,cat__primary_country_Spain,0.04984192347775027
+Ridge,1000.0,cat__primary_country_Thailand,0.22814299088653128
+Ridge,1000.0,cat__primary_country_Turkey,0.3831420182938206
+Ridge,1000.0,cat__primary_country_United Kingdom,-0.8865522189152923
+Ridge,1000.0,cat__primary_country_United States,-2.708909231934551
+Ridge,1000.0,cat__primary_country_Unknown,-0.17733405104689814
+Ridge,1000.0,cat__primary_country_infrequent_sklearn,-0.7021546469824617
+Ridge,1000.0,cat__primary_genre_Action & Adventure,2.6749555640226617
+Ridge,1000.0,cat__primary_genre_Children & Family Movies,-2.081921866630875
+Ridge,1000.0,cat__primary_genre_Classic Movies,0.10561469373291504
+Ridge,1000.0,cat__primary_genre_Comedies,0.8381671847296636
+Ridge,1000.0,cat__primary_genre_Documentaries,-2.5522941506535997
+Ridge,1000.0,cat__primary_genre_Dramas,2.7848644973374244
+Ridge,1000.0,cat__primary_genre_Horror Movies,-0.27759830021236154
+Ridge,1000.0,cat__primary_genre_International Movies,0.5210749499575795
+Ridge,1000.0,cat__primary_genre_Movies,-2.5848284902234364
+Ridge,1000.0,cat__primary_genre_Stand-Up Comedy,-3.561108226268938
+Ridge,1000.0,cat__primary_genre_Thrillers,0.4745896259831396
+Ridge,1000.0,cat__primary_genre_infrequent_sklearn,-0.06274592639791855
+Ridge,1000.0,cat__rating_G,-0.2251296245957083
+Ridge,1000.0,cat__rating_NR,-0.26208922053989026
+Ridge,1000.0,cat__rating_PG,0.6523025378153361
+Ridge,1000.0,cat__rating_PG-13,1.6714274736433377
+Ridge,1000.0,cat__rating_R,1.8776557110342
+Ridge,1000.0,cat__rating_TV-14,1.025241599421128
+Ridge,1000.0,cat__rating_TV-G,-1.238903449815577
+Ridge,1000.0,cat__rating_TV-MA,-0.24159389148973948
+Ridge,1000.0,cat__rating_TV-PG,-1.0375527120292918
+Ridge,1000.0,cat__rating_TV-Y,-4.02736269363762
+Ridge,1000.0,cat__rating_TV-Y7,-2.6895471782672935
+Ridge,1000.0,cat__rating_infrequent_sklearn,-0.34001675642893053
+Ridge,2154.4346900318824,num__release_year,-2.6171639573690615
+Ridge,2154.4346900318824,num__cast_count,2.505646176635213
+Ridge,2154.4346900318824,num__director_count,-0.09487556705407031
+Ridge,2154.4346900318824,num__country_count,0.7076286248387315
+Ridge,2154.4346900318824,num__genre_count,3.1246117733754217
+Ridge,2154.4346900318824,cat__primary_country_Argentina,-0.6456602724007339
+Ridge,2154.4346900318824,cat__primary_country_Australia,-0.14294261490927843
+Ridge,2154.4346900318824,cat__primary_country_Brazil,-0.442218023381222
+Ridge,2154.4346900318824,cat__primary_country_Canada,-1.0174218037101959
+Ridge,2154.4346900318824,cat__primary_country_China,0.47298910264705235
+Ridge,2154.4346900318824,cat__primary_country_Egypt,0.21160941261042773
+Ridge,2154.4346900318824,cat__primary_country_France,-0.6977502059574412
+Ridge,2154.4346900318824,cat__primary_country_Germany,-0.20404821268818812
+Ridge,2154.4346900318824,cat__primary_country_Hong Kong,-0.8555701576083529
+Ridge,2154.4346900318824,cat__primary_country_India,5.279757620869343
+Ridge,2154.4346900318824,cat__primary_country_Indonesia,0.4163332327272961
+Ridge,2154.4346900318824,cat__primary_country_Italy,-0.17181260218152705
+Ridge,2154.4346900318824,cat__primary_country_Japan,-0.6437210120819438
+Ridge,2154.4346900318824,cat__primary_country_Mexico,-0.542189911518337
+Ridge,2154.4346900318824,cat__primary_country_Nigeria,0.17286472868280586
+Ridge,2154.4346900318824,cat__primary_country_Philippines,0.4183569746554356
+Ridge,2154.4346900318824,cat__primary_country_South Africa,-0.5472632400127487
+Ridge,2154.4346900318824,cat__primary_country_South Korea,0.8408637901872024
+Ridge,2154.4346900318824,cat__primary_country_Spain,0.058580012148007975
+Ridge,2154.4346900318824,cat__primary_country_Thailand,0.2012054347657384
+Ridge,2154.4346900318824,cat__primary_country_Turkey,0.3305872841569514
+Ridge,2154.4346900318824,cat__primary_country_United Kingdom,-0.6861479016249094
+Ridge,2154.4346900318824,cat__primary_country_United States,-2.287947751066055
+Ridge,2154.4346900318824,cat__primary_country_Unknown,-0.389108077262608
+Ridge,2154.4346900318824,cat__primary_country_infrequent_sklearn,-0.5535832103428651
+Ridge,2154.4346900318824,cat__primary_genre_Action & Adventure,2.384370774459793
+Ridge,2154.4346900318824,cat__primary_genre_Children & Family Movies,-2.1325985150757067
+Ridge,2154.4346900318824,cat__primary_genre_Classic Movies,0.21569770527179008
+Ridge,2154.4346900318824,cat__primary_genre_Comedies,0.8201400395411077
+Ridge,2154.4346900318824,cat__primary_genre_Documentaries,-2.3547833174690247
+Ridge,2154.4346900318824,cat__primary_genre_Dramas,2.5760706450714905
+Ridge,2154.4346900318824,cat__primary_genre_Horror Movies,-0.20594475360382303
+Ridge,2154.4346900318824,cat__primary_genre_International Movies,0.47794535714666553
+Ridge,2154.4346900318824,cat__primary_genre_Movies,-2.288069871885622
+Ridge,2154.4346900318824,cat__primary_genre_Stand-Up Comedy,-3.0773356245864596
+Ridge,2154.4346900318824,cat__primary_genre_Thrillers,0.39005698732660715
+Ridge,2154.4346900318824,cat__primary_genre_infrequent_sklearn,-0.0977008341457747
+Ridge,2154.4346900318824,cat__rating_G,-0.1849506627105599
+Ridge,2154.4346900318824,cat__rating_NR,-0.2505540503779776
+Ridge,2154.4346900318824,cat__rating_PG,0.5153722783080831
+Ridge,2154.4346900318824,cat__rating_PG-13,1.3776164912911646
+Ridge,2154.4346900318824,cat__rating_R,1.5338607460384832
+Ridge,2154.4346900318824,cat__rating_TV-14,1.1566737175928057
+Ridge,2154.4346900318824,cat__rating_TV-G,-1.0908318569998425
+Ridge,2154.4346900318824,cat__rating_TV-MA,-0.3915375045397082
+Ridge,2154.4346900318824,cat__rating_TV-PG,-0.8419950029881427
+Ridge,2154.4346900318824,cat__rating_TV-Y,-3.428742293542477
+Ridge,2154.4346900318824,cat__rating_TV-Y7,-2.247582473643225
+Ridge,2154.4346900318824,cat__rating_infrequent_sklearn,-0.2884290275339837
+Ridge,4641.588833612773,num__release_year,-2.098913551704183
+Ridge,4641.588833612773,num__cast_count,2.215964362107197
+Ridge,4641.588833612773,num__director_count,-0.20475427726363257
+Ridge,4641.588833612773,num__country_count,0.5361847949354576
+Ridge,4641.588833612773,num__genre_count,2.939832034527813
+Ridge,4641.588833612773,cat__primary_country_Argentina,-0.48482207329604743
+Ridge,4641.588833612773,cat__primary_country_Australia,-0.1455404132903926
+Ridge,4641.588833612773,cat__primary_country_Brazil,-0.373951925927125
+Ridge,4641.588833612773,cat__primary_country_Canada,-0.8068949895605084
+Ridge,4641.588833612773,cat__primary_country_China,0.3811711514294339
+Ridge,4641.588833612773,cat__primary_country_Egypt,0.19502411754742002
+Ridge,4641.588833612773,cat__primary_country_France,-0.4785803977131991
+Ridge,4641.588833612773,cat__primary_country_Germany,-0.14739311200867466
+Ridge,4641.588833612773,cat__primary_country_Hong Kong,-0.5315922199574267
+Ridge,4641.588833612773,cat__primary_country_India,4.123064966428276
+Ridge,4641.588833612773,cat__primary_country_Indonesia,0.3169240337473235
+Ridge,4641.588833612773,cat__primary_country_Italy,-0.12152472618129805
+Ridge,4641.588833612773,cat__primary_country_Japan,-0.4322026813340446
+Ridge,4641.588833612773,cat__primary_country_Mexico,-0.4387599647556047
+Ridge,4641.588833612773,cat__primary_country_Nigeria,0.1517143456511535
+Ridge,4641.588833612773,cat__primary_country_Philippines,0.33528730434586534
+Ridge,4641.588833612773,cat__primary_country_South Africa,-0.37756076423971086
+Ridge,4641.588833612773,cat__primary_country_South Korea,0.6482867686020767
+Ridge,4641.588833612773,cat__primary_country_Spain,0.06497887503151067
+Ridge,4641.588833612773,cat__primary_country_Thailand,0.16331959746204622
+Ridge,4641.588833612773,cat__primary_country_Turkey,0.26813214032398486
+Ridge,4641.588833612773,cat__primary_country_United Kingdom,-0.47922912979853255
+Ridge,4641.588833612773,cat__primary_country_United States,-1.800797780152531
+Ridge,4641.588833612773,cat__primary_country_Unknown,-0.5567428291820894
+Ridge,4641.588833612773,cat__primary_country_infrequent_sklearn,-0.36572512088740033
+Ridge,4641.588833612773,cat__primary_genre_Action & Adventure,1.9395331914523695
+Ridge,4641.588833612773,cat__primary_genre_Children & Family Movies,-1.945193832804391
+Ridge,4641.588833612773,cat__primary_genre_Classic Movies,0.3056251639406678
+Ridge,4641.588833612773,cat__primary_genre_Comedies,0.7689014901257789
+Ridge,4641.588833612773,cat__primary_genre_Documentaries,-2.016122111272771
+Ridge,4641.588833612773,cat__primary_genre_Dramas,2.188182913233014
+Ridge,4641.588833612773,cat__primary_genre_Horror Movies,-0.13971036858234806
+Ridge,4641.588833612773,cat__primary_genre_International Movies,0.38313969324836455
+Ridge,4641.588833612773,cat__primary_genre_Movies,-1.8419663438092264
+Ridge,4641.588833612773,cat__primary_genre_Stand-Up Comedy,-2.4837212252753376
+Ridge,4641.588833612773,cat__primary_genre_Thrillers,0.2638899348985352
+Ridge,4641.588833612773,cat__primary_genre_infrequent_sklearn,-0.1224552806291657
+Ridge,4641.588833612773,cat__rating_G,-0.1583860529216848
+Ridge,4641.588833612773,cat__rating_NR,-0.2138403075199853
+Ridge,4641.588833612773,cat__rating_PG,0.31729138940911894
+Ridge,4641.588833612773,cat__rating_PG-13,1.043037347115714
+Ridge,4641.588833612773,cat__rating_R,1.1493316780109961
+Ridge,4641.588833612773,cat__rating_TV-14,1.204398946550759
+Ridge,4641.588833612773,cat__rating_TV-G,-0.8988288588510454
+Ridge,4641.588833612773,cat__rating_TV-MA,-0.47962633321530757
+Ridge,4641.588833612773,cat__rating_TV-PG,-0.6195770438288845
+Ridge,4641.588833612773,cat__rating_TV-Y,-2.6921804155266504
+Ridge,4641.588833612773,cat__rating_TV-Y7,-1.757114303566943
+Ridge,4641.588833612773,cat__rating_infrequent_sklearn,-0.22707384097555078
+Ridge,10000.0,num__release_year,-1.5149488530184243
+Ridge,10000.0,num__cast_count,1.7140927085185782
+Ridge,10000.0,num__director_count,-0.24356112956205278
+Ridge,10000.0,num__country_count,0.36334424588331143
+Ridge,10000.0,num__genre_count,2.389959274984756
+Ridge,10000.0,cat__primary_country_Argentina,-0.31797954683009105
+Ridge,10000.0,cat__primary_country_Australia,-0.12889915553831902
+Ridge,10000.0,cat__primary_country_Brazil,-0.278531576420129
+Ridge,10000.0,cat__primary_country_Canada,-0.5725648944520825
+Ridge,10000.0,cat__primary_country_China,0.2708428568640132
+Ridge,10000.0,cat__primary_country_Egypt,0.1768352810444651
+Ridge,10000.0,cat__primary_country_France,-0.27592846888721484
+Ridge,10000.0,cat__primary_country_Germany,-0.09650872204180606
+Ridge,10000.0,cat__primary_country_Hong Kong,-0.25596486880397906
+Ridge,10000.0,cat__primary_country_India,2.88222807578169
+Ridge,10000.0,cat__primary_country_Indonesia,0.2291106772376911
+Ridge,10000.0,cat__primary_country_Italy,-0.07156468331138545
+Ridge,10000.0,cat__primary_country_Japan,-0.22921732386500368
+Ridge,10000.0,cat__primary_country_Mexico,-0.31441005060726557
+Ridge,10000.0,cat__primary_country_Nigeria,0.13741636926257886
+Ridge,10000.0,cat__primary_country_Philippines,0.2538500681294231
+Ridge,10000.0,cat__primary_country_South Africa,-0.21549252630164617
+Ridge,10000.0,cat__primary_country_South Korea,0.4393616570627027
+Ridge,10000.0,cat__primary_country_Spain,0.05993849481001565
+Ridge,10000.0,cat__primary_country_Thailand,0.11775090594354737
+Ridge,10000.0,cat__primary_country_Turkey,0.20157760765831306
+Ridge,10000.0,cat__primary_country_United Kingdom,-0.30608847872468953
+Ridge,10000.0,cat__primary_country_United States,-1.301302563656419
+Ridge,10000.0,cat__primary_country_Unknown,-0.5740129733376063
+Ridge,10000.0,cat__primary_country_infrequent_sklearn,-0.1947184744224743
+Ridge,10000.0,cat__primary_genre_Action & Adventure,1.3991863556064597
+Ridge,10000.0,cat__primary_genre_Children & Family Movies,-1.5306284949227926
+Ridge,10000.0,cat__primary_genre_Classic Movies,0.31699971976336977
+Ridge,10000.0,cat__primary_genre_Comedies,0.6521673911880993
+Ridge,10000.0,cat__primary_genre_Documentaries,-1.5325678882134248
+Ridge,10000.0,cat__primary_genre_Dramas,1.6410538246933069
+Ridge,10000.0,cat__primary_genre_Horror Movies,-0.08850821631897109
+Ridge,10000.0,cat__primary_genre_International Movies,0.2605419355650958
+Ridge,10000.0,cat__primary_genre_Movies,-1.3123284110575917
+Ridge,10000.0,cat__primary_genre_Stand-Up Comedy,-1.8194308237125743
+Ridge,10000.0,cat__primary_genre_Thrillers,0.13996916326720568
+Ridge,10000.0,cat__primary_genre_infrequent_sklearn,-0.11764477627656363
+Ridge,10000.0,cat__rating_G,-0.12988903851468364
+Ridge,10000.0,cat__rating_NR,-0.15707158997734777
+Ridge,10000.0,cat__rating_PG,0.14023713845009225
+Ridge,10000.0,cat__rating_PG-13,0.7120202299405072
+Ridge,10000.0,cat__rating_R,0.7764979180034143
+Ridge,10000.0,cat__rating_TV-14,1.0662131970659063
+Ridge,10000.0,cat__rating_TV-G,-0.6674457937654986
+Ridge,10000.0,cat__rating_TV-MA,-0.45497369414448224
+Ridge,10000.0,cat__rating_TV-PG,-0.40676479964418827
+Ridge,10000.0,cat__rating_TV-Y,-1.8981945463802474
+Ridge,10000.0,cat__rating_TV-Y7,-1.25473017310313
+Ridge,10000.0,cat__rating_infrequent_sklearn,-0.160750600686036
+Ridge,21544.346900318822,num__release_year,-0.9648904871424588
+Ridge,21544.346900318822,num__cast_count,1.1361841731856184
+Ridge,21544.346900318822,num__director_count,-0.202266222768612
+Ridge,21544.346900318822,num__country_count,0.22019450266601315
+Ridge,21544.346900318822,num__genre_count,1.6412895672511225
+Ridge,21544.346900318822,cat__primary_country_Argentina,-0.184209302487314
+Ridge,21544.346900318822,cat__primary_country_Australia,-0.0940536133062253
+Ridge,21544.346900318822,cat__primary_country_Brazil,-0.17939717081919082
+Ridge,21544.346900318822,cat__primary_country_Canada,-0.35799840045158077
+Ridge,21544.346900318822,cat__primary_country_China,0.16800889253565557
+Ridge,21544.346900318822,cat__primary_country_Egypt,0.1385585832729281
+Ridge,21544.346900318822,cat__primary_country_France,-0.138059852161916
+Ridge,21544.346900318822,cat__primary_country_Germany,-0.057200297653721685
+Ridge,21544.346900318822,cat__primary_country_Hong Kong,-0.0948753876527319
+Ridge,21544.346900318822,cat__primary_country_India,1.7868403940622806
+Ridge,21544.346900318822,cat__primary_country_Indonesia,0.1512010689869782
+Ridge,21544.346900318822,cat__primary_country_Italy,-0.03616725170616719
+Ridge,21544.346900318822,cat__primary_country_Japan,-0.09861791797920004
+Ridge,21544.346900318822,cat__primary_country_Mexico,-0.19742863073316547
+Ridge,21544.346900318822,cat__primary_country_Nigeria,0.10875915267442296
+Ridge,21544.346900318822,cat__primary_country_Philippines,0.17213784092002576
+Ridge,21544.346900318822,cat__primary_country_South Africa,-0.10466938607309934
+Ridge,21544.346900318822,cat__primary_country_South Korea,0.26161102738396447
+Ridge,21544.346900318822,cat__primary_country_Spain,0.04421898386330529
+Ridge,21544.346900318822,cat__primary_country_Thailand,0.07425227626156976
+Ridge,21544.346900318822,cat__primary_country_Turkey,0.13560537673315262
+Ridge,21544.346900318822,cat__primary_country_United Kingdom,-0.17983981143541683
+Ridge,21544.346900318822,cat__primary_country_United States,-0.8421344877800387
+Ridge,21544.346900318822,cat__primary_country_Unknown,-0.4462722091173831
+Ridge,21544.346900318822,cat__primary_country_infrequent_sklearn,-0.08531357263367827
+Ridge,21544.346900318822,cat__primary_genre_Action & Adventure,0.8840725225242231
+Ridge,21544.346900318822,cat__primary_genre_Children & Family Movies,-1.027136902284773
+Ridge,21544.346900318822,cat__primary_genre_Classic Movies,0.24877304584189128
+Ridge,21544.346900318822,cat__primary_genre_Comedies,0.4719341728400505
+Ridge,21544.346900318822,cat__primary_genre_Documentaries,-1.0078882117112489
+Ridge,21544.346900318822,cat__primary_genre_Dramas,1.0657070865130858
+Ridge,21544.346900318822,cat__primary_genre_Horror Movies,-0.052732125287002586
+Ridge,21544.346900318822,cat__primary_genre_International Movies,0.15299329451186272
+Ridge,21544.346900318822,cat__primary_genre_Movies,-0.8197356796295552
+Ridge,21544.346900318822,cat__primary_genre_Stand-Up Comedy,-1.1768128783040572
+Ridge,21544.346900318822,cat__primary_genre_Thrillers,0.05898573028239032
+Ridge,21544.346900318822,cat__primary_genre_infrequent_sklearn,-0.08779003644328942
+Ridge,21544.346900318822,cat__rating_G,-0.09261704730326595
+Ridge,21544.346900318822,cat__rating_NR,-0.09907698722264252
+Ridge,21544.346900318822,cat__rating_PG,0.03962606375206335
+Ridge,21544.346900318822,cat__rating_PG-13,0.43281412359304433
+Ridge,21544.346900318822,cat__rating_R,0.46758643719134296
+Ridge,21544.346900318822,cat__rating_TV-14,0.7754662703918839
+Ridge,21544.346900318822,cat__rating_TV-G,-0.433909552691482
+Ridge,21544.346900318822,cat__rating_TV-MA,-0.33968319768222593
+Ridge,21544.346900318822,cat__rating_TV-PG,-0.2376434314621633
+Ridge,21544.346900318822,cat__rating_TV-Y,-1.1836507502847755
+Ridge,21544.346900318822,cat__rating_TV-Y7,-0.7979333927133118
+Ridge,21544.346900318822,cat__rating_infrequent_sklearn,-0.10042917474301072
+Ridge,46415.888336127726,num__release_year,-0.5455181601676103
+Ridge,46415.888336127726,num__cast_count,0.6555798689007848
+Ridge,46415.888336127726,num__director_count,-0.13090856060783593
+Ridge,46415.888336127726,num__country_count,0.12060872591815454
+Ridge,46415.888336127726,num__genre_count,0.9684188645070754
+Ridge,46415.888336127726,cat__primary_country_Argentina,-0.09715853285505166
+Ridge,46415.888336127726,cat__primary_country_Australia,-0.05741120492919503
+Ridge,46415.888336127726,cat__primary_country_Brazil,-0.10157659152089961
+Ridge,46415.888336127726,cat__primary_country_Canada,-0.19956820797188285
+Ridge,46415.888336127726,cat__primary_country_China,0.09285569916994477
+Ridge,46415.888336127726,cat__primary_country_Egypt,0.08971928565531814
+Ridge,46415.888336127726,cat__primary_country_France,-0.06403845911999975
+Ridge,46415.888336127726,cat__primary_country_Germany,-0.030951806978655984
+Ridge,46415.888336127726,cat__primary_country_Hong Kong,-0.028444779876044716
+Ridge,46415.888336127726,cat__primary_country_India,0.9931785246796102
+Ridge,46415.888336127726,cat__primary_country_Indonesia,0.088613178091069
+Ridge,46415.888336127726,cat__primary_country_Italy,-0.016801934602497664
+Ridge,46415.888336127726,cat__primary_country_Japan,-0.037729418968419
+Ridge,46415.888336127726,cat__primary_country_Mexico,-0.11027641659232966
+Ridge,46415.888336127726,cat__primary_country_Nigeria,0.07086522485106503
+Ridge,46415.888336127726,cat__primary_country_Philippines,0.1021521603038821
+Ridge,46415.888336127726,cat__primary_country_South Africa,-0.046659477215737516
+Ridge,46415.888336127726,cat__primary_country_South Korea,0.14048760602267868
+Ridge,46415.888336127726,cat__primary_country_Spain,0.02705154230078496
+Ridge,46415.888336127726,cat__primary_country_Thailand,0.04159702837528437
+Ridge,46415.888336127726,cat__primary_country_Turkey,0.08023279661399775
+Ridge,46415.888336127726,cat__primary_country_United Kingdom,-0.09738663288392209
+Ridge,46415.888336127726,cat__primary_country_United States,-0.4846636955469279
+Ridge,46415.888336127726,cat__primary_country_Unknown,-0.27954090798991654
+Ridge,46415.888336127726,cat__primary_country_infrequent_sklearn,-0.03345879381666879
+Ridge,46415.888336127726,cat__primary_genre_Action & Adventure,0.4959603963993632
+Ridge,46415.888336127726,cat__primary_genre_Children & Family Movies,-0.5979883546517598
+Ridge,46415.888336127726,cat__primary_genre_Classic Movies,0.15698173236576396
+Ridge,46415.888336127726,cat__primary_genre_Comedies,0.28943857224822883
+Ridge,46415.888336127726,cat__primary_genre_Documentaries,-0.5797266139024092
+Ridge,46415.888336127726,cat__primary_genre_Dramas,0.6077456361737659
+Ridge,46415.888336127726,cat__primary_genre_Horror Movies,-0.02918928095043857
+Ridge,46415.888336127726,cat__primary_genre_International Movies,0.0810162133281687
+Ridge,46415.888336127726,cat__primary_genre_Movies,-0.45619572256855717
+Ridge,46415.888336127726,cat__primary_genre_Stand-Up Comedy,-0.6729256375803256
+Ridge,46415.888336127726,cat__primary_genre_Thrillers,0.021421319790663543
+Ridge,46415.888336127726,cat__primary_genre_infrequent_sklearn,-0.053803706406231555
+Ridge,46415.888336127726,cat__rating_G,-0.056389684035215173
+Ridge,46415.888336127726,cat__rating_NR,-0.05520466969738324
+Ridge,46415.888336127726,cat__rating_PG,0.0033686834468533494
+Ridge,46415.888336127726,cat__rating_PG-13,0.23683913310489532
+Ridge,46415.888336127726,cat__rating_R,0.25397917025863403
+Ridge,46415.888336127726,cat__rating_TV-14,0.47302246243792934
+Ridge,46415.888336127726,cat__rating_TV-G,-0.2482923961538856
+Ridge,46415.888336127726,cat__rating_TV-MA,-0.20886239615420596
+Ridge,46415.888336127726,cat__rating_TV-PG,-0.12613707478774658
+Ridge,46415.888336127726,cat__rating_TV-Y,-0.6595513431615785
+Ridge,46415.888336127726,cat__rating_TV-Y7,-0.451925364649595
+Ridge,46415.888336127726,cat__rating_infrequent_sklearn,-0.05597728608142124
+Ridge,100000.0,num__release_year,-0.28236980611502754
+Ridge,100000.0,num__cast_count,0.3426941093919099
+Ridge,100000.0,num__director_count,-0.0724033142521776
+Ridge,100000.0,num__country_count,0.06133141816187824
+Ridge,100000.0,num__genre_count,0.512622410924759
+Ridge,100000.0,cat__primary_country_Argentina,-0.048249252842917464
+Ridge,100000.0,cat__primary_country_Australia,-0.030910547387690564
+Ridge,100000.0,cat__primary_country_Brazil,-0.052526865576458644
+Ridge,100000.0,cat__primary_country_Canada,-0.1024306587235258
+Ridge,100000.0,cat__primary_country_China,0.04738386257406737
+Ridge,100000.0,cat__primary_country_Egypt,0.050047667921920634
+Ridge,100000.0,cat__primary_country_France,-0.029099601572861213
+Ridge,100000.0,cat__primary_country_Germany,-0.015649501152494444
+Ridge,100000.0,cat__primary_country_Hong Kong,-0.007462771885152096
+Ridge,100000.0,cat__primary_country_India,0.5094893136375829
+Ridge,100000.0,cat__primary_country_Indonesia,0.046969463229782266
+Ridge,100000.0,cat__primary_country_Italy,-0.0076189968451798535
+Ridge,100000.0,cat__primary_country_Japan,-0.014270533807024349
+Ridge,100000.0,cat__primary_country_Mexico,-0.05665221004775808
+Ridge,100000.0,cat__primary_country_Nigeria,0.03964651885701174
+Ridge,100000.0,cat__primary_country_Philippines,0.05443617051486744
+Ridge,100000.0,cat__primary_country_South Africa,-0.020469471623361317
+Ridge,100000.0,cat__primary_country_South Korea,0.07048149129198089
+Ridge,100000.0,cat__primary_country_Spain,0.014576808193728247
+Ridge,100000.0,cat__primary_country_Thailand,0.021415316798745986
+Ridge,100000.0,cat__primary_country_Turkey,0.04273583801872006
+Ridge,100000.0,cat__primary_country_United Kingdom,-0.04937879250135126
+Ridge,100000.0,cat__primary_country_United States,-0.2540620739284799
+Ridge,100000.0,cat__primary_country_Unknown,-0.1521259015790057
+Ridge,100000.0,cat__primary_country_infrequent_sklearn,-0.012972951715866704
+Ridge,100000.0,cat__primary_genre_Action & Adventure,0.25543386548970526
+Ridge,100000.0,cat__primary_genre_Children & Family Movies,-0.31434664569759924
+Ridge,100000.0,cat__primary_genre_Classic Movies,0.08580582474150147
+Ridge,100000.0,cat__primary_genre_Comedies,0.15670392664383553
+Ridge,100000.0,cat__primary_genre_Documentaries,-0.3026883182943121
+Ridge,100000.0,cat__primary_genre_Dramas,0.3157897906858768
+Ridge,100000.0,cat__primary_genre_Horror Movies,-0.015057974407461802
+Ridge,100000.0,cat__primary_genre_International Movies,0.04028968648520441
+Ridge,100000.0,cat__primary_genre_Movies,-0.2338769643231816
+Ridge,100000.0,cat__primary_genre_Stand-Up Comedy,-0.3506999711151735
+Ridge,100000.0,cat__primary_genre_Thrillers,0.007508208054296069
+Ridge,100000.0,cat__primary_genre_infrequent_sklearn,-0.02897050963206524
+Ridge,100000.0,cat__rating_G,-0.030427944296766884
+Ridge,100000.0,cat__rating_NR,-0.028282427522352376
+Ridge,100000.0,cat__rating_PG,-0.0038917580836392183
+Ridge,100000.0,cat__rating_PG-13,0.12023649737326662
+Ridge,100000.0,cat__rating_R,0.12831715991912343
+Ridge,100000.0,cat__rating_TV-14,0.25480122979838243
+Ridge,100000.0,cat__rating_TV-G,-0.12934187187628804
+Ridge,100000.0,cat__rating_TV-MA,-0.11270562013117674
+Ridge,100000.0,cat__rating_TV-PG,-0.06284017509736686
+Ridge,100000.0,cat__rating_TV-Y,-0.3386135566109921
+Ridge,100000.0,cat__rating_TV-Y7,-0.23437548209326833
+Ridge,100000.0,cat__rating_infrequent_sklearn,-0.028733963622234314
+Lasso,0.01,num__release_year,-3.568189210554642
+Lasso,0.01,num__cast_count,2.4717933686121234
+Lasso,0.01,num__director_count,0.19740095177430472
+Lasso,0.01,num__country_count,0.9882421393610085
+Lasso,0.01,num__genre_count,2.495911995895525
+Lasso,0.01,cat__primary_country_Argentina,-0.5995799365731208
+Lasso,0.01,cat__primary_country_Australia,0.18361207018328957
+Lasso,0.01,cat__primary_country_Brazil,-0.18644821638427808
+Lasso,0.01,cat__primary_country_Canada,-0.8549950857151744
+Lasso,0.01,cat__primary_country_China,0.9093659782387963
+Lasso,0.01,cat__primary_country_Egypt,0.7198194594252884
+Lasso,0.01,cat__primary_country_France,-0.5978076579938694
+Lasso,0.01,cat__primary_country_Germany,0.0
+Lasso,0.01,cat__primary_country_Hong Kong,-1.1358745736460558
+Lasso,0.01,cat__primary_country_India,8.587238209393464
+Lasso,0.01,cat__primary_country_Indonesia,1.0873067103239598
+Lasso,0.01,cat__primary_country_Italy,0.0459625477289336
+Lasso,0.01,cat__primary_country_Japan,-0.5119802223606619
+Lasso,0.01,cat__primary_country_Mexico,-0.2833414074969341
+Lasso,0.01,cat__primary_country_Nigeria,0.7023723650236804
+Lasso,0.01,cat__primary_country_Philippines,1.0072061194808857
+Lasso,0.01,cat__primary_country_South Africa,-0.5716171881678245
+Lasso,0.01,cat__primary_country_South Korea,1.4512537625751103
+Lasso,0.01,cat__primary_country_Spain,0.5159916147489014
+Lasso,0.01,cat__primary_country_Thailand,0.5171599227406137
+Lasso,0.01,cat__primary_country_Turkey,0.8353771776034977
+Lasso,0.01,cat__primary_country_United Kingdom,-0.4340136204847468
+Lasso,0.01,cat__primary_country_United States,-1.812194909620456
+Lasso,0.01,cat__primary_country_Unknown,1.0141563376614893
+Lasso,0.01,cat__primary_country_infrequent_sklearn,-0.0885818801395996
+Lasso,0.01,cat__primary_genre_Action & Adventure,2.237701730686755
+Lasso,0.01,cat__primary_genre_Children & Family Movies,-2.099647691655216
+Lasso,0.01,cat__primary_genre_Classic Movies,-0.3095798061629211
+Lasso,0.01,cat__primary_genre_Comedies,0.0
+Lasso,0.01,cat__primary_genre_Documentaries,-3.4831663307148273
+Lasso,0.01,cat__primary_genre_Dramas,1.9987801270235153
+Lasso,0.01,cat__primary_genre_Horror Movies,-0.8548835345386451
+Lasso,0.01,cat__primary_genre_International Movies,0.20450507506174292
+Lasso,0.01,cat__primary_genre_Movies,-3.0729283998995673
+Lasso,0.01,cat__primary_genre_Stand-Up Comedy,-4.842789791141842
+Lasso,0.01,cat__primary_genre_Thrillers,0.3138113926086466
+Lasso,0.01,cat__primary_genre_infrequent_sklearn,-0.23740916329264605
+Lasso,0.01,cat__rating_G,-0.39823774094368064
+Lasso,0.01,cat__rating_NR,-0.2597099502434604
+Lasso,0.01,cat__rating_PG,0.6118600172896154
+Lasso,0.01,cat__rating_PG-13,2.100296965599507
+Lasso,0.01,cat__rating_R,2.3817841377953997
+Lasso,0.01,cat__rating_TV-14,0.6606497610120868
+Lasso,0.01,cat__rating_TV-G,-1.5318965878785766
+Lasso,0.01,cat__rating_TV-MA,-0.0
+Lasso,0.01,cat__rating_TV-PG,-1.4436677522216919
+Lasso,0.01,cat__rating_TV-Y,-5.081877173607541
+Lasso,0.01,cat__rating_TV-Y7,-3.596641625466268
+Lasso,0.01,cat__rating_infrequent_sklearn,-0.44157796564661744
+Lasso,0.021544346900318832,num__release_year,-3.547649608768497
+Lasso,0.021544346900318832,num__cast_count,2.475659447539237
+Lasso,0.021544346900318832,num__director_count,0.17904751906829453
+Lasso,0.021544346900318832,num__country_count,0.9722527501365389
+Lasso,0.021544346900318832,num__genre_count,2.501210589838195
+Lasso,0.021544346900318832,cat__primary_country_Argentina,-0.5815166585395659
+Lasso,0.021544346900318832,cat__primary_country_Australia,0.17855150402482428
+Lasso,0.021544346900318832,cat__primary_country_Brazil,-0.17022112018279578
+Lasso,0.021544346900318832,cat__primary_country_Canada,-0.8329858107265824
+Lasso,0.021544346900318832,cat__primary_country_China,0.90553750447503
+Lasso,0.021544346900318832,cat__primary_country_Egypt,0.7176783671439643
+Lasso,0.021544346900318832,cat__primary_country_France,-0.5734074175853626
+Lasso,0.021544346900318832,cat__primary_country_Germany,0.0
+Lasso,0.021544346900318832,cat__primary_country_Hong Kong,-1.1115909360342557
+Lasso,0.021544346900318832,cat__primary_country_India,8.600549954502306
+Lasso,0.021544346900318832,cat__primary_country_Indonesia,1.081387004977013
+Lasso,0.021544346900318832,cat__primary_country_Italy,0.03980248817256732
+Lasso,0.021544346900318832,cat__primary_country_Japan,-0.49536400164393574
+Lasso,0.021544346900318832,cat__primary_country_Mexico,-0.26503422795708886
+Lasso,0.021544346900318832,cat__primary_country_Nigeria,0.6974432765580421
+Lasso,0.021544346900318832,cat__primary_country_Philippines,1.002128625455141
+Lasso,0.021544346900318832,cat__primary_country_South Africa,-0.5536291978623602
+Lasso,0.021544346900318832,cat__primary_country_South Korea,1.4444083302280353
+Lasso,0.021544346900318832,cat__primary_country_Spain,0.5154202076816318
+Lasso,0.021544346900318832,cat__primary_country_Thailand,0.511098230199402
+Lasso,0.021544346900318832,cat__primary_country_Turkey,0.8315221554404939
+Lasso,0.021544346900318832,cat__primary_country_United Kingdom,-0.40033416391931465
+Lasso,0.021544346900318832,cat__primary_country_United States,-1.7627195183497215
+Lasso,0.021544346900318832,cat__primary_country_Unknown,1.0106263821676638
+Lasso,0.021544346900318832,cat__primary_country_infrequent_sklearn,-0.057305652067672845
+Lasso,0.021544346900318832,cat__primary_genre_Action & Adventure,2.237753293143369
+Lasso,0.021544346900318832,cat__primary_genre_Children & Family Movies,-2.096535770068447
+Lasso,0.021544346900318832,cat__primary_genre_Classic Movies,-0.288077970417068
+Lasso,0.021544346900318832,cat__primary_genre_Comedies,0.0
+Lasso,0.021544346900318832,cat__primary_genre_Documentaries,-3.478850153298376
+Lasso,0.021544346900318832,cat__primary_genre_Dramas,2.000148011208921
+Lasso,0.021544346900318832,cat__primary_genre_Horror Movies,-0.8387686740521345
+Lasso,0.021544346900318832,cat__primary_genre_International Movies,0.19759127057900627
+Lasso,0.021544346900318832,cat__primary_genre_Movies,-3.062793135507874
+Lasso,0.021544346900318832,cat__primary_genre_Stand-Up Comedy,-4.834029236202497
+Lasso,0.021544346900318832,cat__primary_genre_Thrillers,0.3044272804517311
+Lasso,0.021544346900318832,cat__primary_genre_infrequent_sklearn,-0.2260988996276679
+Lasso,0.021544346900318832,cat__rating_G,-0.38663026546905116
+Lasso,0.021544346900318832,cat__rating_NR,-0.25035828390741205
+Lasso,0.021544346900318832,cat__rating_PG,0.5981847554477436
+Lasso,0.021544346900318832,cat__rating_PG-13,2.0851466707382107
+Lasso,0.021544346900318832,cat__rating_R,2.363193027634445
+Lasso,0.021544346900318832,cat__rating_TV-14,0.6606429966926808
+Lasso,0.021544346900318832,cat__rating_TV-G,-1.5204833041563675
+Lasso,0.021544346900318832,cat__rating_TV-MA,-0.0
+Lasso,0.021544346900318832,cat__rating_TV-PG,-1.431563339960631
+Lasso,0.021544346900318832,cat__rating_TV-Y,-5.0696718442334285
+Lasso,0.021544346900318832,cat__rating_TV-Y7,-3.5823763428859032
+Lasso,0.021544346900318832,cat__rating_infrequent_sklearn,-0.42983135694116553
+Lasso,0.046415888336127774,num__release_year,-3.503355903767522
+Lasso,0.046415888336127774,num__cast_count,2.4839231227238314
+Lasso,0.046415888336127774,num__director_count,0.13958830925823432
+Lasso,0.046415888336127774,num__country_count,0.9380264271928529
+Lasso,0.046415888336127774,num__genre_count,2.5127456471954805
+Lasso,0.046415888336127774,cat__primary_country_Argentina,-0.5458139250644437
+Lasso,0.046415888336127774,cat__primary_country_Australia,0.16425017763948715
+Lasso,0.046415888336127774,cat__primary_country_Brazil,-0.1386648143424225
+Lasso,0.046415888336127774,cat__primary_country_Canada,-0.7914363563561083
+Lasso,0.046415888336127774,cat__primary_country_China,0.8939946289632249
+Lasso,0.046415888336127774,cat__primary_country_Egypt,0.708527047621129
+Lasso,0.046415888336127774,cat__primary_country_France,-0.5260713243028246
+Lasso,0.046415888336127774,cat__primary_country_Germany,0.0
+Lasso,0.046415888336127774,cat__primary_country_Hong Kong,-1.0630720191421017
+Lasso,0.046415888336127774,cat__primary_country_India,8.616667958139535
+Lasso,0.046415888336127774,cat__primary_country_Indonesia,1.064408945493857
+Lasso,0.046415888336127774,cat__primary_country_Italy,0.023316108268710282
+Lasso,0.046415888336127774,cat__primary_country_Japan,-0.46370874261859507
+Lasso,0.046415888336127774,cat__primary_country_Mexico,-0.2297605254402148
+Lasso,0.046415888336127774,cat__primary_country_Nigeria,0.6826156878212977
+Lasso,0.046415888336127774,cat__primary_country_Philippines,0.9873769506789114
+Lasso,0.046415888336127774,cat__primary_country_South Africa,-0.5175467708435609
+Lasso,0.046415888336127774,cat__primary_country_South Korea,1.4265990871243819
+Lasso,0.046415888336127774,cat__primary_country_Spain,0.5089757254445525
+Lasso,0.046415888336127774,cat__primary_country_Thailand,0.49522467022978456
+Lasso,0.046415888336127774,cat__primary_country_Turkey,0.8191028486841595
+Lasso,0.046415888336127774,cat__primary_country_United Kingdom,-0.33613373826317916
+Lasso,0.046415888336127774,cat__primary_country_United States,-1.6727689921084283
+Lasso,0.046415888336127774,cat__primary_country_Unknown,0.9941752511604611
+Lasso,0.046415888336127774,cat__primary_country_infrequent_sklearn,-0.0
+Lasso,0.046415888336127774,cat__primary_genre_Action & Adventure,2.237863685299724
+Lasso,0.046415888336127774,cat__primary_genre_Children & Family Movies,-2.090158646448459
+Lasso,0.046415888336127774,cat__primary_genre_Classic Movies,-0.24170686467305116
+Lasso,0.046415888336127774,cat__primary_genre_Comedies,0.0
+Lasso,0.046415888336127774,cat__primary_genre_Documentaries,-3.4697262675936895
+Lasso,0.046415888336127774,cat__primary_genre_Dramas,2.00313422797873
+Lasso,0.046415888336127774,cat__primary_genre_Horror Movies,-0.8040019009001096
+Lasso,0.046415888336127774,cat__primary_genre_International Movies,0.18269997205233435
+Lasso,0.046415888336127774,cat__primary_genre_Movies,-3.041012119460546
+Lasso,0.046415888336127774,cat__primary_genre_Stand-Up Comedy,-4.8152977319692045
+Lasso,0.046415888336127774,cat__primary_genre_Thrillers,0.28423234004601755
+Lasso,0.046415888336127774,cat__primary_genre_infrequent_sklearn,-0.20174240007111874
+Lasso,0.046415888336127774,cat__rating_G,-0.3616586345420678
+Lasso,0.046415888336127774,cat__rating_NR,-0.23018309441495804
+Lasso,0.046415888336127774,cat__rating_PG,0.5687005046428031
+Lasso,0.046415888336127774,cat__rating_PG-13,2.0522688285593915
+Lasso,0.046415888336127774,cat__rating_R,2.322846146571121
+Lasso,0.046415888336127774,cat__rating_TV-14,0.6606420125391439
+Lasso,0.046415888336127774,cat__rating_TV-G,-1.4960005531419147
+Lasso,0.046415888336127774,cat__rating_TV-MA,-0.0
+Lasso,0.046415888336127774,cat__rating_TV-PG,-1.405448315337482
+Lasso,0.046415888336127774,cat__rating_TV-Y,-5.043313414570165
+Lasso,0.046415888336127774,cat__rating_TV-Y7,-3.5515682042246435
+Lasso,0.046415888336127774,cat__rating_infrequent_sklearn,-0.4045188982247299
+Lasso,0.1,num__release_year,-3.407580871504403
+Lasso,0.1,num__cast_count,2.500226557075899
+Lasso,0.1,num__director_count,0.05600881555545349
+Lasso,0.1,num__country_count,0.8693758711213125
+Lasso,0.1,num__genre_count,2.538606819538326
+Lasso,0.1,cat__primary_country_Argentina,-0.5026725828951782
+Lasso,0.1,cat__primary_country_Australia,0.09751445866697439
+Lasso,0.1,cat__primary_country_Brazil,-0.10637113709389802
+Lasso,0.1,cat__primary_country_Canada,-0.7639043736250626
+Lasso,0.1,cat__primary_country_China,0.8341380613050029
+Lasso,0.1,cat__primary_country_Egypt,0.6409304979401598
+Lasso,0.1,cat__primary_country_France,-0.47931293214335596
+Lasso,0.1,cat__primary_country_Germany,0.0
+Lasso,0.1,cat__primary_country_Hong Kong,-0.9988050275859919
+Lasso,0.1,cat__primary_country_India,8.519143069058229
+Lasso,0.1,cat__primary_country_Indonesia,0.983372800871299
+Lasso,0.1,cat__primary_country_Italy,0.0
+Lasso,0.1,cat__primary_country_Japan,-0.43903350132562075
+Lasso,0.1,cat__primary_country_Mexico,-0.19738771769889593
+Lasso,0.1,cat__primary_country_Nigeria,0.6064657794862268
+Lasso,0.1,cat__primary_country_Philippines,0.91544068691163
+Lasso,0.1,cat__primary_country_South Africa,-0.4680736228278782
+Lasso,0.1,cat__primary_country_South Korea,1.356078752856898
+Lasso,0.1,cat__primary_country_Spain,0.44011146335415746
+Lasso,0.1,cat__primary_country_Thailand,0.4313360720269876
+Lasso,0.1,cat__primary_country_Turkey,0.7490349041270026
+Lasso,0.1,cat__primary_country_United Kingdom,-0.28614650587465046
+Lasso,0.1,cat__primary_country_United States,-1.6536827423874305
+Lasso,0.1,cat__primary_country_Unknown,0.8657214474283481
+Lasso,0.1,cat__primary_country_infrequent_sklearn,-0.0
+Lasso,0.1,cat__primary_genre_Action & Adventure,2.237977960081025
+Lasso,0.1,cat__primary_genre_Children & Family Movies,-2.078886719210056
+Lasso,0.1,cat__primary_genre_Classic Movies,-0.14278596384476383
+Lasso,0.1,cat__primary_genre_Comedies,0.0
+Lasso,0.1,cat__primary_genre_Documentaries,-3.453102810424992
+Lasso,0.1,cat__primary_genre_Dramas,2.008514369838951
+Lasso,0.1,cat__primary_genre_Horror Movies,-0.7289438962382601
+Lasso,0.1,cat__primary_genre_International Movies,0.15158144188197967
+Lasso,0.1,cat__primary_genre_Movies,-2.994662659121092
+Lasso,0.1,cat__primary_genre_Stand-Up Comedy,-4.778161670334243
+Lasso,0.1,cat__primary_genre_Thrillers,0.2407048664330933
+Lasso,0.1,cat__primary_genre_infrequent_sklearn,-0.14957186954708476
+Lasso,0.1,cat__rating_G,-0.3083550621330866
+Lasso,0.1,cat__rating_NR,-0.18670261267130955
+Lasso,0.1,cat__rating_PG,0.5044411427334456
+Lasso,0.1,cat__rating_PG-13,1.9783683251614514
+Lasso,0.1,cat__rating_R,2.2336370731049735
+Lasso,0.1,cat__rating_TV-14,0.662284553904616
+Lasso,0.1,cat__rating_TV-G,-1.443940458392131
+Lasso,0.1,cat__rating_TV-MA,-0.0
+Lasso,0.1,cat__rating_TV-PG,-1.3488596164532456
+Lasso,0.1,cat__rating_TV-Y,-4.986270288477195
+Lasso,0.1,cat__rating_TV-Y7,-3.4848759176281
+Lasso,0.1,cat__rating_infrequent_sklearn,-0.35225105997694
+Lasso,0.21544346900318834,num__release_year,-3.2355533262158302
+Lasso,0.21544346900318834,num__cast_count,2.5297606807514583
+Lasso,0.21544346900318834,num__director_count,0.0
+Lasso,0.21544346900318834,num__country_count,0.7232545484151308
+Lasso,0.21544346900318834,num__genre_count,2.60008760342053
+Lasso,0.21544346900318834,cat__primary_country_Argentina,-0.4038049951254302
+Lasso,0.21544346900318834,cat__primary_country_Australia,0.0
+Lasso,0.21544346900318834,cat__primary_country_Brazil,-0.025146512007376297
+Lasso,0.21544346900318834,cat__primary_country_Canada,-0.6873067141156317
+Lasso,0.21544346900318834,cat__primary_country_China,0.7159172793789974
+Lasso,0.21544346900318834,cat__primary_country_Egypt,0.5073451713253225
+Lasso,0.21544346900318834,cat__primary_country_France,-0.3625743132987934
+Lasso,0.21544346900318834,cat__primary_country_Germany,0.0
+Lasso,0.21544346900318834,cat__primary_country_Hong Kong,-0.8565082074463133
+Lasso,0.21544346900318834,cat__primary_country_India,8.340640919886543
+Lasso,0.21544346900318834,cat__primary_country_Indonesia,0.8189323688530555
+Lasso,0.21544346900318834,cat__primary_country_Italy,0.0
+Lasso,0.21544346900318834,cat__primary_country_Japan,-0.37423004737787013
+Lasso,0.21544346900318834,cat__primary_country_Mexico,-0.11626097908436282
+Lasso,0.21544346900318834,cat__primary_country_Nigeria,0.4555017565123553
+Lasso,0.21544346900318834,cat__primary_country_Philippines,0.772510323655921
+Lasso,0.21544346900318834,cat__primary_country_South Africa,-0.3552054610291801
+Lasso,0.21544346900318834,cat__primary_country_South Korea,1.2159138488593026
+Lasso,0.21544346900318834,cat__primary_country_Spain,0.3077737255251156
+Lasso,0.21544346900318834,cat__primary_country_Thailand,0.2945135313092517
+Lasso,0.21544346900318834,cat__primary_country_Turkey,0.6089891495986306
+Lasso,0.21544346900318834,cat__primary_country_United Kingdom,-0.1505599946265672
+Lasso,0.21544346900318834,cat__primary_country_United States,-1.5622183718853335
+Lasso,0.21544346900318834,cat__primary_country_Unknown,0.6219177323233883
+Lasso,0.21544346900318834,cat__primary_country_infrequent_sklearn,-0.0
+Lasso,0.21544346900318834,cat__primary_genre_Action & Adventure,2.223221141438414
+Lasso,0.21544346900318834,cat__primary_genre_Children & Family Movies,-2.072558308433406
+Lasso,0.21544346900318834,cat__primary_genre_Classic Movies,-0.0
+Lasso,0.21544346900318834,cat__primary_genre_Comedies,0.0
+Lasso,0.21544346900318834,cat__primary_genre_Documentaries,-3.4363621445888355
+Lasso,0.21544346900318834,cat__primary_genre_Dramas,2.008869598581869
+Lasso,0.21544346900318834,cat__primary_genre_Horror Movies,-0.5737809807021798
+Lasso,0.21544346900318834,cat__primary_genre_International Movies,0.08251524706838294
+Lasso,0.21544346900318834,cat__primary_genre_Movies,-2.9012278463429353
+Lasso,0.21544346900318834,cat__primary_genre_Stand-Up Comedy,-4.70730320068455
+Lasso,0.21544346900318834,cat__primary_genre_Thrillers,0.14490904093881446
+Lasso,0.21544346900318834,cat__primary_genre_infrequent_sklearn,-0.049609252795381135
+Lasso,0.21544346900318834,cat__rating_G,-0.19407101656463796
+Lasso,0.21544346900318834,cat__rating_NR,-0.09256413547382852
+Lasso,0.21544346900318834,cat__rating_PG,0.363373551262827
+Lasso,0.21544346900318834,cat__rating_PG-13,1.8185046630831947
+Lasso,0.21544346900318834,cat__rating_R,2.047354667260056
+Lasso,0.21544346900318834,cat__rating_TV-14,0.6697105676251457
+Lasso,0.21544346900318834,cat__rating_TV-G,-1.3301582519062674
+Lasso,0.21544346900318834,cat__rating_TV-MA,-0.0
+Lasso,0.21544346900318834,cat__rating_TV-PG,-1.2240573307692886
+Lasso,0.21544346900318834,cat__rating_TV-Y,-4.866842421805884
+Lasso,0.21544346900318834,cat__rating_TV-Y7,-3.3427417125716894
+Lasso,0.21544346900318834,cat__rating_infrequent_sklearn,-0.2408482219875443
+Lasso,0.46415888336127775,num__release_year,-3.0351257297532603
+Lasso,0.46415888336127775,num__cast_count,2.5848331310342534
+Lasso,0.46415888336127775,num__director_count,-0.0
+Lasso,0.46415888336127775,num__country_count,0.41035459300717014
+Lasso,0.46415888336127775,num__genre_count,2.7641348218454422
+Lasso,0.46415888336127775,cat__primary_country_Argentina,-0.20989481230583085
+Lasso,0.46415888336127775,cat__primary_country_Australia,0.0
+Lasso,0.46415888336127775,cat__primary_country_Brazil,-0.0
+Lasso,0.46415888336127775,cat__primary_country_Canada,-0.5430174380334244
+Lasso,0.46415888336127775,cat__primary_country_China,0.45324657166407034
+Lasso,0.46415888336127775,cat__primary_country_Egypt,0.18931426782416524
+Lasso,0.46415888336127775,cat__primary_country_France,-0.13734732793358345
+Lasso,0.46415888336127775,cat__primary_country_Germany,0.0
+Lasso,0.46415888336127775,cat__primary_country_Hong Kong,-0.5950473491662797
+Lasso,0.46415888336127775,cat__primary_country_India,7.864911844166021
+Lasso,0.46415888336127775,cat__primary_country_Indonesia,0.4415584022957312
+Lasso,0.46415888336127775,cat__primary_country_Italy,-0.0
+Lasso,0.46415888336127775,cat__primary_country_Japan,-0.2292725578562108
+Lasso,0.46415888336127775,cat__primary_country_Mexico,-0.0
+Lasso,0.46415888336127775,cat__primary_country_Nigeria,0.10828891017241564
+Lasso,0.46415888336127775,cat__primary_country_Philippines,0.43640539417231544
+Lasso,0.46415888336127775,cat__primary_country_South Africa,-0.13113325091509898
+Lasso,0.46415888336127775,cat__primary_country_South Korea,0.9020425981513458
+Lasso,0.46415888336127775,cat__primary_country_Spain,0.0
+Lasso,0.46415888336127775,cat__primary_country_Thailand,0.0
+Lasso,0.46415888336127775,cat__primary_country_Turkey,0.2776855157305639
+Lasso,0.46415888336127775,cat__primary_country_United Kingdom,-0.0
+Lasso,0.46415888336127775,cat__primary_country_United States,-1.4515284163752262
+Lasso,0.46415888336127775,cat__primary_country_Unknown,0.05599083914604617
+Lasso,0.46415888336127775,cat__primary_country_infrequent_sklearn,-0.0
+Lasso,0.46415888336127775,cat__primary_genre_Action & Adventure,2.128401604289711
+Lasso,0.46415888336127775,cat__primary_genre_Children & Family Movies,-2.090242224180195
+Lasso,0.46415888336127775,cat__primary_genre_Classic Movies,-0.0
+Lasso,0.46415888336127775,cat__primary_genre_Comedies,0.0
+Lasso,0.46415888336127775,cat__primary_genre_Documentaries,-3.4143573984380895
+Lasso,0.46415888336127775,cat__primary_genre_Dramas,1.9638861751130319
+Lasso,0.46415888336127775,cat__primary_genre_Horror Movies,-0.2653555306621494
+Lasso,0.46415888336127775,cat__primary_genre_International Movies,0.0
+Lasso,0.46415888336127775,cat__primary_genre_Movies,-2.7152982734688664
+Lasso,0.46415888336127775,cat__primary_genre_Stand-Up Comedy,-4.56239650635348
+Lasso,0.46415888336127775,cat__primary_genre_Thrillers,0.0
+Lasso,0.46415888336127775,cat__primary_genre_infrequent_sklearn,-0.0
+Lasso,0.46415888336127775,cat__rating_G,-0.0
+Lasso,0.46415888336127775,cat__rating_NR,-0.0
+Lasso,0.46415888336127775,cat__rating_PG,0.03254204710364389
+Lasso,0.46415888336127775,cat__rating_PG-13,1.4574958666296813
+Lasso,0.46415888336127775,cat__rating_R,1.6448852247617096
+Lasso,0.46415888336127775,cat__rating_TV-14,0.6529403927186419
+Lasso,0.46415888336127775,cat__rating_TV-G,-1.0937838929719121
+Lasso,0.46415888336127775,cat__rating_TV-MA,-0.0
+Lasso,0.46415888336127775,cat__rating_TV-PG,-0.9733870073119247
+Lasso,0.46415888336127775,cat__rating_TV-Y,-4.6246601559823315
+Lasso,0.46415888336127775,cat__rating_TV-Y7,-3.0446755604754654
+Lasso,0.46415888336127775,cat__rating_infrequent_sklearn,-0.003853808341669384
+Lasso,1.0,num__release_year,-2.636274007677075
+Lasso,1.0,num__cast_count,2.647779034103337
+Lasso,1.0,num__director_count,-0.0
+Lasso,1.0,num__country_count,0.06126227523672558
+Lasso,1.0,num__genre_count,3.1370006218348725
+Lasso,1.0,cat__primary_country_Argentina,-0.0
+Lasso,1.0,cat__primary_country_Australia,0.0
+Lasso,1.0,cat__primary_country_Brazil,-0.0
+Lasso,1.0,cat__primary_country_Canada,-0.008047153165720909
+Lasso,1.0,cat__primary_country_China,0.0
+Lasso,1.0,cat__primary_country_Egypt,0.0
+Lasso,1.0,cat__primary_country_France,-0.0
+Lasso,1.0,cat__primary_country_Germany,0.0
+Lasso,1.0,cat__primary_country_Hong Kong,-0.0
+Lasso,1.0,cat__primary_country_India,7.4253559185042315
+Lasso,1.0,cat__primary_country_Indonesia,0.0
+Lasso,1.0,cat__primary_country_Italy,-0.0
+Lasso,1.0,cat__primary_country_Japan,-0.0
+Lasso,1.0,cat__primary_country_Mexico,-0.0
+Lasso,1.0,cat__primary_country_Nigeria,0.0
+Lasso,1.0,cat__primary_country_Philippines,0.0
+Lasso,1.0,cat__primary_country_South Africa,-0.0
+Lasso,1.0,cat__primary_country_South Korea,0.3565119532977556
+Lasso,1.0,cat__primary_country_Spain,0.0
+Lasso,1.0,cat__primary_country_Thailand,0.0
+Lasso,1.0,cat__primary_country_Turkey,0.0
+Lasso,1.0,cat__primary_country_United Kingdom,-0.0
+Lasso,1.0,cat__primary_country_United States,-0.7446877004901928
+Lasso,1.0,cat__primary_country_Unknown,0.0
+Lasso,1.0,cat__primary_country_infrequent_sklearn,-0.0
+Lasso,1.0,cat__primary_genre_Action & Adventure,1.9453640199701339
+Lasso,1.0,cat__primary_genre_Children & Family Movies,-2.3145780224819483
+Lasso,1.0,cat__primary_genre_Classic Movies,0.0
+Lasso,1.0,cat__primary_genre_Comedies,0.0
+Lasso,1.0,cat__primary_genre_Documentaries,-3.192404502963826
+Lasso,1.0,cat__primary_genre_Dramas,1.8856873801817133
+Lasso,1.0,cat__primary_genre_Horror Movies,-0.0
+Lasso,1.0,cat__primary_genre_International Movies,0.0
+Lasso,1.0,cat__primary_genre_Movies,-2.3574157120209605
+Lasso,1.0,cat__primary_genre_Stand-Up Comedy,-4.094559418523196
+Lasso,1.0,cat__primary_genre_Thrillers,0.0
+Lasso,1.0,cat__primary_genre_infrequent_sklearn,-0.0
+Lasso,1.0,cat__rating_G,-0.0
+Lasso,1.0,cat__rating_NR,-0.0
+Lasso,1.0,cat__rating_PG,0.0
+Lasso,1.0,cat__rating_PG-13,0.8474804242675662
+Lasso,1.0,cat__rating_R,0.9932000650529786
+Lasso,1.0,cat__rating_TV-14,0.4370766094668282
+Lasso,1.0,cat__rating_TV-G,-0.590206355327231
+Lasso,1.0,cat__rating_TV-MA,-0.0
+Lasso,1.0,cat__rating_TV-PG,-0.44468633078317243
+Lasso,1.0,cat__rating_TV-Y,-4.12716606536669
+Lasso,1.0,cat__rating_TV-Y7,-2.4488112964773476
+Lasso,1.0,cat__rating_infrequent_sklearn,-0.0
+Lasso,2.154434690031882,num__release_year,-1.9748814634037293
+Lasso,2.154434690031882,num__cast_count,2.6418732248277728
+Lasso,2.154434690031882,num__director_count,-0.0
+Lasso,2.154434690031882,num__country_count,0.0
+Lasso,2.154434690031882,num__genre_count,3.623900909901535
+Lasso,2.154434690031882,cat__primary_country_Argentina,-0.0
+Lasso,2.154434690031882,cat__primary_country_Australia,0.0
+Lasso,2.154434690031882,cat__primary_country_Brazil,-0.0
+Lasso,2.154434690031882,cat__primary_country_Canada,-0.0
+Lasso,2.154434690031882,cat__primary_country_China,0.0
+Lasso,2.154434690031882,cat__primary_country_Egypt,0.0
+Lasso,2.154434690031882,cat__primary_country_France,-0.0
+Lasso,2.154434690031882,cat__primary_country_Germany,0.0
+Lasso,2.154434690031882,cat__primary_country_Hong Kong,-0.0
+Lasso,2.154434690031882,cat__primary_country_India,6.6778883962087585
+Lasso,2.154434690031882,cat__primary_country_Indonesia,0.0
+Lasso,2.154434690031882,cat__primary_country_Italy,-0.0
+Lasso,2.154434690031882,cat__primary_country_Japan,-0.0
+Lasso,2.154434690031882,cat__primary_country_Mexico,-0.0
+Lasso,2.154434690031882,cat__primary_country_Nigeria,0.0
+Lasso,2.154434690031882,cat__primary_country_Philippines,0.0
+Lasso,2.154434690031882,cat__primary_country_South Africa,-0.0
+Lasso,2.154434690031882,cat__primary_country_South Korea,0.0
+Lasso,2.154434690031882,cat__primary_country_Spain,0.0
+Lasso,2.154434690031882,cat__primary_country_Thailand,0.0
+Lasso,2.154434690031882,cat__primary_country_Turkey,0.0
+Lasso,2.154434690031882,cat__primary_country_United Kingdom,0.0
+Lasso,2.154434690031882,cat__primary_country_United States,-0.0
+Lasso,2.154434690031882,cat__primary_country_Unknown,-0.0
+Lasso,2.154434690031882,cat__primary_country_infrequent_sklearn,0.0
+Lasso,2.154434690031882,cat__primary_genre_Action & Adventure,1.429830975924587
+Lasso,2.154434690031882,cat__primary_genre_Children & Family Movies,-2.450231427279216
+Lasso,2.154434690031882,cat__primary_genre_Classic Movies,0.0
+Lasso,2.154434690031882,cat__primary_genre_Comedies,0.0
+Lasso,2.154434690031882,cat__primary_genre_Documentaries,-2.4544127731254317
+Lasso,2.154434690031882,cat__primary_genre_Dramas,1.3641848143466528
+Lasso,2.154434690031882,cat__primary_genre_Horror Movies,-0.0
+Lasso,2.154434690031882,cat__primary_genre_International Movies,0.0
+Lasso,2.154434690031882,cat__primary_genre_Movies,-1.5270186445182374
+Lasso,2.154434690031882,cat__primary_genre_Stand-Up Comedy,-3.0736611071673012
+Lasso,2.154434690031882,cat__primary_genre_Thrillers,0.0
+Lasso,2.154434690031882,cat__primary_genre_infrequent_sklearn,-0.0
+Lasso,2.154434690031882,cat__rating_G,-0.0
+Lasso,2.154434690031882,cat__rating_NR,-0.0
+Lasso,2.154434690031882,cat__rating_PG,0.0
+Lasso,2.154434690031882,cat__rating_PG-13,0.0
+Lasso,2.154434690031882,cat__rating_R,0.0
+Lasso,2.154434690031882,cat__rating_TV-14,0.0
+Lasso,2.154434690031882,cat__rating_TV-G,-0.0
+Lasso,2.154434690031882,cat__rating_TV-MA,-0.0
+Lasso,2.154434690031882,cat__rating_TV-PG,-0.0
+Lasso,2.154434690031882,cat__rating_TV-Y,-3.1623941288634185
+Lasso,2.154434690031882,cat__rating_TV-Y7,-1.36344609370181
+Lasso,2.154434690031882,cat__rating_infrequent_sklearn,-0.0
+Lasso,4.6415888336127775,num__release_year,-0.4390958039551745
+Lasso,4.6415888336127775,num__cast_count,2.1641116675821497
+Lasso,4.6415888336127775,num__director_count,-0.0
+Lasso,4.6415888336127775,num__country_count,0.0
+Lasso,4.6415888336127775,num__genre_count,4.56833462233753
+Lasso,4.6415888336127775,cat__primary_country_Argentina,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Australia,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Brazil,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Canada,-0.0
+Lasso,4.6415888336127775,cat__primary_country_China,0.0
+Lasso,4.6415888336127775,cat__primary_country_Egypt,0.0
+Lasso,4.6415888336127775,cat__primary_country_France,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Germany,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Hong Kong,-0.0
+Lasso,4.6415888336127775,cat__primary_country_India,5.120099827261668
+Lasso,4.6415888336127775,cat__primary_country_Indonesia,0.0
+Lasso,4.6415888336127775,cat__primary_country_Italy,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Japan,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Mexico,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Nigeria,0.0
+Lasso,4.6415888336127775,cat__primary_country_Philippines,0.0
+Lasso,4.6415888336127775,cat__primary_country_South Africa,-0.0
+Lasso,4.6415888336127775,cat__primary_country_South Korea,0.0
+Lasso,4.6415888336127775,cat__primary_country_Spain,0.0
+Lasso,4.6415888336127775,cat__primary_country_Thailand,0.0
+Lasso,4.6415888336127775,cat__primary_country_Turkey,0.0
+Lasso,4.6415888336127775,cat__primary_country_United Kingdom,-0.0
+Lasso,4.6415888336127775,cat__primary_country_United States,-0.0
+Lasso,4.6415888336127775,cat__primary_country_Unknown,-0.0
+Lasso,4.6415888336127775,cat__primary_country_infrequent_sklearn,-0.0
+Lasso,4.6415888336127775,cat__primary_genre_Action & Adventure,0.0
+Lasso,4.6415888336127775,cat__primary_genre_Children & Family Movies,-1.1035470145121704
+Lasso,4.6415888336127775,cat__primary_genre_Classic Movies,0.0
+Lasso,4.6415888336127775,cat__primary_genre_Comedies,0.0
+Lasso,4.6415888336127775,cat__primary_genre_Documentaries,-0.16371365344180616
+Lasso,4.6415888336127775,cat__primary_genre_Dramas,0.11474782688562442
+Lasso,4.6415888336127775,cat__primary_genre_Horror Movies,-0.0
+Lasso,4.6415888336127775,cat__primary_genre_International Movies,0.0
+Lasso,4.6415888336127775,cat__primary_genre_Movies,-0.0
+Lasso,4.6415888336127775,cat__primary_genre_Stand-Up Comedy,-0.5306026763201614
+Lasso,4.6415888336127775,cat__primary_genre_Thrillers,0.0
+Lasso,4.6415888336127775,cat__primary_genre_infrequent_sklearn,-0.0
+Lasso,4.6415888336127775,cat__rating_G,-0.0
+Lasso,4.6415888336127775,cat__rating_NR,-0.0
+Lasso,4.6415888336127775,cat__rating_PG,0.0
+Lasso,4.6415888336127775,cat__rating_PG-13,0.0
+Lasso,4.6415888336127775,cat__rating_R,0.0
+Lasso,4.6415888336127775,cat__rating_TV-14,0.0
+Lasso,4.6415888336127775,cat__rating_TV-G,-0.0
+Lasso,4.6415888336127775,cat__rating_TV-MA,-0.0
+Lasso,4.6415888336127775,cat__rating_TV-PG,-0.0
+Lasso,4.6415888336127775,cat__rating_TV-Y,-1.4504885735605977
+Lasso,4.6415888336127775,cat__rating_TV-Y7,-0.0
+Lasso,4.6415888336127775,cat__rating_infrequent_sklearn,-0.0
+Lasso,10.0,num__release_year,0.0
+Lasso,10.0,num__cast_count,0.0
+Lasso,10.0,num__director_count,0.0
+Lasso,10.0,num__country_count,0.0
+Lasso,10.0,num__genre_count,1.5817172929897862
+Lasso,10.0,cat__primary_country_Argentina,0.0
+Lasso,10.0,cat__primary_country_Australia,0.0
+Lasso,10.0,cat__primary_country_Brazil,0.0
+Lasso,10.0,cat__primary_country_Canada,0.0
+Lasso,10.0,cat__primary_country_China,0.0
+Lasso,10.0,cat__primary_country_Egypt,0.0
+Lasso,10.0,cat__primary_country_France,0.0
+Lasso,10.0,cat__primary_country_Germany,0.0
+Lasso,10.0,cat__primary_country_Hong Kong,0.0
+Lasso,10.0,cat__primary_country_India,0.9828071833704202
+Lasso,10.0,cat__primary_country_Indonesia,0.0
+Lasso,10.0,cat__primary_country_Italy,0.0
+Lasso,10.0,cat__primary_country_Japan,0.0
+Lasso,10.0,cat__primary_country_Mexico,0.0
+Lasso,10.0,cat__primary_country_Nigeria,0.0
+Lasso,10.0,cat__primary_country_Philippines,0.0
+Lasso,10.0,cat__primary_country_South Africa,0.0
+Lasso,10.0,cat__primary_country_South Korea,0.0
+Lasso,10.0,cat__primary_country_Spain,0.0
+Lasso,10.0,cat__primary_country_Thailand,0.0
+Lasso,10.0,cat__primary_country_Turkey,0.0
+Lasso,10.0,cat__primary_country_United Kingdom,0.0
+Lasso,10.0,cat__primary_country_United States,0.0
+Lasso,10.0,cat__primary_country_Unknown,0.0
+Lasso,10.0,cat__primary_country_infrequent_sklearn,0.0
+Lasso,10.0,cat__primary_genre_Action & Adventure,0.0
+Lasso,10.0,cat__primary_genre_Children & Family Movies,-0.0
+Lasso,10.0,cat__primary_genre_Classic Movies,0.0
+Lasso,10.0,cat__primary_genre_Comedies,0.0
+Lasso,10.0,cat__primary_genre_Documentaries,-0.0
+Lasso,10.0,cat__primary_genre_Dramas,0.0
+Lasso,10.0,cat__primary_genre_Horror Movies,0.0
+Lasso,10.0,cat__primary_genre_International Movies,0.0
+Lasso,10.0,cat__primary_genre_Movies,0.0
+Lasso,10.0,cat__primary_genre_Stand-Up Comedy,-0.0
+Lasso,10.0,cat__primary_genre_Thrillers,0.0
+Lasso,10.0,cat__primary_genre_infrequent_sklearn,0.0
+Lasso,10.0,cat__rating_G,0.0
+Lasso,10.0,cat__rating_NR,0.0
+Lasso,10.0,cat__rating_PG,0.0
+Lasso,10.0,cat__rating_PG-13,0.0
+Lasso,10.0,cat__rating_R,0.0
+Lasso,10.0,cat__rating_TV-14,0.0
+Lasso,10.0,cat__rating_TV-G,0.0
+Lasso,10.0,cat__rating_TV-MA,0.0
+Lasso,10.0,cat__rating_TV-PG,0.0
+Lasso,10.0,cat__rating_TV-Y,-0.0
+Lasso,10.0,cat__rating_TV-Y7,0.0
+Lasso,10.0,cat__rating_infrequent_sklearn,0.0
+Lasso,21.54434690031882,num__release_year,0.0
+Lasso,21.54434690031882,num__cast_count,0.0
+Lasso,21.54434690031882,num__director_count,0.0
+Lasso,21.54434690031882,num__country_count,0.0
+Lasso,21.54434690031882,num__genre_count,0.0
+Lasso,21.54434690031882,cat__primary_country_Argentina,0.0
+Lasso,21.54434690031882,cat__primary_country_Australia,0.0
+Lasso,21.54434690031882,cat__primary_country_Brazil,0.0
+Lasso,21.54434690031882,cat__primary_country_Canada,0.0
+Lasso,21.54434690031882,cat__primary_country_China,0.0
+Lasso,21.54434690031882,cat__primary_country_Egypt,0.0
+Lasso,21.54434690031882,cat__primary_country_France,0.0
+Lasso,21.54434690031882,cat__primary_country_Germany,0.0
+Lasso,21.54434690031882,cat__primary_country_Hong Kong,0.0
+Lasso,21.54434690031882,cat__primary_country_India,0.0
+Lasso,21.54434690031882,cat__primary_country_Indonesia,0.0
+Lasso,21.54434690031882,cat__primary_country_Italy,0.0
+Lasso,21.54434690031882,cat__primary_country_Japan,0.0
+Lasso,21.54434690031882,cat__primary_country_Mexico,0.0
+Lasso,21.54434690031882,cat__primary_country_Nigeria,0.0
+Lasso,21.54434690031882,cat__primary_country_Philippines,0.0
+Lasso,21.54434690031882,cat__primary_country_South Africa,0.0
+Lasso,21.54434690031882,cat__primary_country_South Korea,0.0
+Lasso,21.54434690031882,cat__primary_country_Spain,0.0
+Lasso,21.54434690031882,cat__primary_country_Thailand,0.0
+Lasso,21.54434690031882,cat__primary_country_Turkey,0.0
+Lasso,21.54434690031882,cat__primary_country_United Kingdom,0.0
+Lasso,21.54434690031882,cat__primary_country_United States,0.0
+Lasso,21.54434690031882,cat__primary_country_Unknown,0.0
+Lasso,21.54434690031882,cat__primary_country_infrequent_sklearn,0.0
+Lasso,21.54434690031882,cat__primary_genre_Action & Adventure,0.0
+Lasso,21.54434690031882,cat__primary_genre_Children & Family Movies,0.0
+Lasso,21.54434690031882,cat__primary_genre_Classic Movies,0.0
+Lasso,21.54434690031882,cat__primary_genre_Comedies,0.0
+Lasso,21.54434690031882,cat__primary_genre_Documentaries,0.0
+Lasso,21.54434690031882,cat__primary_genre_Dramas,0.0
+Lasso,21.54434690031882,cat__primary_genre_Horror Movies,0.0
+Lasso,21.54434690031882,cat__primary_genre_International Movies,0.0
+Lasso,21.54434690031882,cat__primary_genre_Movies,0.0
+Lasso,21.54434690031882,cat__primary_genre_Stand-Up Comedy,0.0
+Lasso,21.54434690031882,cat__primary_genre_Thrillers,0.0
+Lasso,21.54434690031882,cat__primary_genre_infrequent_sklearn,0.0
+Lasso,21.54434690031882,cat__rating_G,0.0
+Lasso,21.54434690031882,cat__rating_NR,0.0
+Lasso,21.54434690031882,cat__rating_PG,0.0
+Lasso,21.54434690031882,cat__rating_PG-13,0.0
+Lasso,21.54434690031882,cat__rating_R,0.0
+Lasso,21.54434690031882,cat__rating_TV-14,0.0
+Lasso,21.54434690031882,cat__rating_TV-G,0.0
+Lasso,21.54434690031882,cat__rating_TV-MA,0.0
+Lasso,21.54434690031882,cat__rating_TV-PG,0.0
+Lasso,21.54434690031882,cat__rating_TV-Y,0.0
+Lasso,21.54434690031882,cat__rating_TV-Y7,0.0
+Lasso,21.54434690031882,cat__rating_infrequent_sklearn,0.0
+Lasso,46.41588833612777,num__release_year,0.0
+Lasso,46.41588833612777,num__cast_count,0.0
+Lasso,46.41588833612777,num__director_count,0.0
+Lasso,46.41588833612777,num__country_count,0.0
+Lasso,46.41588833612777,num__genre_count,0.0
+Lasso,46.41588833612777,cat__primary_country_Argentina,0.0
+Lasso,46.41588833612777,cat__primary_country_Australia,0.0
+Lasso,46.41588833612777,cat__primary_country_Brazil,0.0
+Lasso,46.41588833612777,cat__primary_country_Canada,0.0
+Lasso,46.41588833612777,cat__primary_country_China,0.0
+Lasso,46.41588833612777,cat__primary_country_Egypt,0.0
+Lasso,46.41588833612777,cat__primary_country_France,0.0
+Lasso,46.41588833612777,cat__primary_country_Germany,0.0
+Lasso,46.41588833612777,cat__primary_country_Hong Kong,0.0
+Lasso,46.41588833612777,cat__primary_country_India,0.0
+Lasso,46.41588833612777,cat__primary_country_Indonesia,0.0
+Lasso,46.41588833612777,cat__primary_country_Italy,0.0
+Lasso,46.41588833612777,cat__primary_country_Japan,0.0
+Lasso,46.41588833612777,cat__primary_country_Mexico,0.0
+Lasso,46.41588833612777,cat__primary_country_Nigeria,0.0
+Lasso,46.41588833612777,cat__primary_country_Philippines,0.0
+Lasso,46.41588833612777,cat__primary_country_South Africa,0.0
+Lasso,46.41588833612777,cat__primary_country_South Korea,0.0
+Lasso,46.41588833612777,cat__primary_country_Spain,0.0
+Lasso,46.41588833612777,cat__primary_country_Thailand,0.0
+Lasso,46.41588833612777,cat__primary_country_Turkey,0.0
+Lasso,46.41588833612777,cat__primary_country_United Kingdom,0.0
+Lasso,46.41588833612777,cat__primary_country_United States,0.0
+Lasso,46.41588833612777,cat__primary_country_Unknown,0.0
+Lasso,46.41588833612777,cat__primary_country_infrequent_sklearn,0.0
+Lasso,46.41588833612777,cat__primary_genre_Action & Adventure,0.0
+Lasso,46.41588833612777,cat__primary_genre_Children & Family Movies,0.0
+Lasso,46.41588833612777,cat__primary_genre_Classic Movies,0.0
+Lasso,46.41588833612777,cat__primary_genre_Comedies,0.0
+Lasso,46.41588833612777,cat__primary_genre_Documentaries,0.0
+Lasso,46.41588833612777,cat__primary_genre_Dramas,0.0
+Lasso,46.41588833612777,cat__primary_genre_Horror Movies,0.0
+Lasso,46.41588833612777,cat__primary_genre_International Movies,0.0
+Lasso,46.41588833612777,cat__primary_genre_Movies,0.0
+Lasso,46.41588833612777,cat__primary_genre_Stand-Up Comedy,0.0
+Lasso,46.41588833612777,cat__primary_genre_Thrillers,0.0
+Lasso,46.41588833612777,cat__primary_genre_infrequent_sklearn,0.0
+Lasso,46.41588833612777,cat__rating_G,0.0
+Lasso,46.41588833612777,cat__rating_NR,0.0
+Lasso,46.41588833612777,cat__rating_PG,0.0
+Lasso,46.41588833612777,cat__rating_PG-13,0.0
+Lasso,46.41588833612777,cat__rating_R,0.0
+Lasso,46.41588833612777,cat__rating_TV-14,0.0
+Lasso,46.41588833612777,cat__rating_TV-G,0.0
+Lasso,46.41588833612777,cat__rating_TV-MA,0.0
+Lasso,46.41588833612777,cat__rating_TV-PG,0.0
+Lasso,46.41588833612777,cat__rating_TV-Y,0.0
+Lasso,46.41588833612777,cat__rating_TV-Y7,0.0
+Lasso,46.41588833612777,cat__rating_infrequent_sklearn,0.0
+Lasso,100.0,num__release_year,0.0
+Lasso,100.0,num__cast_count,0.0
+Lasso,100.0,num__director_count,0.0
+Lasso,100.0,num__country_count,0.0
+Lasso,100.0,num__genre_count,0.0
+Lasso,100.0,cat__primary_country_Argentina,0.0
+Lasso,100.0,cat__primary_country_Australia,0.0
+Lasso,100.0,cat__primary_country_Brazil,0.0
+Lasso,100.0,cat__primary_country_Canada,0.0
+Lasso,100.0,cat__primary_country_China,0.0
+Lasso,100.0,cat__primary_country_Egypt,0.0
+Lasso,100.0,cat__primary_country_France,0.0
+Lasso,100.0,cat__primary_country_Germany,0.0
+Lasso,100.0,cat__primary_country_Hong Kong,0.0
+Lasso,100.0,cat__primary_country_India,0.0
+Lasso,100.0,cat__primary_country_Indonesia,0.0
+Lasso,100.0,cat__primary_country_Italy,0.0
+Lasso,100.0,cat__primary_country_Japan,0.0
+Lasso,100.0,cat__primary_country_Mexico,0.0
+Lasso,100.0,cat__primary_country_Nigeria,0.0
+Lasso,100.0,cat__primary_country_Philippines,0.0
+Lasso,100.0,cat__primary_country_South Africa,0.0
+Lasso,100.0,cat__primary_country_South Korea,0.0
+Lasso,100.0,cat__primary_country_Spain,0.0
+Lasso,100.0,cat__primary_country_Thailand,0.0
+Lasso,100.0,cat__primary_country_Turkey,0.0
+Lasso,100.0,cat__primary_country_United Kingdom,0.0
+Lasso,100.0,cat__primary_country_United States,0.0
+Lasso,100.0,cat__primary_country_Unknown,0.0
+Lasso,100.0,cat__primary_country_infrequent_sklearn,0.0
+Lasso,100.0,cat__primary_genre_Action & Adventure,0.0
+Lasso,100.0,cat__primary_genre_Children & Family Movies,0.0
+Lasso,100.0,cat__primary_genre_Classic Movies,0.0
+Lasso,100.0,cat__primary_genre_Comedies,0.0
+Lasso,100.0,cat__primary_genre_Documentaries,0.0
+Lasso,100.0,cat__primary_genre_Dramas,0.0
+Lasso,100.0,cat__primary_genre_Horror Movies,0.0
+Lasso,100.0,cat__primary_genre_International Movies,0.0
+Lasso,100.0,cat__primary_genre_Movies,0.0
+Lasso,100.0,cat__primary_genre_Stand-Up Comedy,0.0
+Lasso,100.0,cat__primary_genre_Thrillers,0.0
+Lasso,100.0,cat__primary_genre_infrequent_sklearn,0.0
+Lasso,100.0,cat__rating_G,0.0
+Lasso,100.0,cat__rating_NR,0.0
+Lasso,100.0,cat__rating_PG,0.0
+Lasso,100.0,cat__rating_PG-13,0.0
+Lasso,100.0,cat__rating_R,0.0
+Lasso,100.0,cat__rating_TV-14,0.0
+Lasso,100.0,cat__rating_TV-G,0.0
+Lasso,100.0,cat__rating_TV-MA,0.0
+Lasso,100.0,cat__rating_TV-PG,0.0
+Lasso,100.0,cat__rating_TV-Y,0.0
+Lasso,100.0,cat__rating_TV-Y7,0.0
+Lasso,100.0,cat__rating_infrequent_sklearn,0.0
+ElasticNet,0.01,num__release_year,-3.5576095433453845
+ElasticNet,0.01,num__cast_count,2.479240099966418
+ElasticNet,0.01,num__director_count,0.19956386598888254
+ElasticNet,0.01,num__country_count,0.9894097122438384
+ElasticNet,0.01,num__genre_count,2.5185377455044353
+ElasticNet,0.01,cat__primary_country_Argentina,-0.8325373055893153
+ElasticNet,0.01,cat__primary_country_Australia,-0.04924920984774977
+ElasticNet,0.01,cat__primary_country_Brazil,-0.43756357984791716
+ElasticNet,0.01,cat__primary_country_Canada,-1.2795168408196935
+ElasticNet,0.01,cat__primary_country_China,0.6739544783104487
+ElasticNet,0.01,cat__primary_country_Egypt,0.39466055129199057
+ElasticNet,0.01,cat__primary_country_France,-0.9750802266882129
+ElasticNet,0.01,cat__primary_country_Germany,-0.261090665874505
+ElasticNet,0.01,cat__primary_country_Hong Kong,-1.4062050229089742
+ElasticNet,0.01,cat__primary_country_India,7.646148811061905
+ElasticNet,0.01,cat__primary_country_Indonesia,0.7811144599393941
+ElasticNet,0.01,cat__primary_country_Italy,-0.17003312463508893
+ElasticNet,0.01,cat__primary_country_Japan,-0.813778612557863
+ElasticNet,0.01,cat__primary_country_Mexico,-0.5887447054268737
+ElasticNet,0.01,cat__primary_country_Nigeria,0.4001658414087106
+ElasticNet,0.01,cat__primary_country_Philippines,0.7316058887262471
+ElasticNet,0.01,cat__primary_country_South Africa,-0.7659770126641058
+ElasticNet,0.01,cat__primary_country_South Korea,1.229887978908168
+ElasticNet,0.01,cat__primary_country_Spain,0.1448799291901529
+ElasticNet,0.01,cat__primary_country_Thailand,0.31810978682768154
+ElasticNet,0.01,cat__primary_country_Turkey,0.5411641778043359
+ElasticNet,0.01,cat__primary_country_United Kingdom,-1.038881040965194
+ElasticNet,0.01,cat__primary_country_United States,-3.0188424071870803
+ElasticNet,0.01,cat__primary_country_Unknown,0.3631338834539969
+ElasticNet,0.01,cat__primary_country_infrequent_sklearn,-0.700378826351043
+ElasticNet,0.01,cat__primary_genre_Action & Adventure,2.9460750352925507
+ElasticNet,0.01,cat__primary_genre_Children & Family Movies,-1.5169975310384964
+ElasticNet,0.01,cat__primary_genre_Classic Movies,-0.0702120112629788
+ElasticNet,0.01,cat__primary_genre_Comedies,0.8226015182316233
+ElasticNet,0.01,cat__primary_genre_Documentaries,-2.7791844876763747
+ElasticNet,0.01,cat__primary_genre_Dramas,2.9038642830266412
+ElasticNet,0.01,cat__primary_genre_Horror Movies,-0.42797514583521473
+ElasticNet,0.01,cat__primary_genre_International Movies,0.4995414821989041
+ElasticNet,0.01,cat__primary_genre_Movies,-2.870769757992549
+ElasticNet,0.01,cat__primary_genre_Stand-Up Comedy,-4.348117621813847
+ElasticNet,0.01,cat__primary_genre_Thrillers,0.5229197298831709
+ElasticNet,0.01,cat__primary_genre_infrequent_sklearn,-0.004568817201115762
+ElasticNet,0.01,cat__rating_G,-0.3906533391870304
+ElasticNet,0.01,cat__rating_NR,-0.26157741503609666
+ElasticNet,0.01,cat__rating_PG,0.6321843715761929
+ElasticNet,0.01,cat__rating_PG-13,2.0975571509322117
+ElasticNet,0.01,cat__rating_R,2.3793045563910598
+ElasticNet,0.01,cat__rating_TV-14,0.68537126374767
+ElasticNet,0.01,cat__rating_TV-G,-1.5205331339924442
+ElasticNet,0.01,cat__rating_TV-MA,-0.0
+ElasticNet,0.01,cat__rating_TV-PG,-1.4247296552671906
+ElasticNet,0.01,cat__rating_TV-Y,-5.040791872231304
+ElasticNet,0.01,cat__rating_TV-Y7,-3.559003148014362
+ElasticNet,0.01,cat__rating_infrequent_sklearn,-0.4409559810975305
+ElasticNet,0.021544346900318832,num__release_year,-3.525795877403138
+ElasticNet,0.021544346900318832,num__cast_count,2.4909332649014666
+ElasticNet,0.021544346900318832,num__director_count,0.18392497073838465
+ElasticNet,0.021544346900318832,num__country_count,0.9749633679188263
+ElasticNet,0.021544346900318832,num__genre_count,2.5485845765829183
+ElasticNet,0.021544346900318832,cat__primary_country_Argentina,-0.823159254608982
+ElasticNet,0.021544346900318832,cat__primary_country_Australia,-0.04504494443841302
+ElasticNet,0.021544346900318832,cat__primary_country_Brazil,-0.4331181210574832
+ElasticNet,0.021544346900318832,cat__primary_country_Canada,-1.2676075624415197
+ElasticNet,0.021544346900318832,cat__primary_country_China,0.6649227571776399
+ElasticNet,0.021544346900318832,cat__primary_country_Egypt,0.3840045698751411
+ElasticNet,0.021544346900318832,cat__primary_country_France,-0.9624331842891571
+ElasticNet,0.021544346900318832,cat__primary_country_Germany,-0.2520725506527984
+ElasticNet,0.021544346900318832,cat__primary_country_Hong Kong,-1.3862681926261875
+ElasticNet,0.021544346900318832,cat__primary_country_India,7.588999292705473
+ElasticNet,0.021544346900318832,cat__primary_country_Indonesia,0.7643157504147274
+ElasticNet,0.021544346900318832,cat__primary_country_Italy,-0.1651939681683862
+ElasticNet,0.021544346900318832,cat__primary_country_Japan,-0.8100794999359141
+ElasticNet,0.021544346900318832,cat__primary_country_Mexico,-0.5831967817894148
+ElasticNet,0.021544346900318832,cat__primary_country_Nigeria,0.38657653308421613
+ElasticNet,0.021544346900318832,cat__primary_country_Philippines,0.7167966682674888
+ElasticNet,0.021544346900318832,cat__primary_country_South Africa,-0.755790675868967
+ElasticNet,0.021544346900318832,cat__primary_country_South Korea,1.2154536625091819
+ElasticNet,0.021544346900318832,cat__primary_country_Spain,0.1380165496089809
+ElasticNet,0.021544346900318832,cat__primary_country_Thailand,0.30986115451607343
+ElasticNet,0.021544346900318832,cat__primary_country_Turkey,0.5306092049830136
+ElasticNet,0.021544346900318832,cat__primary_country_United Kingdom,-1.0194612011226185
+ElasticNet,0.021544346900318832,cat__primary_country_United States,-2.989288363669077
+ElasticNet,0.021544346900318832,cat__primary_country_Unknown,0.33421291145370985
+ElasticNet,0.021544346900318832,cat__primary_country_infrequent_sklearn,-0.6899601954381275
+ElasticNet,0.021544346900318832,cat__primary_genre_Action & Adventure,2.936581615276053
+ElasticNet,0.021544346900318832,cat__primary_genre_Children & Family Movies,-1.5578336162885291
+ElasticNet,0.021544346900318832,cat__primary_genre_Classic Movies,-0.053947964696148654
+ElasticNet,0.021544346900318832,cat__primary_genre_Comedies,0.821028655656084
+ElasticNet,0.021544346900318832,cat__primary_genre_Documentaries,-2.7718350001644865
+ElasticNet,0.021544346900318832,cat__primary_genre_Dramas,2.9001413593356706
+ElasticNet,0.021544346900318832,cat__primary_genre_Horror Movies,-0.41373626043539447
+ElasticNet,0.021544346900318832,cat__primary_genre_International Movies,0.49722335934148887
+ElasticNet,0.021544346900318832,cat__primary_genre_Movies,-2.859560634618856
+ElasticNet,0.021544346900318832,cat__primary_genre_Stand-Up Comedy,-4.311363303197241
+ElasticNet,0.021544346900318832,cat__primary_genre_Thrillers,0.5173417808626585
+ElasticNet,0.021544346900318832,cat__primary_genre_infrequent_sklearn,-0.0016203939240452502
+ElasticNet,0.021544346900318832,cat__rating_G,-0.3714485556831448
+ElasticNet,0.021544346900318832,cat__rating_NR,-0.25460743458437973
+ElasticNet,0.021544346900318832,cat__rating_PG,0.6401702865477484
+ElasticNet,0.021544346900318832,cat__rating_PG-13,2.0792372224179663
+ElasticNet,0.021544346900318832,cat__rating_R,2.3578456628769353
+ElasticNet,0.021544346900318832,cat__rating_TV-14,0.712430564681107
+ElasticNet,0.021544346900318832,cat__rating_TV-G,-1.4971879663742507
+ElasticNet,0.021544346900318832,cat__rating_TV-MA,-0.0
+ElasticNet,0.021544346900318832,cat__rating_TV-PG,-1.39238865339483
+ElasticNet,0.021544346900318832,cat__rating_TV-Y,-4.983766705388313
+ElasticNet,0.021544346900318832,cat__rating_TV-Y7,-3.5040593882687014
+ElasticNet,0.021544346900318832,cat__rating_infrequent_sklearn,-0.428960773044683
+ElasticNet,0.046415888336127774,num__release_year,-3.460357101801872
+ElasticNet,0.046415888336127774,num__cast_count,2.5133583569867084
+ElasticNet,0.046415888336127774,num__director_count,0.15119941324192068
+ElasticNet,0.046415888336127774,num__country_count,0.9445766341296714
+ElasticNet,0.046415888336127774,num__genre_count,2.60861327097067
+ElasticNet,0.046415888336127774,cat__primary_country_Argentina,-0.8021336234046231
+ElasticNet,0.046415888336127774,cat__primary_country_Australia,-0.03494252633281521
+ElasticNet,0.046415888336127774,cat__primary_country_Brazil,-0.4224038090441666
+ElasticNet,0.046415888336127774,cat__primary_country_Canada,-1.2403539403455504
+ElasticNet,0.046415888336127774,cat__primary_country_China,0.6472280899565284
+ElasticNet,0.046415888336127774,cat__primary_country_Egypt,0.3635686576295481
+ElasticNet,0.046415888336127774,cat__primary_country_France,-0.9337371684959254
+ElasticNet,0.046415888336127774,cat__primary_country_Germany,-0.23183970956559902
+ElasticNet,0.046415888336127774,cat__primary_country_Hong Kong,-1.3429673802414253
+ElasticNet,0.046415888336127774,cat__primary_country_India,7.474828593911414
+ElasticNet,0.046415888336127774,cat__primary_country_Indonesia,0.7311920072910422
+ElasticNet,0.046415888336127774,cat__primary_country_Italy,-0.15360696109643956
+ElasticNet,0.046415888336127774,cat__primary_country_Japan,-0.7989101187973234
+ElasticNet,0.046415888336127774,cat__primary_country_Mexico,-0.5697959875237223
+ElasticNet,0.046415888336127774,cat__primary_country_Nigeria,0.3601298685922585
+ElasticNet,0.046415888336127774,cat__primary_country_Philippines,0.6876033709846706
+ElasticNet,0.046415888336127774,cat__primary_country_South Africa,-0.7331078095437374
+ElasticNet,0.046415888336127774,cat__primary_country_South Korea,1.1862556372132813
+ElasticNet,0.046415888336127774,cat__primary_country_Spain,0.1254023031798769
+ElasticNet,0.046415888336127774,cat__primary_country_Thailand,0.29350505868230964
+ElasticNet,0.046415888336127774,cat__primary_country_Turkey,0.5099356377635638
+ElasticNet,0.046415888336127774,cat__primary_country_United Kingdom,-0.9758563328660168
+ElasticNet,0.046415888336127774,cat__primary_country_United States,-2.921515284458777
+ElasticNet,0.046415888336127774,cat__primary_country_Unknown,0.27765829770116396
+ElasticNet,0.046415888336127774,cat__primary_country_infrequent_sklearn,-0.6647242253567189
+ElasticNet,0.046415888336127774,cat__primary_genre_Action & Adventure,2.9104138131115342
+ElasticNet,0.046415888336127774,cat__primary_genre_Children & Family Movies,-1.6398585314979306
+ElasticNet,0.046415888336127774,cat__primary_genre_Classic Movies,-0.02185747474895423
+ElasticNet,0.046415888336127774,cat__primary_genre_Comedies,0.8114627479081368
+ElasticNet,0.046415888336127774,cat__primary_genre_Documentaries,-2.761407968785599
+ElasticNet,0.046415888336127774,cat__primary_genre_Dramas,2.884505954607057
+ElasticNet,0.046415888336127774,cat__primary_genre_Horror Movies,-0.38770525457742466
+ElasticNet,0.046415888336127774,cat__primary_genre_International Movies,0.4894873285773733
+ElasticNet,0.046415888336127774,cat__primary_genre_Movies,-2.835990576905779
+ElasticNet,0.046415888336127774,cat__primary_genre_Stand-Up Comedy,-4.240007630589294
+ElasticNet,0.046415888336127774,cat__primary_genre_Thrillers,0.5034483923308376
+ElasticNet,0.046415888336127774,cat__primary_genre_infrequent_sklearn,-0.0
+ElasticNet,0.046415888336127774,cat__rating_G,-0.33374469639053367
+ElasticNet,0.046415888336127774,cat__rating_NR,-0.2402868357350291
+ElasticNet,0.046415888336127774,cat__rating_PG,0.6518667799028758
+ElasticNet,0.046415888336127774,cat__rating_PG-13,2.0399476549902857
+ElasticNet,0.046415888336127774,cat__rating_R,2.3119949842529866
+ElasticNet,0.046415888336127774,cat__rating_TV-14,0.7659161786100611
+ElasticNet,0.046415888336127774,cat__rating_TV-G,-1.4505811355329679
+ElasticNet,0.046415888336127774,cat__rating_TV-MA,-0.0
+ElasticNet,0.046415888336127774,cat__rating_TV-PG,-1.3278603888844651
+ElasticNet,0.046415888336127774,cat__rating_TV-Y,-4.869326811397475
+ElasticNet,0.046415888336127774,cat__rating_TV-Y7,-3.3945126751165327
+ElasticNet,0.046415888336127774,cat__rating_infrequent_sklearn,-0.4046351150741187
+ElasticNet,0.1,num__release_year,-3.3498573191554
+ElasticNet,0.1,num__cast_count,2.5524716554284392
+ElasticNet,0.1,num__director_count,0.08384417313402077
+ElasticNet,0.1,num__country_count,0.8820228155961584
+ElasticNet,0.1,num__genre_count,2.7231731775837416
+ElasticNet,0.1,cat__primary_country_Argentina,-0.757870427083621
+ElasticNet,0.1,cat__primary_country_Australia,-0.013167495014931583
+ElasticNet,0.1,cat__primary_country_Brazil,-0.3995093474214439
+ElasticNet,0.1,cat__primary_country_Canada,-1.1842328413760501
+ElasticNet,0.1,cat__primary_country_China,0.6118496132908768
+ElasticNet,0.1,cat__primary_country_Egypt,0.3235278290683346
+ElasticNet,0.1,cat__primary_country_France,-0.872946984177733
+ElasticNet,0.1,cat__primary_country_Germany,-0.19083866543115194
+ElasticNet,0.1,cat__primary_country_Hong Kong,-1.256328146014513
+ElasticNet,0.1,cat__primary_country_India,7.245608978658636
+ElasticNet,0.1,cat__primary_country_Indonesia,0.6662696474290011
+ElasticNet,0.1,cat__primary_country_Italy,-0.12775042928759778
+ElasticNet,0.1,cat__primary_country_Japan,-0.771237520771806
+ElasticNet,0.1,cat__primary_country_Mexico,-0.5408316928282384
+ElasticNet,0.1,cat__primary_country_Nigeria,0.3088519532226637
+ElasticNet,0.1,cat__primary_country_Philippines,0.6300263683603508
+ElasticNet,0.1,cat__primary_country_South Africa,-0.6851720941577277
+ElasticNet,0.1,cat__primary_country_South Korea,1.126967639263426
+ElasticNet,0.1,cat__primary_country_Spain,0.09955328709035785
+ElasticNet,0.1,cat__primary_country_Thailand,0.25964705586865816
+ElasticNet,0.1,cat__primary_country_Turkey,0.46781324716464523
+ElasticNet,0.1,cat__primary_country_United Kingdom,-0.8876476210773395
+ElasticNet,0.1,cat__primary_country_United States,-2.7841209913296305
+ElasticNet,0.1,cat__primary_country_Unknown,0.16612511313921752
+ElasticNet,0.1,cat__primary_country_infrequent_sklearn,-0.6109718747376331
+ElasticNet,0.1,cat__primary_genre_Action & Adventure,2.8338468917674895
+ElasticNet,0.1,cat__primary_genre_Children & Family Movies,-1.7907835379183166
+ElasticNet,0.1,cat__primary_genre_Classic Movies,-0.0
+ElasticNet,0.1,cat__primary_genre_Comedies,0.7702882909944437
+ElasticNet,0.1,cat__primary_genre_Documentaries,-2.7530442843286016
+ElasticNet,0.1,cat__primary_genre_Dramas,2.826042637137406
+ElasticNet,0.1,cat__primary_genre_Horror Movies,-0.34674794137515136
+ElasticNet,0.1,cat__primary_genre_International Movies,0.4646860722472072
+ElasticNet,0.1,cat__primary_genre_Movies,-2.7863967747514935
+ElasticNet,0.1,cat__primary_genre_Stand-Up Comedy,-4.111675190151972
+ElasticNet,0.1,cat__primary_genre_Thrillers,0.46793641959774235
+ElasticNet,0.1,cat__primary_genre_infrequent_sklearn,-0.0
+ElasticNet,0.1,cat__rating_G,-0.26612599727809594
+ElasticNet,0.1,cat__rating_NR,-0.21226537975498513
+ElasticNet,0.1,cat__rating_PG,0.6555454091879576
+ElasticNet,0.1,cat__rating_PG-13,1.9554816120540595
+ElasticNet,0.1,cat__rating_R,2.215570234100093
+ElasticNet,0.1,cat__rating_TV-14,0.8622358557477972
+ElasticNet,0.1,cat__rating_TV-G,-1.3646448814842396
+ElasticNet,0.1,cat__rating_TV-MA,-0.0
+ElasticNet,0.1,cat__rating_TV-PG,-1.2091475927249178
+ElasticNet,0.1,cat__rating_TV-Y,-4.653985602227081
+ElasticNet,0.1,cat__rating_TV-Y7,-3.192086589926436
+ElasticNet,0.1,cat__rating_infrequent_sklearn,-0.35841082066300367
+ElasticNet,0.21544346900318834,num__release_year,-3.169448704208898
+ElasticNet,0.21544346900318834,num__cast_count,2.600838320597401
+ElasticNet,0.21544346900318834,num__director_count,0.0
+ElasticNet,0.21544346900318834,num__country_count,0.7631419842572554
+ElasticNet,0.21544346900318834,num__genre_count,2.9085057978985964
+ElasticNet,0.21544346900318834,cat__primary_country_Argentina,-0.6673593782753716
+ElasticNet,0.21544346900318834,cat__primary_country_Australia,-0.0
+ElasticNet,0.21544346900318834,cat__primary_country_Brazil,-0.34853965486710853
+ElasticNet,0.21544346900318834,cat__primary_country_Canada,-1.070131648103341
+ElasticNet,0.21544346900318834,cat__primary_country_China,0.546476922009266
+ElasticNet,0.21544346900318834,cat__primary_country_Egypt,0.2553579841007391
+ElasticNet,0.21544346900318834,cat__primary_country_France,-0.7469442655913046
+ElasticNet,0.21544346900318834,cat__primary_country_Germany,-0.1090550646747562
+ElasticNet,0.21544346900318834,cat__primary_country_Hong Kong,-1.086874232572025
+ElasticNet,0.21544346900318834,cat__primary_country_India,6.8279802296973395
+ElasticNet,0.21544346900318834,cat__primary_country_Indonesia,0.5517902778894553
+ElasticNet,0.21544346900318834,cat__primary_country_Italy,-0.0700728307886042
+ElasticNet,0.21544346900318834,cat__primary_country_Japan,-0.6968486411158152
+ElasticNet,0.21544346900318834,cat__primary_country_Mexico,-0.47743833273255704
+ElasticNet,0.21544346900318834,cat__primary_country_Nigeria,0.22190487844507775
+ElasticNet,0.21544346900318834,cat__primary_country_Philippines,0.5293148806054456
+ElasticNet,0.21544346900318834,cat__primary_country_South Africa,-0.5859654200323939
+ElasticNet,0.21544346900318834,cat__primary_country_South Korea,1.0159779719296507
+ElasticNet,0.21544346900318834,cat__primary_country_Spain,0.05361623924000818
+ElasticNet,0.21544346900318834,cat__primary_country_Thailand,0.19372481452009138
+ElasticNet,0.21544346900318834,cat__primary_country_Turkey,0.3911003446817847
+ElasticNet,0.21544346900318834,cat__primary_country_United Kingdom,-0.7148140351979083
+ElasticNet,0.21544346900318834,cat__primary_country_United States,-2.511481062261619
+ElasticNet,0.21544346900318834,cat__primary_country_Unknown,0.0
+ElasticNet,0.21544346900318834,cat__primary_country_infrequent_sklearn,-0.4963632663532543
+ElasticNet,0.21544346900318834,cat__primary_genre_Action & Adventure,2.6920718402899726
+ElasticNet,0.21544346900318834,cat__primary_genre_Children & Family Movies,-1.9778197498398162
+ElasticNet,0.21544346900318834,cat__primary_genre_Classic Movies,0.0
+ElasticNet,0.21544346900318834,cat__primary_genre_Comedies,0.7121666728959263
+ElasticNet,0.21544346900318834,cat__primary_genre_Documentaries,-2.7110368322133946
+ElasticNet,0.21544346900318834,cat__primary_genre_Dramas,2.726741585285365
+ElasticNet,0.21544346900318834,cat__primary_genre_Horror Movies,-0.2612602290171585
+ElasticNet,0.21544346900318834,cat__primary_genre_International Movies,0.41794808586543186
+ElasticNet,0.21544346900318834,cat__primary_genre_Movies,-2.6689788562048253
+ElasticNet,0.21544346900318834,cat__primary_genre_Stand-Up Comedy,-3.871739660987324
+ElasticNet,0.21544346900318834,cat__primary_genre_Thrillers,0.3988177554656672
+ElasticNet,0.21544346900318834,cat__primary_genre_infrequent_sklearn,-0.0
+ElasticNet,0.21544346900318834,cat__rating_G,-0.16048333225529995
+ElasticNet,0.21544346900318834,cat__rating_NR,-0.15887428686805277
+ElasticNet,0.21544346900318834,cat__rating_PG,0.612935390421998
+ElasticNet,0.21544346900318834,cat__rating_PG-13,1.7871493870663677
+ElasticNet,0.21544346900318834,cat__rating_R,2.027289007656242
+ElasticNet,0.21544346900318834,cat__rating_TV-14,1.0090881466924706
+ElasticNet,0.21544346900318834,cat__rating_TV-G,-1.2226269557262868
+ElasticNet,0.21544346900318834,cat__rating_TV-MA,-0.0
+ElasticNet,0.21544346900318834,cat__rating_TV-PG,-1.0137441458678607
+ElasticNet,0.21544346900318834,cat__rating_TV-Y,-4.292806616077434
+ElasticNet,0.21544346900318834,cat__rating_TV-Y7,-2.8654921567220293
+ElasticNet,0.21544346900318834,cat__rating_infrequent_sklearn,-0.2774739165006594
+ElasticNet,0.46415888336127775,num__release_year,-2.869153110849914
+ElasticNet,0.46415888336127775,num__cast_count,2.6074493813029713
+ElasticNet,0.46415888336127775,num__director_count,-0.0
+ElasticNet,0.46415888336127775,num__country_count,0.5704737035814764
+ElasticNet,0.46415888336127775,num__genre_count,3.1224869774316444
+ElasticNet,0.46415888336127775,cat__primary_country_Argentina,-0.48997709279647456
+ElasticNet,0.46415888336127775,cat__primary_country_Australia,-0.0
+ElasticNet,0.46415888336127775,cat__primary_country_Brazil,-0.2330059473793677
+ElasticNet,0.46415888336127775,cat__primary_country_Canada,-0.8451768255479696
+ElasticNet,0.46415888336127775,cat__primary_country_China,0.44025294849326535
+ElasticNet,0.46415888336127775,cat__primary_country_Egypt,0.1653968159146303
+ElasticNet,0.46415888336127775,cat__primary_country_France,-0.4997673801592886
+ElasticNet,0.46415888336127775,cat__primary_country_Germany,-0.0
+ElasticNet,0.46415888336127775,cat__primary_country_Hong Kong,-0.7718811338314937
+ElasticNet,0.46415888336127775,cat__primary_country_India,6.177751963379313
+ElasticNet,0.46415888336127775,cat__primary_country_Indonesia,0.3838862077580644
+ElasticNet,0.46415888336127775,cat__primary_country_Italy,-0.0
+ElasticNet,0.46415888336127775,cat__primary_country_Japan,-0.510590773715058
+ElasticNet,0.46415888336127775,cat__primary_country_Mexico,-0.3392330752844644
+ElasticNet,0.46415888336127775,cat__primary_country_Nigeria,0.10610860079885538
+ElasticNet,0.46415888336127775,cat__primary_country_Philippines,0.3857498896948272
+ElasticNet,0.46415888336127775,cat__primary_country_South Africa,-0.39209073851688836
+ElasticNet,0.46415888336127775,cat__primary_country_South Korea,0.835701531026477
+ElasticNet,0.46415888336127775,cat__primary_country_Spain,0.0
+ElasticNet,0.46415888336127775,cat__primary_country_Thailand,0.08351986368733133
+ElasticNet,0.46415888336127775,cat__primary_country_Turkey,0.27732007016453103
+ElasticNet,0.46415888336127775,cat__primary_country_United Kingdom,-0.4001264171821614
+ElasticNet,0.46415888336127775,cat__primary_country_United States,-1.9925357845428244
+ElasticNet,0.46415888336127775,cat__primary_country_Unknown,-0.0
+ElasticNet,0.46415888336127775,cat__primary_country_infrequent_sklearn,-0.2575906148929776
+ElasticNet,0.46415888336127775,cat__primary_genre_Action & Adventure,2.449081922293449
+ElasticNet,0.46415888336127775,cat__primary_genre_Children & Family Movies,-2.1155091216680804
+ElasticNet,0.46415888336127775,cat__primary_genre_Classic Movies,0.0
+ElasticNet,0.46415888336127775,cat__primary_genre_Comedies,0.6538075131797234
+ElasticNet,0.46415888336127775,cat__primary_genre_Documentaries,-2.5873540677801614
+ElasticNet,0.46415888336127775,cat__primary_genre_Dramas,2.572916322780095
+ElasticNet,0.46415888336127775,cat__primary_genre_Horror Movies,-0.10060021448719589
+ElasticNet,0.46415888336127775,cat__primary_genre_International Movies,0.32415401646657793
+ElasticNet,0.46415888336127775,cat__primary_genre_Movies,-2.4336923757596853
+ElasticNet,0.46415888336127775,cat__primary_genre_Stand-Up Comedy,-3.4693684316534954
+ElasticNet,0.46415888336127775,cat__primary_genre_Thrillers,0.2708491514518141
+ElasticNet,0.46415888336127775,cat__primary_genre_infrequent_sklearn,-0.0
+ElasticNet,0.46415888336127775,cat__rating_G,-0.020664058168038183
+ElasticNet,0.46415888336127775,cat__rating_NR,-0.06816098704899498
+ElasticNet,0.46415888336127775,cat__rating_PG,0.44672260825263527
+ElasticNet,0.46415888336127775,cat__rating_PG-13,1.4783820315263256
+ElasticNet,0.46415888336127775,cat__rating_R,1.6810861350345532
+ElasticNet,0.46415888336127775,cat__rating_TV-14,1.1369854883436104
+ElasticNet,0.46415888336127775,cat__rating_TV-G,-1.0293860338590037
+ElasticNet,0.46415888336127775,cat__rating_TV-MA,-0.058454990763012075
+ElasticNet,0.46415888336127775,cat__rating_TV-PG,-0.7557846356496222
+ElasticNet,0.46415888336127775,cat__rating_TV-Y,-3.7877059332134433
+ElasticNet,0.46415888336127775,cat__rating_TV-Y7,-2.4484358184016193
+ElasticNet,0.46415888336127775,cat__rating_infrequent_sklearn,-0.15094009388312796
+ElasticNet,1.0,num__release_year,-2.4029117653605385
+ElasticNet,1.0,num__cast_count,2.456229591563109
+ElasticNet,1.0,num__director_count,-0.0
+ElasticNet,1.0,num__country_count,0.2835326277787819
+ElasticNet,1.0,num__genre_count,3.1698754196318673
+ElasticNet,1.0,cat__primary_country_Argentina,-0.2334704070815643
+ElasticNet,1.0,cat__primary_country_Australia,-0.0
+ElasticNet,1.0,cat__primary_country_Brazil,-0.06978301596769186
+ElasticNet,1.0,cat__primary_country_Canada,-0.5570370327763072
+ElasticNet,1.0,cat__primary_country_China,0.23179014851978313
+ElasticNet,1.0,cat__primary_country_Egypt,0.0020468348848153026
+ElasticNet,1.0,cat__primary_country_France,-0.17088204723268138
+ElasticNet,1.0,cat__primary_country_Germany,-0.0
+ElasticNet,1.0,cat__primary_country_Hong Kong,-0.3325411511292276
+ElasticNet,1.0,cat__primary_country_India,5.105005547789312
+ElasticNet,1.0,cat__primary_country_Indonesia,0.12372251495445757
+ElasticNet,1.0,cat__primary_country_Italy,-0.0
+ElasticNet,1.0,cat__primary_country_Japan,-0.21441430220822477
+ElasticNet,1.0,cat__primary_country_Mexico,-0.1452533464336565
+ElasticNet,1.0,cat__primary_country_Nigeria,0.0
+ElasticNet,1.0,cat__primary_country_Philippines,0.1584439513439872
+ElasticNet,1.0,cat__primary_country_South Africa,-0.10976142236868909
+ElasticNet,1.0,cat__primary_country_South Korea,0.5335978935932343
+ElasticNet,1.0,cat__primary_country_Spain,0.0
+ElasticNet,1.0,cat__primary_country_Thailand,0.0
+ElasticNet,1.0,cat__primary_country_Turkey,0.07321129479796396
+ElasticNet,1.0,cat__primary_country_United Kingdom,-0.06076370241211038
+ElasticNet,1.0,cat__primary_country_United States,-1.4510358984613108
+ElasticNet,1.0,cat__primary_country_Unknown,-0.07323181200911855
+ElasticNet,1.0,cat__primary_country_infrequent_sklearn,-0.0
+ElasticNet,1.0,cat__primary_genre_Action & Adventure,2.0151350654256563
+ElasticNet,1.0,cat__primary_genre_Children & Family Movies,-2.0372714593487693
+ElasticNet,1.0,cat__primary_genre_Classic Movies,0.0
+ElasticNet,1.0,cat__primary_genre_Comedies,0.5257530995751386
+ElasticNet,1.0,cat__primary_genre_Documentaries,-2.3209973050127775
+ElasticNet,1.0,cat__primary_genre_Dramas,2.236043140811935
+ElasticNet,1.0,cat__primary_genre_Horror Movies,-0.0
+ElasticNet,1.0,cat__primary_genre_International Movies,0.1208443672491477
+ElasticNet,1.0,cat__primary_genre_Movies,-2.011273747447934
+ElasticNet,1.0,cat__primary_genre_Stand-Up Comedy,-2.9011865134477195
+ElasticNet,1.0,cat__primary_genre_Thrillers,0.03416263984187039
+ElasticNet,1.0,cat__primary_genre_infrequent_sklearn,-0.0
+ElasticNet,1.0,cat__rating_G,-0.0
+ElasticNet,1.0,cat__rating_NR,-0.0
+ElasticNet,1.0,cat__rating_PG,0.10354029794482807
+ElasticNet,1.0,cat__rating_PG-13,1.0347908062451738
+ElasticNet,1.0,cat__rating_R,1.1872785742929592
+ElasticNet,1.0,cat__rating_TV-14,1.171099025457429
+ElasticNet,1.0,cat__rating_TV-G,-0.7704407467698791
+ElasticNet,1.0,cat__rating_TV-MA,-0.14916669014764808
+ElasticNet,1.0,cat__rating_TV-PG,-0.44510608880810126
+ElasticNet,1.0,cat__rating_TV-Y,-3.1080953949546473
+ElasticNet,1.0,cat__rating_TV-Y7,-1.9357652541917185
+ElasticNet,1.0,cat__rating_infrequent_sklearn,-0.0
+ElasticNet,2.154434690031882,num__release_year,-1.7263106816990783
+ElasticNet,2.154434690031882,num__cast_count,1.9907121169595978
+ElasticNet,2.154434690031882,num__director_count,-0.0
+ElasticNet,2.154434690031882,num__country_count,0.0
+ElasticNet,2.154434690031882,num__genre_count,2.835955935862017
+ElasticNet,2.154434690031882,cat__primary_country_Argentina,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_Australia,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_Brazil,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_Canada,-0.2239111113551343
+ElasticNet,2.154434690031882,cat__primary_country_China,0.0
+ElasticNet,2.154434690031882,cat__primary_country_Egypt,0.0
+ElasticNet,2.154434690031882,cat__primary_country_France,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_Germany,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_Hong Kong,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_India,3.6963031431406215
+ElasticNet,2.154434690031882,cat__primary_country_Indonesia,0.0
+ElasticNet,2.154434690031882,cat__primary_country_Italy,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_Japan,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_Mexico,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_Nigeria,0.0
+ElasticNet,2.154434690031882,cat__primary_country_Philippines,0.0
+ElasticNet,2.154434690031882,cat__primary_country_South Africa,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_South Korea,0.12467394116614278
+ElasticNet,2.154434690031882,cat__primary_country_Spain,0.0
+ElasticNet,2.154434690031882,cat__primary_country_Thailand,0.0
+ElasticNet,2.154434690031882,cat__primary_country_Turkey,0.0
+ElasticNet,2.154434690031882,cat__primary_country_United Kingdom,-0.0
+ElasticNet,2.154434690031882,cat__primary_country_United States,-0.9995391850061526
+ElasticNet,2.154434690031882,cat__primary_country_Unknown,-0.16115945639423665
+ElasticNet,2.154434690031882,cat__primary_country_infrequent_sklearn,-0.0
+ElasticNet,2.154434690031882,cat__primary_genre_Action & Adventure,1.447557520162655
+ElasticNet,2.154434690031882,cat__primary_genre_Children & Family Movies,-1.6890884156759884
+ElasticNet,2.154434690031882,cat__primary_genre_Classic Movies,0.0
+ElasticNet,2.154434690031882,cat__primary_genre_Comedies,0.3296289740849987
+ElasticNet,2.154434690031882,cat__primary_genre_Documentaries,-1.7641677327555072
+ElasticNet,2.154434690031882,cat__primary_genre_Dramas,1.704961422089463
+ElasticNet,2.154434690031882,cat__primary_genre_Horror Movies,-0.0
+ElasticNet,2.154434690031882,cat__primary_genre_International Movies,0.0
+ElasticNet,2.154434690031882,cat__primary_genre_Movies,-1.377584124128719
+ElasticNet,2.154434690031882,cat__primary_genre_Stand-Up Comedy,-2.1324003761601014
+ElasticNet,2.154434690031882,cat__primary_genre_Thrillers,0.0
+ElasticNet,2.154434690031882,cat__primary_genre_infrequent_sklearn,-0.0
+ElasticNet,2.154434690031882,cat__rating_G,-0.0
+ElasticNet,2.154434690031882,cat__rating_NR,-0.0
+ElasticNet,2.154434690031882,cat__rating_PG,0.0
+ElasticNet,2.154434690031882,cat__rating_PG-13,0.5595355739092286
+ElasticNet,2.154434690031882,cat__rating_R,0.6668432923238297
+ElasticNet,2.154434690031882,cat__rating_TV-14,1.0093163350770507
+ElasticNet,2.154434690031882,cat__rating_TV-G,-0.41594204194611667
+ElasticNet,2.154434690031882,cat__rating_TV-MA,-0.07365714996860404
+ElasticNet,2.154434690031882,cat__rating_TV-PG,-0.05932620372806161
+ElasticNet,2.154434690031882,cat__rating_TV-Y,-2.2110396482958397
+ElasticNet,2.154434690031882,cat__rating_TV-Y7,-1.2886881289268826
+ElasticNet,2.154434690031882,cat__rating_infrequent_sklearn,-0.0
+ElasticNet,4.6415888336127775,num__release_year,-0.9406588649246355
+ElasticNet,4.6415888336127775,num__cast_count,1.2363891467560026
+ElasticNet,4.6415888336127775,num__director_count,-0.0
+ElasticNet,4.6415888336127775,num__country_count,0.0
+ElasticNet,4.6415888336127775,num__genre_count,2.0360749589204428
+ElasticNet,4.6415888336127775,cat__primary_country_Argentina,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Australia,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Brazil,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Canada,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_China,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Egypt,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_France,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Germany,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Hong Kong,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_India,2.245508702743862
+ElasticNet,4.6415888336127775,cat__primary_country_Indonesia,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Italy,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Japan,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Mexico,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Nigeria,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Philippines,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_South Africa,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_South Korea,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Spain,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Thailand,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_Turkey,0.0
+ElasticNet,4.6415888336127775,cat__primary_country_United Kingdom,-0.0
+ElasticNet,4.6415888336127775,cat__primary_country_United States,-0.4886077707243025
+ElasticNet,4.6415888336127775,cat__primary_country_Unknown,-0.014792858419356217
+ElasticNet,4.6415888336127775,cat__primary_country_infrequent_sklearn,-0.0
+ElasticNet,4.6415888336127775,cat__primary_genre_Action & Adventure,0.7550858288488411
+ElasticNet,4.6415888336127775,cat__primary_genre_Children & Family Movies,-1.0649812963720193
+ElasticNet,4.6415888336127775,cat__primary_genre_Classic Movies,0.0
+ElasticNet,4.6415888336127775,cat__primary_genre_Comedies,0.053486340136396485
+ElasticNet,4.6415888336127775,cat__primary_genre_Documentaries,-1.010032503604637
+ElasticNet,4.6415888336127775,cat__primary_genre_Dramas,0.983642981584248
+ElasticNet,4.6415888336127775,cat__primary_genre_Horror Movies,-0.0
+ElasticNet,4.6415888336127775,cat__primary_genre_International Movies,0.0
+ElasticNet,4.6415888336127775,cat__primary_genre_Movies,-0.6529243619202344
+ElasticNet,4.6415888336127775,cat__primary_genre_Stand-Up Comedy,-1.24731961414987
+ElasticNet,4.6415888336127775,cat__primary_genre_Thrillers,0.0
+ElasticNet,4.6415888336127775,cat__primary_genre_infrequent_sklearn,-0.0
+ElasticNet,4.6415888336127775,cat__rating_G,-0.0
+ElasticNet,4.6415888336127775,cat__rating_NR,-0.0
+ElasticNet,4.6415888336127775,cat__rating_PG,0.0
+ElasticNet,4.6415888336127775,cat__rating_PG-13,0.03567278665301359
+ElasticNet,4.6415888336127775,cat__rating_R,0.09950586477082844
+ElasticNet,4.6415888336127775,cat__rating_TV-14,0.5766210348463955
+ElasticNet,4.6415888336127775,cat__rating_TV-G,-0.02002480747381399
+ElasticNet,4.6415888336127775,cat__rating_TV-MA,-0.0
+ElasticNet,4.6415888336127775,cat__rating_TV-PG,-0.0
+ElasticNet,4.6415888336127775,cat__rating_TV-Y,-1.2499224005728207
+ElasticNet,4.6415888336127775,cat__rating_TV-Y7,-0.6235479459256439
+ElasticNet,4.6415888336127775,cat__rating_infrequent_sklearn,-0.0
+ElasticNet,10.0,num__release_year,-0.18029067078177868
+ElasticNet,10.0,num__cast_count,0.40004711268078796
+ElasticNet,10.0,num__director_count,-0.0
+ElasticNet,10.0,num__country_count,0.0
+ElasticNet,10.0,num__genre_count,1.0175066766983982
+ElasticNet,10.0,cat__primary_country_Argentina,-0.0
+ElasticNet,10.0,cat__primary_country_Australia,-0.0
+ElasticNet,10.0,cat__primary_country_Brazil,-0.0
+ElasticNet,10.0,cat__primary_country_Canada,-0.0
+ElasticNet,10.0,cat__primary_country_China,0.0
+ElasticNet,10.0,cat__primary_country_Egypt,0.0
+ElasticNet,10.0,cat__primary_country_France,-0.0
+ElasticNet,10.0,cat__primary_country_Germany,-0.0
+ElasticNet,10.0,cat__primary_country_Hong Kong,-0.0
+ElasticNet,10.0,cat__primary_country_India,0.9923789222775438
+ElasticNet,10.0,cat__primary_country_Indonesia,0.0
+ElasticNet,10.0,cat__primary_country_Italy,-0.0
+ElasticNet,10.0,cat__primary_country_Japan,-0.0
+ElasticNet,10.0,cat__primary_country_Mexico,-0.0
+ElasticNet,10.0,cat__primary_country_Nigeria,0.0
+ElasticNet,10.0,cat__primary_country_Philippines,0.0
+ElasticNet,10.0,cat__primary_country_South Africa,-0.0
+ElasticNet,10.0,cat__primary_country_South Korea,0.0
+ElasticNet,10.0,cat__primary_country_Spain,0.0
+ElasticNet,10.0,cat__primary_country_Thailand,0.0
+ElasticNet,10.0,cat__primary_country_Turkey,0.0
+ElasticNet,10.0,cat__primary_country_United Kingdom,-0.0
+ElasticNet,10.0,cat__primary_country_United States,-0.006615553489442602
+ElasticNet,10.0,cat__primary_country_Unknown,-0.0
+ElasticNet,10.0,cat__primary_country_infrequent_sklearn,-0.0
+ElasticNet,10.0,cat__primary_genre_Action & Adventure,0.0791581260646296
+ElasticNet,10.0,cat__primary_genre_Children & Family Movies,-0.3117864844804636
+ElasticNet,10.0,cat__primary_genre_Classic Movies,0.0
+ElasticNet,10.0,cat__primary_genre_Comedies,0.0
+ElasticNet,10.0,cat__primary_genre_Documentaries,-0.2423422667379955
+ElasticNet,10.0,cat__primary_genre_Dramas,0.26564823638145996
+ElasticNet,10.0,cat__primary_genre_Horror Movies,-0.0
+ElasticNet,10.0,cat__primary_genre_International Movies,0.0
+ElasticNet,10.0,cat__primary_genre_Movies,-0.0
+ElasticNet,10.0,cat__primary_genre_Stand-Up Comedy,-0.40043244850592014
+ElasticNet,10.0,cat__primary_genre_Thrillers,0.0
+ElasticNet,10.0,cat__primary_genre_infrequent_sklearn,-0.0
+ElasticNet,10.0,cat__rating_G,-0.0
+ElasticNet,10.0,cat__rating_NR,-0.0
+ElasticNet,10.0,cat__rating_PG,-0.0
+ElasticNet,10.0,cat__rating_PG-13,0.0
+ElasticNet,10.0,cat__rating_R,0.0
+ElasticNet,10.0,cat__rating_TV-14,0.056939022615775395
+ElasticNet,10.0,cat__rating_TV-G,-0.0
+ElasticNet,10.0,cat__rating_TV-MA,-0.0
+ElasticNet,10.0,cat__rating_TV-PG,-0.0
+ElasticNet,10.0,cat__rating_TV-Y,-0.3757358426410643
+ElasticNet,10.0,cat__rating_TV-Y7,-0.005081898717964755
+ElasticNet,10.0,cat__rating_infrequent_sklearn,-0.0
+ElasticNet,21.54434690031882,num__release_year,-0.0
+ElasticNet,21.54434690031882,num__cast_count,0.0
+ElasticNet,21.54434690031882,num__director_count,-0.0
+ElasticNet,21.54434690031882,num__country_count,0.0
+ElasticNet,21.54434690031882,num__genre_count,0.0928872256325672
+ElasticNet,21.54434690031882,cat__primary_country_Argentina,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Australia,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Brazil,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Canada,-0.0
+ElasticNet,21.54434690031882,cat__primary_country_China,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Egypt,0.0
+ElasticNet,21.54434690031882,cat__primary_country_France,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Germany,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Hong Kong,0.0
+ElasticNet,21.54434690031882,cat__primary_country_India,0.056666401555286246
+ElasticNet,21.54434690031882,cat__primary_country_Indonesia,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Italy,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Japan,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Mexico,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Nigeria,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Philippines,0.0
+ElasticNet,21.54434690031882,cat__primary_country_South Africa,0.0
+ElasticNet,21.54434690031882,cat__primary_country_South Korea,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Spain,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Thailand,0.0
+ElasticNet,21.54434690031882,cat__primary_country_Turkey,0.0
+ElasticNet,21.54434690031882,cat__primary_country_United Kingdom,0.0
+ElasticNet,21.54434690031882,cat__primary_country_United States,-0.0
+ElasticNet,21.54434690031882,cat__primary_country_Unknown,-0.0
+ElasticNet,21.54434690031882,cat__primary_country_infrequent_sklearn,0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Action & Adventure,0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Children & Family Movies,-0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Classic Movies,0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Comedies,0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Documentaries,-0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Dramas,0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Horror Movies,0.0
+ElasticNet,21.54434690031882,cat__primary_genre_International Movies,0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Movies,-0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Stand-Up Comedy,-0.0
+ElasticNet,21.54434690031882,cat__primary_genre_Thrillers,0.0
+ElasticNet,21.54434690031882,cat__primary_genre_infrequent_sklearn,0.0
+ElasticNet,21.54434690031882,cat__rating_G,0.0
+ElasticNet,21.54434690031882,cat__rating_NR,0.0
+ElasticNet,21.54434690031882,cat__rating_PG,0.0
+ElasticNet,21.54434690031882,cat__rating_PG-13,0.0
+ElasticNet,21.54434690031882,cat__rating_R,0.0
+ElasticNet,21.54434690031882,cat__rating_TV-14,0.0
+ElasticNet,21.54434690031882,cat__rating_TV-G,-0.0
+ElasticNet,21.54434690031882,cat__rating_TV-MA,-0.0
+ElasticNet,21.54434690031882,cat__rating_TV-PG,0.0
+ElasticNet,21.54434690031882,cat__rating_TV-Y,-0.0
+ElasticNet,21.54434690031882,cat__rating_TV-Y7,-0.0
+ElasticNet,21.54434690031882,cat__rating_infrequent_sklearn,0.0
+ElasticNet,46.41588833612777,num__release_year,0.0
+ElasticNet,46.41588833612777,num__cast_count,0.0
+ElasticNet,46.41588833612777,num__director_count,0.0
+ElasticNet,46.41588833612777,num__country_count,0.0
+ElasticNet,46.41588833612777,num__genre_count,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Argentina,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Australia,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Brazil,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Canada,0.0
+ElasticNet,46.41588833612777,cat__primary_country_China,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Egypt,0.0
+ElasticNet,46.41588833612777,cat__primary_country_France,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Germany,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Hong Kong,0.0
+ElasticNet,46.41588833612777,cat__primary_country_India,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Indonesia,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Italy,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Japan,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Mexico,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Nigeria,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Philippines,0.0
+ElasticNet,46.41588833612777,cat__primary_country_South Africa,0.0
+ElasticNet,46.41588833612777,cat__primary_country_South Korea,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Spain,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Thailand,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Turkey,0.0
+ElasticNet,46.41588833612777,cat__primary_country_United Kingdom,0.0
+ElasticNet,46.41588833612777,cat__primary_country_United States,0.0
+ElasticNet,46.41588833612777,cat__primary_country_Unknown,0.0
+ElasticNet,46.41588833612777,cat__primary_country_infrequent_sklearn,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Action & Adventure,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Children & Family Movies,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Classic Movies,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Comedies,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Documentaries,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Dramas,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Horror Movies,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_International Movies,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Movies,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Stand-Up Comedy,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_Thrillers,0.0
+ElasticNet,46.41588833612777,cat__primary_genre_infrequent_sklearn,0.0
+ElasticNet,46.41588833612777,cat__rating_G,0.0
+ElasticNet,46.41588833612777,cat__rating_NR,0.0
+ElasticNet,46.41588833612777,cat__rating_PG,0.0
+ElasticNet,46.41588833612777,cat__rating_PG-13,0.0
+ElasticNet,46.41588833612777,cat__rating_R,0.0
+ElasticNet,46.41588833612777,cat__rating_TV-14,0.0
+ElasticNet,46.41588833612777,cat__rating_TV-G,0.0
+ElasticNet,46.41588833612777,cat__rating_TV-MA,0.0
+ElasticNet,46.41588833612777,cat__rating_TV-PG,0.0
+ElasticNet,46.41588833612777,cat__rating_TV-Y,0.0
+ElasticNet,46.41588833612777,cat__rating_TV-Y7,0.0
+ElasticNet,46.41588833612777,cat__rating_infrequent_sklearn,0.0
+ElasticNet,100.0,num__release_year,0.0
+ElasticNet,100.0,num__cast_count,0.0
+ElasticNet,100.0,num__director_count,0.0
+ElasticNet,100.0,num__country_count,0.0
+ElasticNet,100.0,num__genre_count,0.0
+ElasticNet,100.0,cat__primary_country_Argentina,0.0
+ElasticNet,100.0,cat__primary_country_Australia,0.0
+ElasticNet,100.0,cat__primary_country_Brazil,0.0
+ElasticNet,100.0,cat__primary_country_Canada,0.0
+ElasticNet,100.0,cat__primary_country_China,0.0
+ElasticNet,100.0,cat__primary_country_Egypt,0.0
+ElasticNet,100.0,cat__primary_country_France,0.0
+ElasticNet,100.0,cat__primary_country_Germany,0.0
+ElasticNet,100.0,cat__primary_country_Hong Kong,0.0
+ElasticNet,100.0,cat__primary_country_India,0.0
+ElasticNet,100.0,cat__primary_country_Indonesia,0.0
+ElasticNet,100.0,cat__primary_country_Italy,0.0
+ElasticNet,100.0,cat__primary_country_Japan,0.0
+ElasticNet,100.0,cat__primary_country_Mexico,0.0
+ElasticNet,100.0,cat__primary_country_Nigeria,0.0
+ElasticNet,100.0,cat__primary_country_Philippines,0.0
+ElasticNet,100.0,cat__primary_country_South Africa,0.0
+ElasticNet,100.0,cat__primary_country_South Korea,0.0
+ElasticNet,100.0,cat__primary_country_Spain,0.0
+ElasticNet,100.0,cat__primary_country_Thailand,0.0
+ElasticNet,100.0,cat__primary_country_Turkey,0.0
+ElasticNet,100.0,cat__primary_country_United Kingdom,0.0
+ElasticNet,100.0,cat__primary_country_United States,0.0
+ElasticNet,100.0,cat__primary_country_Unknown,0.0
+ElasticNet,100.0,cat__primary_country_infrequent_sklearn,0.0
+ElasticNet,100.0,cat__primary_genre_Action & Adventure,0.0
+ElasticNet,100.0,cat__primary_genre_Children & Family Movies,0.0
+ElasticNet,100.0,cat__primary_genre_Classic Movies,0.0
+ElasticNet,100.0,cat__primary_genre_Comedies,0.0
+ElasticNet,100.0,cat__primary_genre_Documentaries,0.0
+ElasticNet,100.0,cat__primary_genre_Dramas,0.0
+ElasticNet,100.0,cat__primary_genre_Horror Movies,0.0
+ElasticNet,100.0,cat__primary_genre_International Movies,0.0
+ElasticNet,100.0,cat__primary_genre_Movies,0.0
+ElasticNet,100.0,cat__primary_genre_Stand-Up Comedy,0.0
+ElasticNet,100.0,cat__primary_genre_Thrillers,0.0
+ElasticNet,100.0,cat__primary_genre_infrequent_sklearn,0.0
+ElasticNet,100.0,cat__rating_G,0.0
+ElasticNet,100.0,cat__rating_NR,0.0
+ElasticNet,100.0,cat__rating_PG,0.0
+ElasticNet,100.0,cat__rating_PG-13,0.0
+ElasticNet,100.0,cat__rating_R,0.0
+ElasticNet,100.0,cat__rating_TV-14,0.0
+ElasticNet,100.0,cat__rating_TV-G,0.0
+ElasticNet,100.0,cat__rating_TV-MA,0.0
+ElasticNet,100.0,cat__rating_TV-PG,0.0
+ElasticNet,100.0,cat__rating_TV-Y,0.0
+ElasticNet,100.0,cat__rating_TV-Y7,0.0
+ElasticNet,100.0,cat__rating_infrequent_sklearn,0.0

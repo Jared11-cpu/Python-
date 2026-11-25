@@ -1,0 +1,72 @@
+{
+  "source": "https://www.kaggle.com/datasets/shivamb/netflix-shows",
+  "downloaded": "2026-11-25",
+  "sha256": "df1f4ad2027a5a14c3a33932ef0d4054565ff88adf92b7f263601b70fdc6f3f3",
+  "raw_rows": 8807,
+  "raw_movies": 6131,
+  "valid_movies": 6128,
+  "train_rows": 4902,
+  "test_rows": 1226,
+  "features_after_encoding": 54,
+  "missing_raw": {
+    "show_id": 0,
+    "type": 0,
+    "title": 0,
+    "director": 2634,
+    "cast": 825,
+    "country": 831,
+    "date_added": 10,
+    "release_year": 0,
+    "rating": 4,
+    "duration": 3,
+    "listed_in": 0,
+    "description": 0
+  },
+  "duration_summary": {
+    "count": 6128.0,
+    "mean": 99.57718668407311,
+    "std": 28.290593447417397,
+    "min": 3.0,
+    "25%": 87.0,
+    "50%": 98.0,
+    "75%": 114.0,
+    "max": 312.0
+  },
+  "selection": {
+    "Ridge": {
+      "best_params": {
+        "model__alpha": 100.0
+      },
+      "threshold_mse": 456.3366400731507,
+      "one_se_params": {
+        "model__alpha": 2154.4346900318824
+      }
+    },
+    "Lasso": {
+      "best_params": {
+        "model__alpha": 0.046415888336127774
+      },
+      "threshold_mse": 456.3940682276495,
+      "one_se_params": {
+        "model__alpha": 0.46415888336127775
+      }
+    },
+    "ElasticNet": {
+      "best_params": {
+        "model__alpha": 0.046415888336127774,
+        "model__l1_ratio": 0.5
+      },
+      "threshold_mse": 456.2550922611546,
+      "one_se_params": {
+        "model__alpha": 0.46415888336127775,
+        "model__l1_ratio": 0.9
+      }
+    }
+  },
+  "versions": {
+    "python": "3.13.9",
+    "pandas": "3.1.1",
+    "numpy": "2.5.1",
+    "scikit-learn": "1.9.1"
+  }
+}
