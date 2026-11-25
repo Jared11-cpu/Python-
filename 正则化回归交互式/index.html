@@ -34,7 +34,7 @@
   <p>用 Hitters 数据预测棒球球员薪资，看看增大惩罚会让哪些系数缩小，又会让哪些变量退出模型。</p>
 </header>
 <main>
-  <h2>系数路径与验证误差</h2>
+  <h2>第 4 题 · Hitters 薪资预测</h2>
   <div class="controls">
     <label>模型 <select id="model"><option>Ridge</option><option>Lasso</option><option>Elastic Net</option></select></label>
     <label>变量 <select id="feature"><option value="">全部变量</option></select></label>
@@ -42,7 +42,7 @@
     <button id="best" type="button">最小误差</button>
     <button id="one" type="button">1-SE</button>
   </div>
-  <p><output id="readout" aria-live="polite"></output></p>
+    <p><output id="readout" aria-live="polite"></output></p>
   <div class="plots">
     <figure><figcaption>标准化系数</figcaption><canvas id="path" width="600" height="330" role="img" aria-label="各变量系数随 alpha 变化的曲线"></canvas></figure>
     <figure><figcaption>10 折平均验证 RMSE</figcaption><canvas id="error" width="600" height="330" role="img" aria-label="验证 RMSE 随 alpha 变化的曲线"></canvas></figure>
@@ -64,13 +64,10 @@
     <p>这组 α 由 RidgeCV、LassoCV、ElasticNetCV 用相同的 10 折划分直接选出。此处先对整个外层训练集标准化。上表按折内标准化的曲线选参，统一使用平均折 RMSE。LassoCV 和 ElasticNetCV 内置的是平均折 MSE。</p>
   </details>
   <h2>推导与分析</h2>
-  <details open><summary>正交设计下为什么是等比例收缩？</summary>
+  <details open><summary>第 1 题 · 正交设计下为什么是等比例收缩？</summary>
     <p>对 ‖y − Xβ‖² + λ‖β‖² 求导并令其为零，得到 (XᵀX + λI)β̂ = Xᵀy。当 X 的列正交且已归一化时，XᵀX = I，此时 OLS 系数为 Xᵀy，因此 β̂<sub>Ridge</sub> = β̂<sub>OLS</sub> / (1 + λ)。如果列只正交，且第 j 列的平方范数为 dⱼ，则该列的收缩因子是 dⱼ / (dⱼ + λ)。这里默认截距单独处理。</p>
   </details>
-  <details><summary>为什么 XᵀX + λI 严格正定？</summary>
-    <p>对任意非零向量 v，有 vᵀ(XᵀX + λI)v = ‖Xv‖² + λ‖v‖² ≥ λ‖v‖² &gt; 0，因为 λ &gt; 0。矩阵对称，所以它严格正定，即使 X 秩亏也有唯一的 Ridge 系数解。</p>
-  </details>
-  <details><summary>变量的单位为什么会影响惩罚？</summary>
+  <details><summary>第 3 题 · 变量的单位为什么会影响惩罚？</summary>
     <p>把一个变量从米改为厘米，数值放大 100 倍。要维持相同的预测，它的系数就缩小为原来的 1/100，Lasso 对该系数的惩罚也缩小为 1/100，Ridge 则缩小为 1/10000。先用 Z-score 把系数放在“每增加一个标准差”的尺度上，可减少单位带来的偏差。截距由模型单独拟合，且不受惩罚。</p>
   </details>
   <p class="muted">数据来源 <a href="https://vincentarelbundock.github.io/Rdatasets/doc/ISLR/Hitters.html">ISLR · Hitters</a></p>
